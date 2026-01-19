@@ -286,15 +286,15 @@ const Hero = () => {
               className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 pt-16 border-t border-white/20"
             >
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">9</div>
+                <div className="text-4xl font-bold text-primary mb-2">9+</div>
                 <div className="text-white/80 text-sm">Years Experience</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">23</div>
+                <div className="text-4xl font-bold text-primary mb-2">23+</div>
                 <div className="text-white/80 text-sm">Projects Completed</div>
               </div>
               <div>
-                <div className="text-4xl font-bold text-primary mb-2">7</div>
+                <div className="text-4xl font-bold text-primary mb-2">7+</div>
                 <div className="text-white/80 text-sm">Countries Served</div>
               </div>
             </motion.div>
