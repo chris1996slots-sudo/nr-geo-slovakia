@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react'
+import { motion, AnimatePresence } from 'framer-motion'
+import { Mail, Phone, MapPin, Send, CheckCircle, AlertCircle, X } from 'lucide-react'
 
 const Contact = () => {
   const { t } = useTranslation()
@@ -12,6 +12,8 @@ const Contact = () => {
     message: '',
   })
   const [isSubmitted, setIsSubmitted] = useState(false)
+  const [errorMessage, setErrorMessage] = useState('')
+  const [showError, setShowError] = useState(false)
 
   const sanitizeInput = (input) => {
     // Basic sanitization: remove potentially harmful characters
@@ -30,18 +32,31 @@ const Contact = () => {
     })
   }
 
+  const showErrorToast = (message) => {
+    setErrorMessage(message)
+    setShowError(true)
+    setTimeout(() => {
+      setShowError(false)
+    }, 4000)
+  }
+
   const handleSubmit = (e) => {
     e.preventDefault()
 
-    // Additional validation
+    // Validation
+    if (!formData.name.trim()) {
+      showErrorToast(t('contact.errorName') || 'Please enter your name.')
+      return
+    }
+
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
     if (!emailRegex.test(formData.email)) {
-      alert('Please enter a valid email address.')
+      showErrorToast(t('contact.errorEmail') || 'Please enter a valid email address.')
       return
     }
 
     if (formData.message.length < 10) {
-      alert('Please provide a more detailed message (minimum 10 characters).')
+      showErrorToast(t('contact.errorMessage') || 'Please provide a more detailed message (minimum 10 characters).')
       return
     }
 
@@ -89,6 +104,37 @@ const Contact = () => {
   return (
     <section id="contact" className="section-padding bg-white dark:bg-dark-400">
       <div className="container-custom">
+        {/* Error Toast Notification */}
+        <AnimatePresence>
+          {showError && (
+            <motion.div
+              initial={{ opacity: 0, y: -50, x: '-50%' }}
+              animate={{ opacity: 1, y: 0, x: '-50%' }}
+              exit={{ opacity: 0, y: -50, x: '-50%' }}
+              className="fixed top-24 left-1/2 z-50 max-w-md w-full px-4"
+            >
+              <div className="bg-red-50 dark:bg-red-900/90 border-2 border-red-500 dark:border-red-400 rounded-xl shadow-2xl p-4 flex items-start gap-3">
+                <div className="flex-shrink-0">
+                  <AlertCircle className="text-red-600 dark:text-red-300" size={24} />
+                </div>
+                <div className="flex-1">
+                  <h4 className="font-bold text-red-900 dark:text-red-100 mb-1">
+                    {t('contact.errorTitle') || 'Validation Error'}
+                  </h4>
+                  <p className="text-red-800 dark:text-red-200 text-sm">
+                    {errorMessage}
+                  </p>
+                </div>
+                <button
+                  onClick={() => setShowError(false)}
+                  className="flex-shrink-0 text-red-600 dark:text-red-300 hover:text-red-800 dark:hover:text-red-100 transition-colors"
+                >
+                  <X size={20} />
+                </button>
+              </div>
+            </motion.div>
+          )}
+        </AnimatePresence>
         {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}

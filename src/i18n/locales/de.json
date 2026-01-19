@@ -289,7 +289,11 @@
     "info": "Kontaktinformationen",
     "address": "Adresse",
     "phone": "Telefon",
-    "emailLabel": "E-Mail"
+    "emailLabel": "E-Mail",
+    "errorTitle": "Validierungsfehler",
+    "errorName": "Bitte geben Sie Ihren Namen ein.",
+    "errorEmail": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "errorMessage": "Bitte geben Sie eine detailliertere Nachricht ein (mindestens 10 Zeichen)."
   },
   "footer": {
     "description": "Führendes slowakisches Ingenieurbüro für Vermessung, spezialisiert auf Untertagebau und Tunnelbau.",

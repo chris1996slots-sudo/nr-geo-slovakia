@@ -289,7 +289,11 @@
     "info": "Kontaktné informácie",
     "address": "Adresa",
     "phone": "Telefón",
-    "emailLabel": "Email"
+    "emailLabel": "Email",
+    "errorTitle": "Chyba validácie",
+    "errorName": "Prosím zadajte svoje meno.",
+    "errorEmail": "Prosím zadajte platnú e-mailovú adresu.",
+    "errorMessage": "Prosím poskytnite podrobnejšiu správu (minimálne 10 znakov)."
   },
   "footer": {
     "description": "Vedúca slovenská spoločnosť pre inžiniersku geodéziu špecializujúca sa na podzemné stavby a tunelovanie.",

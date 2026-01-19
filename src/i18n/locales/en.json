@@ -289,7 +289,11 @@
     "info": "Contact Information",
     "address": "Address",
     "phone": "Phone",
-    "emailLabel": "Email"
+    "emailLabel": "Email",
+    "errorTitle": "Validation Error",
+    "errorName": "Please enter your name.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorMessage": "Please provide a more detailed message (minimum 10 characters)."
   },
   "footer": {
     "description": "Leading Slovak engineering surveying company specializing in underground construction and tunneling.",

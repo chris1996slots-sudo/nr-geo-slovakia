@@ -289,7 +289,11 @@
     "info": "Información de contacto",
     "address": "Dirección",
     "phone": "Teléfono",
-    "emailLabel": "Correo electrónico"
+    "emailLabel": "Correo electrónico",
+    "errorTitle": "Error de validación",
+    "errorName": "Por favor ingrese su nombre.",
+    "errorEmail": "Por favor ingrese una dirección de correo electrónico válida.",
+    "errorMessage": "Por favor proporcione un mensaje más detallado (mínimo 10 caracteres)."
   },
   "footer": {
     "description": "Empresa líder eslovaca de topografía de ingeniería especializada en construcción subterránea y túneles.",

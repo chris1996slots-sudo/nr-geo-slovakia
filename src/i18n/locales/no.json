@@ -289,7 +289,11 @@
     "info": "Kontaktinformasjon",
     "address": "Adresse",
     "phone": "Telefon",
-    "emailLabel": "E-post"
+    "emailLabel": "E-post",
+    "errorTitle": "Valideringsfeil",
+    "errorName": "Vennligst skriv inn navnet ditt.",
+    "errorEmail": "Vennligst skriv inn en gyldig e-postadresse.",
+    "errorMessage": "Vennligst gi en mer detaljert melding (minimum 10 tegn)."
   },
   "footer": {
     "description": "Ledende slovakisk ingeniørmåleselskap som spesialiserer seg på underjordisk konstruksjon og tunnelbygging.",

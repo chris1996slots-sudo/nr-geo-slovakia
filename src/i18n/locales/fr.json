@@ -289,7 +289,11 @@
     "info": "Informations de contact",
     "address": "Adresse",
     "phone": "Téléphone",
-    "emailLabel": "E-mail"
+    "emailLabel": "E-mail",
+    "errorTitle": "Erreur de validation",
+    "errorName": "Veuillez entrer votre nom.",
+    "errorEmail": "Veuillez entrer une adresse e-mail valide.",
+    "errorMessage": "Veuillez fournir un message plus détaillé (minimum 10 caractères)."
   },
   "footer": {
     "description": "Société slovaque leader en géodésie d'ingénierie spécialisée dans la construction souterraine et les tunnels.",
