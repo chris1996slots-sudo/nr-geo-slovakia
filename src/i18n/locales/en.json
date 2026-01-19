@@ -4,6 +4,7 @@
     "about": "About",
     "services": "Services",
     "markets": "Markets",
+    "team": "Team",
     "projects": "Projects",
     "contact": "Contact"
   },
@@ -143,6 +144,12 @@
       "title": "Worldwide Projects",
       "description": "We accept projects globally - wherever precision engineering is needed, we deliver excellence."
     }
+  },
+  "team": {
+    "title": "Our Team",
+    "subtitle": "Meet the experts behind our precision engineering",
+    "yearsExperience": "years of experience",
+    "skills": "Skills"
   },
   "projects": {
     "title": "References",

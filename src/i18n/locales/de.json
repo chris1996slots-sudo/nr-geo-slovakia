@@ -4,6 +4,7 @@
     "about": "Über uns",
     "services": "Dienstleistungen",
     "markets": "Märkte",
+    "team": "Team",
     "projects": "Projekte",
     "contact": "Kontakt"
   },
@@ -143,6 +144,12 @@
       "title": "Weltweite Projekte",
       "description": "Wir übernehmen Projekte weltweit - wo auch immer Präzisionstechnik benötigt wird, liefern wir Exzellenz."
     }
+  },
+  "team": {
+    "title": "Unser Team",
+    "subtitle": "Lernen Sie die Experten hinter unserer Präzisionstechnik kennen",
+    "yearsExperience": "Jahre Erfahrung",
+    "skills": "Fähigkeiten"
   },
   "projects": {
     "title": "Referenzen",

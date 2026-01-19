@@ -4,6 +4,7 @@
     "about": "O nás",
     "services": "Služby",
     "markets": "Trhy",
+    "team": "Tím",
     "projects": "Projekty",
     "contact": "Kontakt"
   },
@@ -143,6 +144,12 @@
       "title": "Celosvetové projekty",
       "description": "Prijímame projekty na celom svete - kdekoľvek je potrebné presné inžinierstvo, poskytujeme excelenciu."
     }
+  },
+  "team": {
+    "title": "Náš tím",
+    "subtitle": "Spoznajte expertov za našou precíznou technikou",
+    "yearsExperience": "rokov skúseností",
+    "skills": "Schopnosti"
   },
   "projects": {
     "title": "Referencie",

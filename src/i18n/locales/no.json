@@ -4,6 +4,7 @@
     "about": "Om oss",
     "services": "Tjenester",
     "markets": "Markeder",
+    "team": "team",
     "projects": "Prosjekter",
     "contact": "Kontakt"
   },
@@ -144,6 +145,12 @@
       "description": "Vi tar imot prosjekter globalt - hvor presisjonsingeniørkunst er nødvendig, leverer vi fortreffelighet."
     }
   },
+  "team": {
+    "title": "Vårt team",
+    "subtitle": "Møt ekspertene bak vår presisjonsteknologi",
+    "yearsExperience": "års erfaring",
+    "skills": "Kompetanser"
+  },
   "projects": {
     "title": "Referanser",
     "subtitle": "Utvalgte prosjekter fra vår portefølje",
@@ -217,6 +224,7 @@
     "quickLinks": "Hurtiglenker",
     "services": "Tjenester",
     "markets": "Markeder",
+    "team": "team",
     "legal": "Juridisk",
     "privacy": "Personvernregler",
     "terms": "Brukervilkår",

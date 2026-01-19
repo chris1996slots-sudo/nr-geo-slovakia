@@ -4,6 +4,7 @@
     "about": "À propos",
     "services": "Services",
     "markets": "Marchés",
+    "team": "équipe",
     "projects": "Projets",
     "contact": "Contact"
   },
@@ -144,6 +145,12 @@
       "description": "Nous acceptons des projets dans le monde entier - partout où l'ingénierie de précision est nécessaire, nous fournissons l'excellence."
     }
   },
+  "team": {
+    "title": "Notre équipe",
+    "subtitle": "Rencontrez les experts derrière notre ingénierie de précision",
+    "yearsExperience": "années d'expérience",
+    "skills": "Compétences"
+  },
   "projects": {
     "title": "Références",
     "subtitle": "Projets sélectionnés de notre portefeuille",
@@ -217,6 +224,7 @@
     "quickLinks": "Liens rapides",
     "services": "Services",
     "markets": "Marchés",
+    "team": "équipe",
     "legal": "Légal",
     "privacy": "Politique de confidentialité",
     "terms": "Conditions d'utilisation",

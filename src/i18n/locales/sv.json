@@ -4,6 +4,7 @@
     "about": "Om oss",
     "services": "Tjänster",
     "markets": "Marknader",
+    "team": "team",
     "projects": "Projekt",
     "contact": "Kontakt"
   },
@@ -144,6 +145,12 @@
       "description": "Vi tar emot projekt globalt - var precision engineering behövs levererar vi excellens."
     }
   },
+  "team": {
+    "title": "Vårt team",
+    "subtitle": "Möt experterna bakom vår precisionsteknik",
+    "yearsExperience": "års erfarenhet",
+    "skills": "Kompetenser"
+  },
   "projects": {
     "title": "Referenser",
     "subtitle": "Utvalda projekt från vår portfölj",
@@ -217,6 +224,7 @@
     "quickLinks": "Snabblänkar",
     "services": "Tjänster",
     "markets": "Marknader",
+    "team": "team",
     "legal": "Juridiskt",
     "privacy": "Integritetspolicy",
     "terms": "Användarvillkor",

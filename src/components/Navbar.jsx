@@ -66,6 +66,7 @@ const Navbar = () => {
     { key: 'about', section: 'about' },
     { key: 'services', section: 'services' },
     { key: 'markets', section: 'markets' },
+    { key: 'team', section: 'team' },
     { key: 'projects', section: 'projects' },
     { key: 'contact', section: 'contact' },
   ]
