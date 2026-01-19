@@ -5,30 +5,20 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 // Translation resources
 import sk from './locales/sk.json';
 import en from './locales/en.json';
+import de from './locales/de.json';
 import sv from './locales/sv.json';
 import no from './locales/no.json';
-import uk from './locales/uk.json';
-import zh from './locales/zh.json';
-import hi from './locales/hi.json';
 import es from './locales/es.json';
 import fr from './locales/fr.json';
-import ar from './locales/ar.json';
-import pt from './locales/pt.json';
-import ru from './locales/ru.json';
 
 const resources = {
   sk: { translation: sk },
   en: { translation: en },
+  de: { translation: de },
   sv: { translation: sv },
   no: { translation: no },
-  uk: { translation: uk },
-  zh: { translation: zh },
-  hi: { translation: hi },
   es: { translation: es },
   fr: { translation: fr },
-  ar: { translation: ar },
-  pt: { translation: pt },
-  ru: { translation: ru },
 };
 
 i18n
@@ -37,7 +27,7 @@ i18n
   .init({
     resources,
     fallbackLng: 'en',
-    supportedLngs: ['sk', 'en', 'sv', 'no', 'uk', 'zh', 'hi', 'es', 'fr', 'ar', 'pt', 'ru'],
+    supportedLngs: ['sk', 'en', 'de', 'sv', 'no', 'es', 'fr'],
 
     detection: {
       order: ['navigator', 'htmlTag', 'path', 'subdomain'],

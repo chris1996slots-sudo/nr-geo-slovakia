@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "home": "Start",
+    "about": "Über uns",
+    "services": "Dienstleistungen",
+    "markets": "Märkte",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Präzision im Untergrund",
+    "subtitle": "Slowakische Ingenieurskunst für Europas Megaprojekte",
+    "cta": "Mehr erfahren",
+    "contact": "Kontaktieren Sie uns"
+  },
+  "about": {
+    "title": "Über NR-GEO",
+    "heading": "Slowakische Bauintelligenz",
+    "description": "NR-GEO Slowakei ist ein führendes Ingenieurbüro für Vermessung, spezialisiert auf Untertagebau, Tunnelbau und Präzisionsgeodäsie. Mit über zwei Jahrzehnten Erfahrung liefern wir erstklassige Lösungen für Europas anspruchsvollste Projekte.",
+    "mission": "Unsere Mission",
+    "missionText": "Präzise, zuverlässige geodätische Unterstützung für kritische Infrastruktur mit Schwerpunkt auf nachhaltigen Praktiken und nicht-russischen Lieferketten.",
+    "values": "Unsere Werte",
+    "value1": "Präzision & Qualität",
+    "value2": "Europäische Standards",
+    "value3": "Nachhaltige Beschaffung",
+    "value4": "Innovative Technologie"
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Lösungen für modernen Untertagebau",
+    "tunneling": {
+      "title": "Tunnel- & Untergrundvermessung",
+      "description": "Spezialisierte geodätische Dienstleistungen für TBM-Operationen, Tunnelvortrieb und unterirdische Kavernen mit Millimeterpräzision."
+    },
+    "scanToBim": {
+      "title": "Scan-to-BIM & Digitale Zwillinge",
+      "description": "Modernste Laserscanning-Technologie für Materialoptimierung und Infrastruktur-Lebenszyklusmanagement."
+    },
+    "geotechnical": {
+      "title": "Geotechnisches Monitoring",
+      "description": "Automatisierte Sensorsysteme für Echtzeit-Stabilitätsüberwachung, Deformationswarnsysteme und Risikoanalyse."
+    },
+    "cadastral": {
+      "title": "Katastervermessung",
+      "description": "Professionelle Grundstücksvermessungen, Grenzfeststellung und rechtliche Dokumentation für Grundstücksverwaltung."
+    }
+  },
+  "markets": {
+    "title": "Unsere Märkte",
+    "subtitle": "Dort tätig, wo Europas Zukunft gebaut wird",
+    "scandinavia": {
+      "title": "Skandinavien",
+      "description": "Aktive Projekte in Schweden und Norwegen, einschließlich großer Verkehrsinfrastruktur."
+    },
+    "balkans": {
+      "title": "Balkan - Korridor VIII",
+      "description": "Strategische Transitprojekte, die Ost- und Westeuropa verbinden."
+    },
+    "ukraine": {
+      "title": "Ukraine - Wiederaufbau",
+      "description": "Partnerschaft beim Wiederaufbau kritischer Infrastruktur mit Schwerpunkt auf nachhaltigen Materialien."
+    },
+    "worldwide": {
+      "title": "Weltweite Projekte",
+      "description": "Wir übernehmen Projekte weltweit - wo auch immer Präzisionstechnik benötigt wird, liefern wir Exzellenz."
+    }
+  },
+  "projects": {
+    "title": "Referenzen",
+    "subtitle": "Ausgewählte Projekte aus unserem Portfolio",
+    "forbifart": {
+      "title": "Förbifart Stockholm",
+      "location": "Schweden",
+      "description": "21 km Stockholmer Umgehungsstraße - eines der größten Verkehrsprojekte Europas."
+    },
+    "brenner": {
+      "title": "Brenner Basistunnel",
+      "location": "Österreich/Italien",
+      "description": "Der längste Eisenbahntunnel der Welt im Untergrund - 64 km."
+    },
+    "railBaltica": {
+      "title": "Rail Baltica",
+      "location": "Baltikum",
+      "description": "Integration der baltischen Staaten in das europäische Bahnnetz."
+    },
+    "jarfalla": {
+      "title": "Järfällatunnel 4713",
+      "location": "Schweden",
+      "description": "Kritischer Abschnitt der Stockholmer Umgehung, der präzise Untergrundvermessung erfordert."
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Bereit, Ihr Projekt zu besprechen",
+    "name": "Name",
+    "email": "E-Mail",
+    "company": "Unternehmen",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "info": "Kontaktinformationen",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "emailLabel": "E-Mail"
+  },
+  "footer": {
+    "description": "Führendes slowakisches Ingenieurbüro für Vermessung, spezialisiert auf Untertagebau und Tunnelbau.",
+    "quickLinks": "Schnellzugriff",
+    "services": "Dienstleistungen",
+    "markets": "Märkte",
+    "legal": "Rechtliches",
+    "privacy": "Datenschutz",
+    "terms": "Nutzungsbedingungen",
+    "gdpr": "DSGVO",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

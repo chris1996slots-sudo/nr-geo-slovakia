@@ -7,16 +7,11 @@ import { useTheme } from '../contexts/ThemeContext'
 const languages = [
   { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
   { code: 'en', name: 'English', flag: '🇬🇧' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
   { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
   { code: 'no', name: 'Norsk', flag: '🇳🇴' },
-  { code: 'uk', name: 'Українська', flag: '🇺🇦' },
-  { code: 'zh', name: '中文', flag: '🇨🇳' },
-  { code: 'hi', name: 'हिन्दी', flag: '🇮🇳' },
   { code: 'es', name: 'Español', flag: '🇪🇸' },
   { code: 'fr', name: 'Français', flag: '🇫🇷' },
-  { code: 'ar', name: 'العربية', flag: '🇸🇦' },
-  { code: 'pt', name: 'Português', flag: '🇵🇹' },
-  { code: 'ru', name: 'Русский', flag: '🇷🇺' },
 ]
 
 const Navbar = () => {
@@ -34,6 +29,18 @@ const Navbar = () => {
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
+
+  // Prevent body scroll when mobile menu is open
+  useEffect(() => {
+    if (isOpen) {
+      document.body.style.overflow = 'hidden'
+    } else {
+      document.body.style.overflow = 'unset'
+    }
+    return () => {
+      document.body.style.overflow = 'unset'
+    }
+  }, [isOpen])
 
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId)
