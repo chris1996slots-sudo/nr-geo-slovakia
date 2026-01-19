@@ -16,7 +16,7 @@
   "about": {
     "title": "Sobre NR-GEO",
     "heading": "Inteligencia de construcción eslovaca",
-    "description": "NR-GEO Slovakia es una empresa líder en topografía de ingeniería especializada en construcción subterránea, túneles y geodesia de precisión. Con amplia experiencia, ofrecemos soluciones de clase mundial para los proyectos más exigentes de Europa.",
+    "description": "NR-GEO es una empresa líder en topografía de ingeniería especializada en construcción subterránea, túneles y geodesia de precisión. Con amplia experiencia de nuestro equipo, ofrecemos soluciones de clase mundial para los proyectos más exigentes de Europa.",
     "mission": "Nuestra misión",
     "missionText": "Proporcionar soporte geodésico preciso y confiable para infraestructura crítica con énfasis en prácticas sostenibles y estándares de calidad europeos.",
     "values": "Nuestros valores",
@@ -28,26 +28,103 @@
   "services": {
     "title": "Nuestros servicios",
     "subtitle": "Soluciones integrales para la construcción subterránea moderna",
+    "coreCapabilities": "Capacidades principales",
+    "technologiesTools": "Tecnologías y herramientas",
+    "trackRecord": "Historial",
+    "ctaTitle": "¿Listo para modernizar su proyecto de infraestructura?",
+    "ctaDescription": "Desde topografía tradicional hasta gemelos digitales de vanguardia y cadenas de suministro sostenibles - ofrecemos soluciones integrales.",
+    "ctaButton": "Comenzar",
     "tunneling": {
       "title": "Túneles y topografía subterránea",
-      "description": "Servicios geodésicos especializados para operaciones TBM, perforación de túneles y cavernas subterráneas con precisión milimétrica."
+      "description": "Servicios geodésicos especializados para operaciones TBM, perforación de túneles y cavernas subterráneas con precisión milimétrica.",
+      "overview": "Servicios geodésicos especializados para construcción subterránea con precisión milimétrica. Más de 20 años de experiencia en los proyectos de túneles más exigentes de Europa.",
+      "capabilities": [
+        "Guía y monitoreo de TBM (máquinas tuneladoras)",
+        "Establecimiento de redes de control subterráneas",
+        "Monitoreo y análisis de deformación",
+        "Documentación as-built para estructuras de túneles",
+        "Escaneo láser de perfiles de túneles",
+        "Posicionamiento en tiempo real para equipos de excavación"
+      ],
+      "technologies": [
+        "Estaciones totales robóticas",
+        "Escaneo láser 3D",
+        "Redes GNSS",
+        "Sistemas de monitoreo automatizados",
+        "Integración BIM"
+      ],
+      "experience": "150+ km de túneles topografiados en Escandinavia, Alpes y Balcanes"
     },
     "scanToBim": {
-      "title": "Scan-to-BIM y gemelos digitales",
-      "description": "Tecnología de escaneo láser de vanguardia para optimización de materiales y gestión del ciclo de vida de la infraestructura."
+      "title": "Scaning 3D BIM Projection y gemelos digitales",
+      "description": "Tecnología de escaneo láser de vanguardia para optimización de materiales y gestión del ciclo de vida de la infraestructura.",
+      "overview": "Captura de realidad 3D de vanguardia transformada en modelos BIM inteligentes. Tecnología de optimización de materiales que reduce el uso de concreto hasta un 15% mediante modelado as-built preciso.",
+      "capabilities": [
+        "Adquisición de nubes de puntos de alta densidad",
+        "Creación de modelos Scan-to-BIM",
+        "Desarrollo de gemelos digitales para infraestructura",
+        "Optimización de cantidades de materiales",
+        "Detección y prevención de conflictos",
+        "Preparación de gestión de activos del ciclo de vida"
+      ],
+      "technologies": [
+        "Escáner láser 3D Leica RTC360",
+        "Mapeo terrestre y móvil",
+        "Integración fotogramétrica",
+        "Autodesk Revit y Navisworks",
+        "IA de procesamiento de nubes de puntos"
+      ],
+      "experience": "Pionero en gemelos digitales para proyectos de infraestructura nórdica desde 2024"
     },
     "geotechnical": {
       "title": "Monitoreo geotécnico",
-      "description": "Sistemas de sensores automatizados para monitoreo de estabilidad en tiempo real, sistemas de alerta de deformación y análisis de riesgos."
+      "description": "Sistemas de sensores automatizados para monitoreo de estabilidad en tiempo real, sistemas de alerta de deformación y análisis de riesgos.",
+      "overview": "Sistemas de monitoreo automatizados en tiempo real para movimiento del suelo, estabilidad estructural y análisis de deformación crítica para la seguridad. Sistemas de alerta 24/7 para advertencia temprana.",
+      "capabilities": [
+        "Redes de monitoreo de estaciones totales automatizadas",
+        "Integración de inclinómetros y extensómetros",
+        "Monitoreo de inclinómetros y grietas",
+        "Seguimiento del nivel de agua subterránea",
+        "Monitoreo de asentamiento durante excavación",
+        "Paneles web en tiempo real"
+      ],
+      "technologies": [
+        "Monitoreo automatizado Leica GeoMoS",
+        "Redes de sensores inalámbricos",
+        "Procesamiento de datos basado en la nube",
+        "Sistemas de alerta SMS/correo electrónico",
+        "Machine Learning para predicción"
+      ],
+      "experience": "Monitoreo de infraestructura crítica en 12 países europeos"
     },
     "cadastral": {
       "title": "Topografía catastral",
-      "description": "Levantamientos profesionales de propiedades, determinación de límites y documentación legal para gestión de tierras."
+      "description": "Levantamientos profesionales de propiedades, determinación de límites y documentación legal para gestión de tierras.",
+      "overview": "Servicios profesionales de topografía catastral y gestión de tierras. Determinación de límites, levantamientos de propiedades y documentación legal para proyectos de infraestructura y desarrollo.",
+      "capabilities": [
+        "Levantamientos y replanteo de límites catastrales",
+        "Determinación y mapeo de líneas de propiedad",
+        "Levantamientos topográficos para planificación de construcción",
+        "Levantamientos as-built para estructuras completadas",
+        "Documentación legal y sistemas de coordenadas",
+        "Integración y presentaciones de registro de tierras"
+      ],
+      "technologies": [
+        "Topografía GNSS RTK",
+        "Redes de estaciones totales",
+        "Sistemas catastrales digitales",
+        "Integración CAD y GIS",
+        "Integración del portal catastral eslovaco"
+      ],
+      "experience": "Topógrafos licenciados con 20+ años sirviendo proyectos eslovacos e internacionales"
     }
   },
   "markets": {
     "title": "Nuestros mercados",
     "subtitle": "Operando donde se construye el futuro de Europa",
+    "globalTitle": "Excelencia en ingeniería global",
+    "globalDescription": "NR-GEO ofrece ingeniería de precisión en todo el mundo - desde megaproyectos escandinavos hasta el Corredor VIII de los Balcanes y la reconstrucción de Ucrania.",
+    "globalFootnote": "Trabajamos globalmente, sin importar dónde se encuentre su proyecto",
     "scandinavia": {
       "title": "Escandinavia",
       "description": "Proyectos activos en Suecia y Noruega, incluyendo importante infraestructura de transporte."
@@ -68,10 +145,36 @@
   "projects": {
     "title": "Referencias",
     "subtitle": "Proyectos seleccionados de nuestra cartera",
+    "projectOverview": "Descripción del proyecto",
+    "projectGallery": "Galería del proyecto",
+    "images": "imágenes",
+    "scopeOfWork": "Alcance del trabajo",
+    "keyAchievements": "Logros clave",
+    "client": "Cliente",
+    "duration": "Duración",
+    "teamSize": "Tamaño del equipo",
     "forbifart": {
       "title": "Förbifart Stockholm",
       "location": "Suecia",
-      "description": "Bypass de Estocolmo de 21 km - uno de los proyectos de transporte más grandes de Europa."
+      "description": "Bypass de Estocolmo de 21 km - uno de los proyectos de transporte más grandes de Europa.",
+      "overview": "Förbifart Stockholm es uno de los proyectos de infraestructura más grandes de Europa - una ruta de bypass de 21 km con 18 km de túnel bajo la capital sueca. NR-GEO proporcionó servicios integrales de topografía y monitoreo durante toda la fase de construcción.",
+      "scope": [
+        "Guía TBM para 4 máquinas tuneladoras",
+        "Monitoreo continuo de deformación de la infraestructura existente",
+        "Establecimiento y mantenimiento de red de control subterránea",
+        "Posicionamiento en tiempo real para equipos de excavación",
+        "Documentación as-built y control de calidad",
+        "Coordinación con la Administración de Transporte Sueca"
+      ],
+      "achievements": [
+        "Cero incidentes relacionados con la precisión topográfica",
+        "Precisión milimétrica mantenida en ruta de 21 km",
+        "Monitoreo exitoso de 200+ edificios sobre la ruta del túnel",
+        "Todos los hitos entregados a tiempo"
+      ],
+      "clientName": "Administración de Transporte Sueca",
+      "durationPeriod": "2015-2026",
+      "teamSizeCount": "8-12 especialistas en el sitio"
     },
     "brenner": {
       "title": "Brenner Base Tunnel",

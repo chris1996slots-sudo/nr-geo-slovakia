@@ -16,7 +16,7 @@
   "about": {
     "title": "À propos de NR-GEO",
     "heading": "Intelligence de construction slovaque",
-    "description": "NR-GEO Slovakia est une société leader en géodésie d'ingénierie spécialisée dans la construction souterraine, le creusement de tunnels et la géodésie de précision. Avec une vaste expérience, nous livrons des solutions de classe mondiale pour les projets les plus exigeants d'Europe.",
+    "description": "NR-GEO est une société leader en géodésie d'ingénierie spécialisée dans la construction souterraine, le creusement de tunnels et la géodésie de précision. Avec une vaste expérience de notre équipe, nous livrons des solutions de classe mondiale pour les projets les plus exigeants d'Europe.",
     "mission": "Notre mission",
     "missionText": "Fournir un soutien géodésique précis et fiable pour les infrastructures critiques en mettant l'accent sur les pratiques durables et les normes de qualité européennes.",
     "values": "Nos valeurs",
@@ -28,26 +28,103 @@
   "services": {
     "title": "Nos services",
     "subtitle": "Solutions complètes pour la construction souterraine moderne",
+    "coreCapabilities": "Compétences clés",
+    "technologiesTools": "Technologies & outils",
+    "trackRecord": "Historique",
+    "ctaTitle": "Prêt à moderniser votre projet d'infrastructure?",
+    "ctaDescription": "De l'arpentage traditionnel aux jumeaux numériques de pointe et aux chaînes d'approvisionnement durables - nous offrons des solutions complètes.",
+    "ctaButton": "Commencer",
     "tunneling": {
       "title": "Tunnels et topographie souterraine",
-      "description": "Services géodésiques spécialisés pour les opérations TBM avec une précision millimétrique."
+      "description": "Services géodésiques spécialisés pour les opérations TBM avec une précision millimétrique.",
+      "overview": "Services géodésiques spécialisés pour la construction souterraine avec une précision millimétrique. Plus de 20 ans d'expérience dans les projets de tunnels les plus exigeants d'Europe.",
+      "capabilities": [
+        "Guidage et surveillance TBM (tunnelier)",
+        "Établissement de réseaux de contrôle souterrains",
+        "Surveillance et analyse des déformations",
+        "Documentation as-built pour structures de tunnels",
+        "Balayage laser des profils de tunnels",
+        "Positionnement en temps réel pour équipement d'excavation"
+      ],
+      "technologies": [
+        "Stations totales robotiques",
+        "Balayage laser 3D",
+        "Réseaux GNSS",
+        "Systèmes de surveillance automatisés",
+        "Intégration BIM"
+      ],
+      "experience": "150+ km de tunnels arpentés en Scandinavie, Alpes et Balkans"
     },
     "scanToBim": {
-      "title": "Scan-to-BIM et jumeaux numériques",
-      "description": "Technologie de balayage laser de pointe pour l'optimisation des matériaux."
+      "title": "Scaning 3D BIM Projection et jumeaux numériques",
+      "description": "Technologie de balayage laser de pointe pour l'optimisation des matériaux.",
+      "overview": "Capture de la réalité 3D de pointe transformée en modèles BIM intelligents. Technologie d'optimisation des matériaux qui réduit l'utilisation du béton jusqu'à 15% grâce à la modélisation as-built précise.",
+      "capabilities": [
+        "Acquisition de nuages de points haute densité",
+        "Création de modèles Scan-to-BIM",
+        "Développement de jumeaux numériques pour l'infrastructure",
+        "Optimisation des quantités de matériaux",
+        "Détection et prévention des conflits",
+        "Préparation de la gestion des actifs du cycle de vie"
+      ],
+      "technologies": [
+        "Scanner laser 3D Leica RTC360",
+        "Cartographie terrestre & mobile",
+        "Intégration photogrammétrique",
+        "Autodesk Revit & Navisworks",
+        "IA de traitement de nuages de points"
+      ],
+      "experience": "Pionnier des jumeaux numériques pour projets d'infrastructure nordiques depuis 2024"
     },
     "geotechnical": {
       "title": "Surveillance géotechnique",
-      "description": "Systèmes de capteurs automatisés pour la surveillance de stabilité en temps réel."
+      "description": "Systèmes de capteurs automatisés pour la surveillance de stabilité en temps réel.",
+      "overview": "Systèmes de surveillance automatisés en temps réel pour mouvements de terrain, stabilité structurelle et analyse de déformation critique pour la sécurité. Systèmes d'alerte 24/7 pour détection précoce.",
+      "capabilities": [
+        "Réseaux de surveillance automatisés par station totale",
+        "Intégration inclinomètre et extensomètre",
+        "Surveillance inclinomètre et fissuration",
+        "Suivi du niveau des eaux souterraines",
+        "Surveillance des tassements pendant excavation",
+        "Tableaux de bord en temps réel basés sur le web"
+      ],
+      "technologies": [
+        "Surveillance automatisée Leica GeoMoS",
+        "Réseaux de capteurs sans fil",
+        "Traitement de données basé sur le cloud",
+        "Systèmes d'alerte SMS/Email",
+        "Machine Learning pour prédiction"
+      ],
+      "experience": "Surveillance d'infrastructures critiques dans 12 pays européens"
     },
     "cadastral": {
       "title": "Arpentage cadastral",
-      "description": "Levés professionnels de propriétés, détermination des limites et documentation légale pour la gestion des terres."
+      "description": "Levés professionnels de propriétés, détermination des limites et documentation légale pour la gestion des terres.",
+      "overview": "Services professionnels d'arpentage cadastral et de gestion foncière. Détermination des limites, levés de propriété et documentation légale pour projets d'infrastructure et de développement.",
+      "capabilities": [
+        "Levés et jalonnement des limites cadastrales",
+        "Détermination et cartographie des lignes de propriété",
+        "Levés topographiques pour planification de construction",
+        "Levés as-built pour structures terminées",
+        "Documentation légale et systèmes de coordonnées",
+        "Intégration et soumissions au registre foncier"
+      ],
+      "technologies": [
+        "Arpentage GNSS RTK",
+        "Réseaux de stations totales",
+        "Systèmes cadastraux numériques",
+        "Intégration CAO & SIG",
+        "Intégration portail cadastral slovaque"
+      ],
+      "experience": "Arpenteurs agréés avec 20+ ans au service de projets slovaques et internationaux"
     }
   },
   "markets": {
     "title": "Nos marchés",
     "subtitle": "Opérant là où l'avenir de l'Europe se construit",
+    "globalTitle": "Excellence en ingénierie mondiale",
+    "globalDescription": "NR-GEO fournit une ingénierie de précision dans le monde entier - des mégaprojets scandinaves au corridor VIII des Balkans et à la reconstruction de l'Ukraine.",
+    "globalFootnote": "Nous travaillons à l'échelle mondiale, peu importe où se trouve votre projet",
     "scandinavia": {
       "title": "Scandinavie",
       "description": "Projets actifs en Suède et en Norvège."
@@ -68,10 +145,36 @@
   "projects": {
     "title": "Références",
     "subtitle": "Projets sélectionnés de notre portefeuille",
+    "projectOverview": "Aperçu du projet",
+    "projectGallery": "Galerie du projet",
+    "images": "images",
+    "scopeOfWork": "Portée des travaux",
+    "keyAchievements": "Réalisations clés",
+    "client": "Client",
+    "duration": "Durée",
+    "teamSize": "Taille de l'équipe",
     "forbifart": {
       "title": "Förbifart Stockholm",
       "location": "Suède",
-      "description": "Contournement de Stockholm de 21 km."
+      "description": "Contournement de Stockholm de 21 km.",
+      "overview": "Förbifart Stockholm est l'un des plus grands projets d'infrastructure d'Europe - une route de contournement de 21 km avec 18 km de tunnel sous la capitale suédoise. NR-GEO a fourni des services complets d'arpentage et de surveillance tout au long de la phase de construction.",
+      "scope": [
+        "Guidage TBM pour 4 tunneliers",
+        "Surveillance continue des déformations de l'infrastructure existante",
+        "Établissement et maintenance de réseau de contrôle souterrain",
+        "Positionnement en temps réel pour équipement d'excavation",
+        "Documentation as-built et contrôle qualité",
+        "Coordination avec l'Administration suédoise des transports"
+      ],
+      "achievements": [
+        "Zéro incident lié à la précision de l'arpentage",
+        "Précision millimétrique maintenue sur 21 km",
+        "Surveillance réussie de 200+ bâtiments au-dessus de la route du tunnel",
+        "Tous les jalons livrés dans les délais"
+      ],
+      "clientName": "Administration suédoise des transports",
+      "durationPeriod": "2015-2026",
+      "teamSizeCount": "8-12 spécialistes sur site"
     },
     "brenner": {
       "title": "Brenner Base Tunnel",

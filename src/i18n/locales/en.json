@@ -16,7 +16,7 @@
   "about": {
     "title": "About NR-GEO",
     "heading": "Slovak Construction Intelligence",
-    "description": "NR-GEO Slovakia is a leading engineering surveying company specializing in underground construction, tunneling, and precision geodesy. With extensive experience, we deliver world-class solutions for Europe's most demanding projects.",
+    "description": "NR-GEO is a leading engineering surveying company specializing in underground construction, tunneling, and precision geodesy. With extensive experience of our team, we deliver world-class solutions for Europe's most demanding projects.",
     "mission": "Our Mission",
     "missionText": "To provide precise, reliable geodetic support for critical infrastructure with emphasis on sustainable practices and European quality standards.",
     "values": "Our Values",
@@ -28,26 +28,103 @@
   "services": {
     "title": "Our Services",
     "subtitle": "Comprehensive solutions for modern underground construction",
+    "coreCapabilities": "Core Capabilities",
+    "technologiesTools": "Technologies & Tools",
+    "trackRecord": "Track Record",
+    "ctaTitle": "Ready to modernize your infrastructure project?",
+    "ctaDescription": "From traditional surveying to cutting-edge digital twins and sustainable supply chains - we deliver comprehensive solutions.",
+    "ctaButton": "Get Started",
     "tunneling": {
       "title": "Tunneling & Underground Surveying",
-      "description": "Specialized geodetic services for TBM operations, tunnel boring, and underground caverns with millimeter precision."
+      "description": "Specialized geodetic services for TBM operations, tunnel boring, and underground caverns with millimeter precision.",
+      "overview": "Specialized geodetic services for underground construction with millimeter precision. Over 20 years of experience in the most demanding tunnel projects across Europe.",
+      "capabilities": [
+        "TBM (Tunnel Boring Machine) guidance and monitoring",
+        "Underground control networks establishment",
+        "Deformation monitoring and analysis",
+        "As-built documentation for tunnel structures",
+        "Laser scanning of tunnel profiles",
+        "Real-time positioning for excavation equipment"
+      ],
+      "technologies": [
+        "Robotic Total Stations",
+        "3D Laser Scanning",
+        "GNSS Networks",
+        "Automated Monitoring Systems",
+        "BIM Integration"
+      ],
+      "experience": "150+ km of tunnels surveyed across Scandinavia, Alps, and Balkans"
     },
     "scanToBim": {
-      "title": "Scan-to-BIM & Digital Twins",
-      "description": "Cutting-edge laser scanning technology for material optimization and infrastructure lifecycle management."
+      "title": "Scaning 3D BIM Projection & Digital Twins",
+      "description": "Cutting-edge laser scanning technology for material optimization and infrastructure lifecycle management.",
+      "overview": "State-of-the-art 3D reality capture transformed into intelligent BIM models. Material optimization technology that reduces concrete usage by up to 15% through precise as-built modeling.",
+      "capabilities": [
+        "High-density point cloud acquisition",
+        "Scan-to-BIM model creation",
+        "Digital Twin development for infrastructure",
+        "Material quantity optimization",
+        "Clash detection and prevention",
+        "Lifecycle asset management preparation"
+      ],
+      "technologies": [
+        "Leica RTC360 3D Laser Scanner",
+        "Terrestrial & Mobile Mapping",
+        "Photogrammetry Integration",
+        "Autodesk Revit & Navisworks",
+        "Point Cloud Processing AI"
+      ],
+      "experience": "Pioneering digital twins for Nordic infrastructure projects since 2024"
     },
     "geotechnical": {
       "title": "Geotechnical Monitoring",
-      "description": "Automated sensor systems for real-time stability monitoring, deformation warning systems, and risk analysis."
+      "description": "Automated sensor systems for real-time stability monitoring, deformation warning systems, and risk analysis.",
+      "overview": "Automated real-time monitoring systems for ground movement, structural stability, and safety-critical deformation analysis. 24/7 alert systems for early warning.",
+      "capabilities": [
+        "Automated total station monitoring networks",
+        "Inclinometer and extensometer integration",
+        "Tiltmeter and crack monitoring",
+        "Groundwater level tracking",
+        "Settlement monitoring during excavation",
+        "Real-time web-based dashboards"
+      ],
+      "technologies": [
+        "Leica GeoMoS Automated Monitoring",
+        "Wireless Sensor Networks",
+        "Cloud-based Data Processing",
+        "SMS/Email Alert Systems",
+        "Machine Learning for Prediction"
+      ],
+      "experience": "Monitoring critical infrastructure across 12 European countries"
     },
     "cadastral": {
       "title": "Cadastral Surveying",
-      "description": "Professional property surveys, boundary determination, and legal documentation for land management."
+      "description": "Professional property surveys, boundary determination, and legal documentation for land management.",
+      "overview": "Professional cadastral surveying and land management services. Boundary determination, property surveys, and legal documentation for infrastructure and development projects.",
+      "capabilities": [
+        "Cadastral boundary surveys and staking",
+        "Property line determination and mapping",
+        "Topographic surveys for construction planning",
+        "As-built surveys for completed structures",
+        "Legal documentation and coordinate systems",
+        "Land registry integration and submissions"
+      ],
+      "technologies": [
+        "GNSS RTK Surveying",
+        "Total Station Networks",
+        "Digital Cadastral Systems",
+        "CAD & GIS Integration",
+        "Slovak Cadastral Portal Integration"
+      ],
+      "experience": "Licensed surveyors with 20+ years serving Slovak and international projects"
     }
   },
   "markets": {
     "title": "Our Markets",
     "subtitle": "Operating where Europe's future is being built",
+    "globalTitle": "Global Engineering Excellence",
+    "globalDescription": "NR-GEO delivers precision engineering worldwide - from Scandinavian megaprojects to Balkan Corridor VIII and Ukraine's reconstruction.",
+    "globalFootnote": "We work globally, no matter where your project is located",
     "scandinavia": {
       "title": "Scandinavia",
       "description": "Active projects in Sweden and Norway including major transport infrastructure."
@@ -68,10 +145,36 @@
   "projects": {
     "title": "References",
     "subtitle": "Selected projects from our portfolio",
+    "projectOverview": "Project Overview",
+    "projectGallery": "Project Gallery",
+    "images": "images",
+    "scopeOfWork": "Scope of Work",
+    "keyAchievements": "Key Achievements",
+    "client": "Client",
+    "duration": "Duration",
+    "teamSize": "Team Size",
     "forbifart": {
       "title": "Förbifart Stockholm",
       "location": "Sweden",
-      "description": "21 km Stockholm bypass - one of Europe's largest transport projects."
+      "description": "21 km Stockholm bypass - one of Europe's largest transport projects.",
+      "overview": "Förbifart Stockholm is one of Europe's largest infrastructure projects - a 21 km bypass route with 18 km of tunnel beneath the Swedish capital. NR-GEO provided comprehensive surveying and monitoring services throughout the entire construction phase.",
+      "scope": [
+        "TBM guidance for 4 tunnel boring machines",
+        "Continuous deformation monitoring of existing infrastructure",
+        "Underground control network establishment and maintenance",
+        "Real-time positioning for excavation equipment",
+        "As-built documentation and quality control",
+        "Coordination with Swedish Transport Administration"
+      ],
+      "achievements": [
+        "Zero incidents related to surveying precision",
+        "Maintained millimeter accuracy over 21 km route",
+        "Successfully monitored 200+ buildings above tunnel route",
+        "Delivered all milestones on schedule"
+      ],
+      "clientName": "Swedish Transport Administration",
+      "durationPeriod": "2015-2026",
+      "teamSizeCount": "8-12 specialists on-site"
     },
     "brenner": {
       "title": "Brenner Base Tunnel",

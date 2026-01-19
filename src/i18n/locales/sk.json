@@ -16,7 +16,7 @@
   "about": {
     "title": "O spoločnosti NR-GEO",
     "heading": "Slovenská stavebná inteligencia",
-    "description": "NR-GEO Slovakia je popredná spoločnosť pre inžiniersku geodéziu špecializujúca sa na podzemné stavby, tunelovanie a presné meranie. S dlhoročnými skúsenosťami dodávame riešenia svetového štandardu pre najnáročnejšie projekty v Európe.",
+    "description": "NR-GEO je popredná spoločnosť pre inžiniersku geodéziu špecializujúca sa na podzemné stavby, tunelovanie a presné meranie. S dlhoročnými skúsenosťami nášho tímu dodávame riešenia svetového štandardu pre najnáročnejšie projekty v Európe.",
     "mission": "Naša misia",
     "missionText": "Poskytovať presnú, spoľahlivú geodetickú podporu pre kritickú infraštruktúru s dôrazom na udržateľné postupy a európske štandardy kvality.",
     "values": "Naše hodnoty",
@@ -28,26 +28,103 @@
   "services": {
     "title": "Naše služby",
     "subtitle": "Komplexné riešenia pre modernú podzemného staviteľstva",
+    "coreCapabilities": "Kľúčové schopnosti",
+    "technologiesTools": "Technológie & nástroje",
+    "trackRecord": "História úspechov",
+    "ctaTitle": "Pripravení modernizovať váš infraštruktúrny projekt?",
+    "ctaDescription": "Od tradičného merania až po najmodernejšie digitálne dvojčatá a udržateľné dodávateľské reťazce - poskytujeme komplexné riešenia.",
+    "ctaButton": "Začať",
     "tunneling": {
       "title": "Tunelovanie a podzemné meranie",
-      "description": "Špecializované geodetické služby pre TBM operácie, razenie tunelov a podzemné kaverny s presnosťou na milimetre."
+      "description": "Špecializované geodetické služby pre TBM operácie, razenie tunelov a podzemné kaverny s presnosťou na milimetre.",
+      "overview": "Špecializované geodetické služby pre podzemné stavby s presnosťou na milimetre. Viac ako 20 rokov skúseností v najnáročnejších tunelových projektoch v Európe.",
+      "capabilities": [
+        "Vedenie a monitoring TBM (tunelovacích strojov)",
+        "Zriadenie podzemných kontrolných sietí",
+        "Monitorovanie a analýza deformácií",
+        "As-built dokumentácia tunelových štruktúr",
+        "Laserové skenovanie tunelových profilov",
+        "Lokalizácia v reálnom čase pre výkopové zariadenia"
+      ],
+      "technologies": [
+        "Robotické totálne stanice",
+        "3D laserové skenovanie",
+        "GNSS siete",
+        "Automatizované monitorovacie systémy",
+        "BIM integrácia"
+      ],
+      "experience": "150+ km tunelov zameraných naprieč Škandinávie, Álpy a Balkán"
     },
     "scanToBim": {
-      "title": "Scan-to-BIM & digitálne dvojčatá",
-      "description": "Najmodernejšia technológia laserového skenovania pre optimalizáciu materiálov a správu životného cyklu infraštruktúry."
+      "title": "Scaning 3D BIM Projection & digitálne dvojčatá",
+      "description": "Najmodernejšia technológia laserového skenovania pre optimalizáciu materiálov a správu životného cyklu infraštruktúry.",
+      "overview": "Najmodernejšie 3D snímanie reality transformované do inteligentných BIM modelov. Technológia optimalizácie materiálov, ktorá znižuje spotrebu betónu až o 15% prostredníctvom presného as-built modelovania.",
+      "capabilities": [
+        "Získavanie hustého mračna bodov",
+        "Tvorba Scan-to-BIM modelov",
+        "Vývoj digitálnych dvojčiat pre infraštruktúru",
+        "Optimalizácia množstva materiálov",
+        "Detekcia a prevencia kolízií",
+        "Príprava správy aktív životného cyklu"
+      ],
+      "technologies": [
+        "Leica RTC360 3D laserový skener",
+        "Terestrické & mobilné mapovanie",
+        "Fotogrametrická integrácia",
+        "Autodesk Revit & Navisworks",
+        "AI spracovanie mračna bodov"
+      ],
+      "experience": "Priekopník digitálnych dvojčiat pre nordické infraštruktúrne projekty od roku 2024"
     },
     "geotechnical": {
       "title": "Geotechnický monitoring",
-      "description": "Automatizované senzorové systémy pre monitorovanie stability v reálnom čase, varný systém deformácií a analýza rizík."
+      "description": "Automatizované senzorové systémy pre monitorovanie stability v reálnom čase, varný systém deformácií a analýza rizík.",
+      "overview": "Automatizované monitorovacie systémy v reálnom čase pre pohyb zeminy, štrukturálnu stabilitu a bezpečnostne kritickú analýzu deformácií. 24/7 varovné systémy pre včasné varovanie.",
+      "capabilities": [
+        "Automatizované monitorovacie siete totálnych staníc",
+        "Integrácia inklinometrov a extenzometrov",
+        "Monitoring sklonomerov a trhlín",
+        "Sledovanie hladiny podzemnej vody",
+        "Monitoring sadania počas výkopových prác",
+        "Webové dashboard v reálnom čase"
+      ],
+      "technologies": [
+        "Leica GeoMoS automatizovaný monitoring",
+        "Bezdrôtové senzorové siete",
+        "Cloudové spracovanie dát",
+        "SMS/Email varovné systémy",
+        "Strojové učenie pre predpovede"
+      ],
+      "experience": "Monitorovanie kritickej infraštruktúry v 12 európskych krajinách"
     },
     "cadastral": {
       "title": "Katastrálne meranie",
-      "description": "Profesionálne zameranie nehnuteľností, určovanie hraníc a právna dokumentácia pre správu pozemkov."
+      "description": "Profesionálne zameranie nehnuteľností, určovanie hraníc a právna dokumentácia pre správu pozemkov.",
+      "overview": "Profesionálne katastrálne meranie a služby správy pozemkov. Určovanie hraníc, zameranie nehnuteľností a právna dokumentácia pre infraštruktúrne a rozvojové projekty.",
+      "capabilities": [
+        "Katastrálne meranie hraníc a vytyčovanie",
+        "Určovanie a mapovanie hraníc pozemkov",
+        "Topografické merania pre stavebnú plánovanie",
+        "As-built merania pre dokončené stavby",
+        "Právna dokumentácia a súradnicové systémy",
+        "Integrácia a podania katastra nehnuteľností"
+      ],
+      "technologies": [
+        "GNSS RTK meranie",
+        "Siete totálnych staníc",
+        "Digitálne katastrálne systémy",
+        "CAD & GIS integrácia",
+        "Integrácia slovenského katastrálneho portálu"
+      ],
+      "experience": "Licencovaní geodeti s 20+ rokmi pre slovenské a medzinárodné projekty"
     }
   },
   "markets": {
     "title": "Naše trhy",
     "subtitle": "Pôsobíme tam, kde sa buduje budúcnosť Európy",
+    "globalTitle": "Globálna inžinierska excelencia",
+    "globalDescription": "NR-GEO poskytuje presné inžinierstvo na celom svete - od škandinávskych megaprojektov cez Balkánsky koridor VIII až po obnovu Ukrajiny.",
+    "globalFootnote": "Pracujeme globálne, bez ohľadu na to, kde sa nachádza váš projekt",
     "scandinavia": {
       "title": "Škandinávie",
       "description": "Aktívne projekty vo Švédsku a Nórsku vrátane veľkých dopravných infraštruktúr."
@@ -68,10 +145,36 @@
   "projects": {
     "title": "Referencie",
     "subtitle": "Vybrané projekty z nášho portfólia",
+    "projectOverview": "Prehľad projektu",
+    "projectGallery": "Projektová galéria",
+    "images": "obrázky",
+    "scopeOfWork": "Rozsah prác",
+    "keyAchievements": "Kľúčové úspechy",
+    "client": "Klient",
+    "duration": "Trvanie",
+    "teamSize": "Veľkosť tímu",
     "forbifart": {
       "title": "Förbifart Stockholm",
       "location": "Švédsko",
-      "description": "21 km obchvat Štokholmu - jeden z najväčších dopravných projektov v Európe."
+      "description": "21 km obchvat Štokholmu - jeden z najväčších dopravných projektov v Európe.",
+      "overview": "Förbifart Stockholm je jedným z najväčších infraštruktúrnych projektov v Európe - 21 km obchvat s 18 km tunela pod švédskou hlavným mestom. NR-GEO poskytlo komplexné meranie a monitorovacie služby počas celej výstavby.",
+      "scope": [
+        "Vedenie TBM pre 4 tunelovacie stroje",
+        "Nepretržité monitorovanie deformácií existujúcej infraštruktúry",
+        "Zriadenie a údržba podzemnej kontrolnej siete",
+        "Lokalizácia v reálnom čase pre výkopové zariadenia",
+        "As-built dokumentácia a kontrola kvality",
+        "Koordinácia so švédskou dopravnou správou"
+      ],
+      "achievements": [
+        "Nulové incidenty súvisiace s presnosťou merania",
+        "Udržaná presnosť na milimetre na trati 21 km",
+        "Úspešne monitorovaných 200+ budov nad tunelovou trasou",
+        "Všetky míľniky dodané včas"
+      ],
+      "clientName": "Švédska dopravná správa",
+      "durationPeriod": "2015-2026",
+      "teamSizeCount": "8-12 špecialistov na mieste"
     },
     "brenner": {
       "title": "Brenner Base Tunnel",

@@ -16,7 +16,7 @@
   "about": {
     "title": "Om NR-GEO",
     "heading": "Slovakisk byggnadsintelligens",
-    "description": "NR-GEO Slovakia är ett ledande företag för ingenjörsmätning specialiserat på underjordisk konstruktion, tunnelbygge och precisionsmätning. Med mångårig erfarenhet levererar vi världsklass lösningar för Europas mest krävande projekt.",
+    "description": "NR-GEO är ett ledande företag för ingenjörsmätning specialiserat på underjordisk konstruktion, tunnelbygge och precisionsmätning. Med mångårig erfarenhet av vårt team levererar vi världsklass lösningar för Europas mest krävande projekt.",
     "mission": "Vårt uppdrag",
     "missionText": "Att tillhandahålla precist, tillförlitligt geodetiskt stöd för kritisk infrastruktur med betoning på hållbara metoder och europeiska kvalitetsstandarder.",
     "values": "Våra värderingar",
@@ -28,26 +28,103 @@
   "services": {
     "title": "Våra tjänster",
     "subtitle": "Omfattande lösningar för modern underjordisk konstruktion",
+    "coreCapabilities": "Kärnkompetenser",
+    "technologiesTools": "Teknologier & verktyg",
+    "trackRecord": "Meritlista",
+    "ctaTitle": "Redo att modernisera ditt infrastrukturprojekt?",
+    "ctaDescription": "Från traditionell mätning till banbrytande digitala tvillingar och hållbara försörjningskedjor - vi levererar omfattande lösningar.",
+    "ctaButton": "Kom igång",
     "tunneling": {
       "title": "Tunnelbygge & underjordisk mätning",
-      "description": "Specialiserade geodetiska tjänster för TBM-operationer, tunnelborrning och underjordiska grottor med millimeterprecision."
+      "description": "Specialiserade geodetiska tjänster för TBM-operationer, tunnelborrning och underjordiska grottor med millimeterprecision.",
+      "overview": "Specialiserade geodetiska tjänster för underjordisk konstruktion med millimeterprecision. Över 20 års erfarenhet av Europas mest krävande tunnelprojekt.",
+      "capabilities": [
+        "TBM (Tunnel Boring Machine) styrning och övervakning",
+        "Etablering av underjordiska kontrollnätverk",
+        "Deformationsövervakning och analys",
+        "As-built dokumentation för tunnelstrukturer",
+        "Laserskanning av tunnelprofiler",
+        "Realtidspositionering för grävutrustning"
+      ],
+      "technologies": [
+        "Robotiserade totalstationer",
+        "3D-laserskanning",
+        "GNSS-nätverk",
+        "Automatiserade övervakningssystem",
+        "BIM-integration"
+      ],
+      "experience": "150+ km tunnlar uppmätta över Skandinavien, Alperna och Balkan"
     },
     "scanToBim": {
-      "title": "Scan-to-BIM & digitala tvillingar",
-      "description": "Toppmodern laserskanningsteknologi för materialoptimering och infrastrukturens livscykelhantering."
+      "title": "Scaning 3D BIM Projection & digitala tvillingar",
+      "description": "Toppmodern laserskanningsteknologi för materialoptimering och infrastrukturens livscykelhantering.",
+      "overview": "Toppmodern 3D-verklighetsupptagning omvandlad till intelligenta BIM-modeller. Materialoptimeringsteknologi som minskar betonganvändningen med upp till 15% genom noggrann as-built modellering.",
+      "capabilities": [
+        "Högdensitets punktmolnsanskaffning",
+        "Scan-to-BIM modellskapande",
+        "Digital Twin-utveckling för infrastruktur",
+        "Materialkvantitetsoptimering",
+        "Kollisionsdetektering och förebyggande",
+        "Förberedelse för livscykelhantering av tillgångar"
+      ],
+      "technologies": [
+        "Leica RTC360 3D-laserskanner",
+        "Terrester & mobil kartläggning",
+        "Fotogrammetrisk integration",
+        "Autodesk Revit & Navisworks",
+        "AI-bearbetning av punktmoln"
+      ],
+      "experience": "Pionjär inom digitala tvillingar för nordiska infrastrukturprojekt sedan 2024"
     },
     "geotechnical": {
       "title": "Geoteknisk övervakning",
-      "description": "Automatiserade sensorsystem för realtidsövervakning av stabilitet, deformationsvarningssystem och riskanalys."
+      "description": "Automatiserade sensorsystem för realtidsövervakning av stabilitet, deformationsvarningssystem och riskanalys.",
+      "overview": "Automatiserade realtidsövervakningssystem för markrörelser, strukturell stabilitet och säkerhetskritisk deformationsanalys. 24/7 varningssystem för tidig varning.",
+      "capabilities": [
+        "Automatiserade totalstationsövervakningsnätverk",
+        "Inklinometer- och extensometerintegration",
+        "Lutnings- och sprickmonitorering",
+        "Spårning av grundvattennivå",
+        "Sättningsövervakning under schaktning",
+        "Realtidswebbaserade instrumentpaneler"
+      ],
+      "technologies": [
+        "Leica GeoMoS automatiserad övervakning",
+        "Trådlösa sensornätverk",
+        "Molnbaserad databehandling",
+        "SMS/e-postavarningssystem",
+        "Machine Learning för förutsägelse"
+      ],
+      "experience": "Övervakning av kritisk infrastruktur i 12 europeiska länder"
     },
     "cadastral": {
       "title": "Katastralmätning",
-      "description": "Professionella fastighetsundersökningar, gränsbestämning och juridisk dokumentation för fastighetsförvaltning."
+      "description": "Professionella fastighetsundersökningar, gränsbestämning och juridisk dokumentation för fastighetsförvaltning.",
+      "overview": "Professionella katastermätnings- och markförvaltningsstjänster. Gränsbestämning, fastighetsundersökningar och juridisk dokumentation för infrastruktur- och utvecklingsprojekt.",
+      "capabilities": [
+        "Katastergränsundersökningar och utsättning",
+        "Fastighetslinjebestämning och kartläggning",
+        "Topografiska undersökningar för byggplanering",
+        "As-built undersökningar för färdiga strukturer",
+        "Juridisk dokumentation och koordinatsystem",
+        "Integration och inlämningar till fastighetsregister"
+      ],
+      "technologies": [
+        "GNSS RTK-mätning",
+        "Totalstationsnätverk",
+        "Digitala katastersystem",
+        "CAD & GIS-integration",
+        "Slovakisk katasterportalintegration"
+      ],
+      "experience": "Licensierade lantmätare med 20+ års erfarenhet av slovakiska och internationella projekt"
     }
   },
   "markets": {
     "title": "Våra marknader",
     "subtitle": "Verksamma där Europas framtid byggs",
+    "globalTitle": "Global ingenjörsexcellens",
+    "globalDescription": "NR-GEO levererar precisionsingenjörskonst världen över - från skandinaviska megaprojekt till Balkan-korridor VIII och Ukrainas återuppbyggnad.",
+    "globalFootnote": "Vi arbetar globalt, oavsett var ditt projekt finns",
     "scandinavia": {
       "title": "Skandinavien",
       "description": "Aktiva projekt i Sverige och Norge inklusive stor transportinfrastruktur."
@@ -68,10 +145,36 @@
   "projects": {
     "title": "Referenser",
     "subtitle": "Utvalda projekt från vår portfölj",
+    "projectOverview": "Projektöversikt",
+    "projectGallery": "Projektgalleri",
+    "images": "bilder",
+    "scopeOfWork": "Arbetsomfång",
+    "keyAchievements": "Nyckelresultat",
+    "client": "Klient",
+    "duration": "Varaktighet",
+    "teamSize": "Teamstorlek",
     "forbifart": {
       "title": "Förbifart Stockholm",
       "location": "Sverige",
-      "description": "21 km Stockholms förbifart - ett av Europas största transportprojekt."
+      "description": "21 km Stockholms förbifart - ett av Europas största transportprojekt.",
+      "overview": "Förbifart Stockholm är ett av Europas största infrastrukturprojekt - en 21 km förbifart med 18 km tunnel under Sveriges huvudstad. NR-GEO tillhandahöll omfattande mätnings- och övervakningsstjänster under hela byggfasen.",
+      "scope": [
+        "TBM-styrning för 4 tunnelborringsmaskiner",
+        "Kontinuerlig deformationsövervakning av befintlig infrastruktur",
+        "Etablering och underhåll av underjordiskt kontrollnätverk",
+        "Realtidspositionering för grävutrustning",
+        "As-built dokumentation och kvalitetskontroll",
+        "Samordning med Trafikverket"
+      ],
+      "achievements": [
+        "Noll incidenter relaterade till mätningsprecision",
+        "Bibehållen millimeterprecision över 21 km rutt",
+        "Framgångsrik övervakning av 200+ byggnader ovan tunnelrutten",
+        "Alla milstolpar levererade i tid"
+      ],
+      "clientName": "Trafikverket",
+      "durationPeriod": "2015-2026",
+      "teamSizeCount": "8-12 specialister på plats"
     },
     "brenner": {
       "title": "Brenner Base Tunnel",
