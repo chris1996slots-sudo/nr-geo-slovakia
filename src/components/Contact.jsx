@@ -41,8 +41,8 @@ const Contact = () => {
     {
       icon: Phone,
       label: t('contact.phone'),
-      value: 'SK: +421 910 500 038 | EN: +421 948 634 081',
-      link: 'tel:+421910500038',
+      value: ['SK: +421 910 500 038', 'EN: +421 948 634 081'],
+      links: ['tel:+421910500038', 'tel:+421948634081'],
     },
     {
       icon: Mail,
@@ -215,7 +215,19 @@ const Contact = () => {
                       <div className="text-sm font-semibold text-dark-400 mb-1">
                         {item.label}
                       </div>
-                      {item.link ? (
+                      {Array.isArray(item.value) ? (
+                        <div className="space-y-1">
+                          {item.value.map((phone, idx) => (
+                            <a
+                              key={idx}
+                              href={item.links[idx]}
+                              className="block text-dark-700 dark:text-dark-50 font-medium hover:text-primary transition-colors"
+                            >
+                              {phone}
+                            </a>
+                          ))}
+                        </div>
+                      ) : item.link ? (
                         <a
                           href={item.link}
                           className="text-dark-700 dark:text-dark-50 font-medium hover:text-primary transition-colors"
