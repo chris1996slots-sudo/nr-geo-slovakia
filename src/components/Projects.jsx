@@ -325,7 +325,7 @@ const Projects = () => {
                               <ImageIcon className="text-primary mr-2" size={24} />
                               Project Gallery ({project.images.length} images)
                             </h4>
-                            <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                               {project.images.slice(0, 4).map((img, idx) => (
                                 <div
                                   key={idx}

@@ -283,7 +283,7 @@ const Hero = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.9, duration: 0.8 }}
-              className="grid grid-cols-3 gap-6 mt-16 pt-16 border-t border-white/20"
+              className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-16 pt-16 border-t border-white/20"
             >
               <div>
                 <div className="text-4xl font-bold text-primary mb-2">20+</div>
