@@ -115,13 +115,13 @@ const Markets = () => {
             <div className="relative z-10 text-center">
               <div className="flex items-center justify-center mb-6">
                 <MapPin className="text-primary mr-2" size={32} />
-                <h3 className="text-3xl font-bold">Global Engineering Excellence</h3>
+                <h3 className="text-3xl font-bold">{t('markets.globalTitle')}</h3>
               </div>
               <p className="text-lg text-white/80 mb-4 max-w-2xl mx-auto">
-                NR-GEO delivers precision engineering worldwide - from Scandinavian megaprojects to Balkan Corridor VIII and Ukraine's reconstruction.
+                {t('markets.globalDescription')}
               </p>
               <p className="text-md text-primary font-semibold mb-8">
-                📍 We work globally, no matter where your project is located
+                📍 {t('markets.globalFootnote')}
               </p>
 
               {/* Stats Row */}

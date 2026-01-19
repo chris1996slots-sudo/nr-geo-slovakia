@@ -188,22 +188,94 @@
     "brenner": {
       "title": "Brenner Basistunnel",
       "location": "Österreich/Italien",
-      "description": "Der längste Eisenbahntunnel der Welt im Untergrund - 64 km."
+      "description": "Der längste Eisenbahntunnel der Welt im Untergrund - 64 km.",
+      "overview": "Der Brenner Basistunnel ist der längste Eisenbahntunnel der Welt im Untergrund und verbindet Österreich und Italien durch die Alpen. NR-GEO trug mit spezialisiertem Vermessungs-Know-how zu diesem ingenieurtechnischen Meisterwerk bei.",
+      "scope": [
+        "Hochpräzise Alpenvermessung unter extremen Bedingungen",
+        "Grenzüberschreitende geodätische Netzabstimmung",
+        "Temperaturkompensierte Messungen für alpine Umgebung",
+        "Integration mit italienischen und österreichischen Vermessungssystemen",
+        "Präzisionsplanung für Tunneldurchschlag",
+        "Kontinuierliche Überwachung von Bergverformungen"
+      ],
+      "achievements": [
+        "Beitrag zum erfolgreichen Tunneldurchschlag mit <1cm Abweichung",
+        "Präzision trotz 1800m Berg darüber aufrechterhalten",
+        "Internationale Vermessungsteams koordiniert (AT/IT)",
+        "Innovative alpine Überwachungssysteme etabliert"
+      ],
+      "clientName": "BBT SE (Brenner Basistunnel)",
+      "durationPeriod": "2017-2024",
+      "teamSizeCount": "4-6 Spezialisten"
     },
     "railBaltica": {
       "title": "Rail Baltica",
       "location": "Baltikum",
-      "description": "Integration der baltischen Staaten in das europäische Bahnnetz."
+      "description": "Integration der baltischen Staaten in das europäische Bahnnetz.",
+      "overview": "Rail Baltica ist ein transformatives europäisches Verkehrsprojekt, das die baltischen Staaten (Estland, Lettland, Litauen) mit dem europäischen Hochgeschwindigkeitsbahnnetz verbindet. NR-GEO erbrachte Vermessungs- und Kontrollnetzleistungen für kritische Tunnelabschnitte.",
+      "scope": [
+        "Geodätische Kontrollnetze für grenzüberschreitende Ausrichtung",
+        "Präzisionsvermessung für Hochgeschwindigkeitsbahnstandards",
+        "Tunnelvermessung für Unterführungen und Abschnitte",
+        "Integration mit baltischen nationalen Vermessungssystemen",
+        "Qualitätskontrollvermessung für Gleisbau",
+        "Bestandsdokumentation für EU-Berichtsanforderungen"
+      ],
+      "achievements": [
+        "Erfolgreich internationale geodätische Standards harmonisiert",
+        "Präzision für 240 km/h Hochgeschwindigkeitsbahnanforderungen erreicht",
+        "Mit Ingenieurbüros aus 3 Ländern koordiniert",
+        "EU TEN-T Netzwerkspezifikationen geliefert"
+      ],
+      "clientName": "RB Rail AS (Rail Baltica)",
+      "durationPeriod": "2019-2024",
+      "teamSizeCount": "3-5 Spezialisten"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",
       "location": "Schweden",
-      "description": "Kritischer Abschnitt der Stockholmer Umgehung, der präzise Untergrundvermessung erfordert."
+      "description": "Kritischer Abschnitt der Stockholmer Umgehung, der präzise Untergrundvermessung erfordert.",
+      "overview": "Der Järfällatunnel ist ein kritischer 1,4 km langer Abschnitt des größeren Förbifart Stockholm-Projekts. NR-GEO führte spezialisierte Untergrundvermessung, TBM-Führung und Deformationsüberwachung für dieses urbane Tunnelbauprojekt durch.",
+      "scope": [
+        "TBM-Führung für Abschnitt 4713",
+        "Einrichtung unterirdischer Kontrollnetze",
+        "Deformationsüberwachung nahe gelegener Gebäude und Infrastruktur",
+        "Echtzeitpositionierung für Aushubgeräte",
+        "Laserscanning für Tunnelprofilverifikation",
+        "Bestandsdokumentation und Qualitätssicherung"
+      ],
+      "achievements": [
+        "Null Vorfälle bei Gebäudeüberwachung",
+        "Durchschlagspräzision innerhalb 3mm erreicht",
+        "Erfolgreiche Überwachung in dichtem städtischen Gebiet",
+        "Alle Qualitätsmeilensteine erfüllt"
+      ],
+      "clientName": "Schwedische Verkehrsverwaltung",
+      "durationPeriod": "2020-2023",
+      "teamSizeCount": "4-6 Vermesser"
     },
     "tvr": {
       "title": "TVR E05 Korsvägen",
       "location": "Göteborg, Schweden",
-      "description": "Fortschrittliche Tunnelvermessung für Göteborgs wichtiges Verkehrsinfrastrukturprojekt."
+      "description": "Fortschrittliche Tunnelvermessung für Göteborgs wichtiges Verkehrsinfrastrukturprojekt.",
+      "overview": "Das TVR E05 Korsvägen-Projekt ist Teil der Modernisierung der Verkehrsinfrastruktur in Göteborg, einschließlich komplexer Tunnelbauarbeiten im städtischen Kerngebiet. NR-GEO erbrachte präzise Vermessungs- und Überwachungsdienstleistungen für dieses anspruchsvolle städtische Projekt.",
+      "scope": [
+        "Präzisionsvermessung für städtischen Tunnelbau",
+        "Deformationsüberwachung nahe gelegener Strukturen",
+        "Koordination mit städtischer Infrastruktur",
+        "Echtzeitdatenerfassung und Berichterstattung",
+        "Qualitätskontrollvermessung",
+        "Integration mit BIM-Arbeitsabläufen"
+      ],
+      "achievements": [
+        "Erfolgreiche Lieferung in dicht besiedeltem städtischen Gebiet",
+        "Millimeterpräzision unter städtischen Bedingungen aufrechterhalten",
+        "Null Unterbrechungen der städtischen Infrastruktur",
+        "Nahtlose BIM-Integration erreicht"
+      ],
+      "clientName": "Trafikverket (Schwedische Verkehrsverwaltung)",
+      "durationPeriod": "2021-2023",
+      "teamSizeCount": "3-4 Vermesser"
     }
   },
   "contact": {
@@ -229,5 +301,66 @@
     "terms": "Nutzungsbedingungen",
     "gdpr": "DSGVO",
     "rights": "Alle Rechte vorbehalten."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "subtitle": "Rechtliche Informationen & Datenschutzrichtlinie",
+    "backToHome": "Zurück zur Startseite",
+    "companyInfo": "Firmeninformationen",
+    "companyName": "Firmenname",
+    "legalForm": "Rechtsform",
+    "legalFormFull": "Spoločnosť s ručením obmedzeným (s.r.o.)",
+    "legalFormShort": "Gesellschaft mit beschränkter Haftung",
+    "contactDetails": "Kontaktdaten",
+    "registeredAddress": "Eingetragene Adresse",
+    "phone": "Telefon",
+    "phoneSlovak": "Slowakisch:",
+    "phoneEnglish": "Englisch:",
+    "email": "E-Mail",
+    "website": "Webseite",
+    "responsiblePerson": "Verantwortliche Person",
+    "contactPerson": "Ansprechpartner",
+    "privacyPolicy": "Datenschutzrichtlinie & Datenschutz",
+    "dataCollection": "Datenerhebung und -verwendung",
+    "dataCollectionText": "NR-GEO s.r.o. verpflichtet sich, Ihre Privatsphäre zu schützen. Wir erheben und verarbeiten personenbezogene Daten nur in dem Umfang, der für die Bereitstellung unserer Dienstleistungen erforderlich ist, und in Übereinstimmung mit den geltenden Datenschutzgesetzen, einschließlich der Datenschutz-Grundverordnung (DSGVO).",
+    "whatDataWeCollect": "Welche Daten wir sammeln",
+    "dataWeCollect": [
+      "Kontaktinformationen (Name, E-Mail, Telefonnummer), wenn Sie Anfragen über unser Kontaktformular senden",
+      "Technische Daten (IP-Adresse, Browsertyp, Geräteinformationen) für Website-Funktionalität und Sicherheit",
+      "Projektbezogene Informationen, wenn Sie unsere Dienste in Anspruch nehmen"
+    ],
+    "howWeUseData": "Wie wir Ihre Daten verwenden",
+    "dataUsage": [
+      "Um auf Ihre Anfragen zu antworten und angeforderte Dienstleistungen zu erbringen",
+      "Um unsere Website und Benutzererfahrung zu verbessern",
+      "Um gesetzlichen Verpflichtungen nachzukommen"
+    ],
+    "yourRights": "Ihre Rechte nach DSGVO",
+    "yourRightsIntro": "Sie haben das Recht auf:",
+    "rights": [
+      "Zugriff auf Ihre personenbezogenen Daten",
+      "Berichtigung oder Löschung Ihrer Daten beantragen",
+      "Widerspruch gegen Datenverarbeitung einlegen",
+      "Datenübertragbarkeit beantragen",
+      "Einwilligung jederzeit widerrufen",
+      "Beschwerde bei einer Aufsichtsbehörde einreichen"
+    ],
+    "dataProtectionContact": "Bei Fragen zum Datenschutz kontaktieren Sie uns bitte unter",
+    "cookiePolicy": "Cookie-Richtlinie",
+    "cookiePolicyIntro": "Diese Website verwendet Cookies, um die Benutzererfahrung zu verbessern und den Website-Verkehr zu analysieren.",
+    "cookieTypes": "Arten von Cookies, die wir verwenden",
+    "essentialCookies": "Notwendige Cookies",
+    "essentialCookiesDesc": "Erforderlich für grundlegende Website-Funktionalität, einschließlich Sprachpräferenzen und Sitzungsverwaltung. Diese Cookies können nicht deaktiviert werden.",
+    "analyticsCookies": "Analyse-Cookies",
+    "analyticsCookiesDesc": "Helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, um die Benutzererfahrung zu verbessern. Sie können sich von diesen Cookies abmelden.",
+    "cookieControl": "Sie können Cookies über Ihre Browsereinstellungen steuern. Beachten Sie, dass das Deaktivieren bestimmter Cookies die Website-Funktionalität beeinträchtigen kann.",
+    "disclaimer": "Haftungsausschluss",
+    "disclaimerText1": "Der Inhalt dieser Website wurde mit größter Sorgfalt und nach bestem Wissen zusammengestellt. Dennoch kann NR-GEO s.r.o. keine Haftung für die Aktualität, Vollständigkeit oder Richtigkeit der bereitgestellten Seiten und Informationen übernehmen.",
+    "disclaimerText2": "NR-GEO s.r.o. ist nicht verantwortlich für den Inhalt externer Links. Die Betreiber der verlinkten Seiten sind allein für deren Inhalt verantwortlich.",
+    "disclaimerText3": "Alle auf dieser Website bereitgestellten Informationen dienen nur allgemeinen Informationszwecken und stellen keine professionelle Beratung dar. Für spezifische Projektanforderungen kontaktieren Sie uns bitte direkt.",
+    "copyright": "Urheberrecht & geistiges Eigentum",
+    "copyrightText": "Alle Rechte vorbehalten.",
+    "copyrightDesc": "Alle Inhalte, Bilder, Logos und Marken auf dieser Website sind Eigentum von NR-GEO s.r.o. oder ihrer jeweiligen Eigentümer. Vervielfältigung, Verbreitung oder kommerzielle Nutzung ohne vorherige schriftliche Genehmigung ist untersagt.",
+    "backToTop": "Nach oben"
   }
 }

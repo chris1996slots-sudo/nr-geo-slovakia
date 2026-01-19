@@ -116,7 +116,7 @@ const Contact = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.8 }}
           >
-            <div className="card dark:bg-dark-400 dark:border-dark-600">
+            <div className="card dark:bg-dark-600 dark:border-dark-600">
               {isSubmitted ? (
                 <motion.div
                   initial={{ scale: 0.8, opacity: 0 }}
@@ -143,7 +143,7 @@ const Contact = () => {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-dark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-dark-200 dark:border-dark-600 dark:bg-dark-600 dark:text-white placeholder:text-dark-400 dark:placeholder:text-dark-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                       placeholder="John Doe"
                     />
                   </div>
@@ -160,7 +160,7 @@ const Contact = () => {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full px-4 py-3 border border-dark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-dark-200 dark:border-dark-600 dark:bg-dark-600 dark:text-white placeholder:text-dark-400 dark:placeholder:text-dark-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                       placeholder="john@example.com"
                     />
                   </div>
@@ -176,7 +176,7 @@ const Contact = () => {
                       name="company"
                       value={formData.company}
                       onChange={handleChange}
-                      className="w-full px-4 py-3 border border-dark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
+                      className="w-full px-4 py-3 border border-dark-200 dark:border-dark-600 dark:bg-dark-600 dark:text-white placeholder:text-dark-400 dark:placeholder:text-dark-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all"
                       placeholder="Your Company"
                     />
                   </div>
@@ -193,7 +193,7 @@ const Contact = () => {
                       onChange={handleChange}
                       required
                       rows={5}
-                      className="w-full px-4 py-3 border border-dark-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
+                      className="w-full px-4 py-3 border border-dark-200 dark:border-dark-500 dark:bg-dark-500 dark:text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent transition-all resize-none"
                       placeholder="Tell us about your project..."
                     />
                   </div>
@@ -240,7 +240,7 @@ const Contact = () => {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1, duration: 0.5 }}
-                    className="card dark:bg-dark-400 dark:border-dark-600 flex items-start space-x-4 hover:shadow-xl transition-shadow"
+                    className="card dark:bg-dark-600 dark:border-dark-600 flex items-start space-x-4 hover:shadow-xl transition-shadow"
                   >
                     <div className="w-12 h-12 bg-primary-50 rounded-lg flex items-center justify-center flex-shrink-0">
                       <Icon className="text-primary" size={24} />
@@ -278,7 +278,7 @@ const Contact = () => {
             </div>
 
             {/* Map Placeholder */}
-            <div className="card dark:bg-dark-400 dark:border-dark-600 p-0 overflow-hidden">
+            <div className="card dark:bg-dark-600 dark:border-dark-600 p-0 overflow-hidden">
               <div className="relative h-64 bg-dark-100">
                 <div
                   className="absolute inset-0 bg-cover bg-center"

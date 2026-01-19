@@ -188,22 +188,94 @@
     "brenner": {
       "title": "Brenner Base Tunnel",
       "location": "Austria/Italia",
-      "description": "El túnel ferroviario subterráneo más largo del mundo - 64 km."
+      "description": "El túnel ferroviario subterráneo más largo del mundo - 64 km.",
+      "overview": "El Túnel Base del Brenner es el túnel ferroviario subterráneo más largo del mundo, conectando Austria e Italia a través de los Alpes. NR-GEO contribuyó con experiencia especializada en topografía a esta obra maestra de ingeniería.",
+      "scope": [
+        "Topografía alpina de alta precisión en condiciones extremas",
+        "Ajuste de red geodésica transfronteriza",
+        "Mediciones compensadas por temperatura para entorno alpino",
+        "Integración con sistemas de topografía italianos y austriacos",
+        "Planificación de precisión para avance del túnel",
+        "Monitoreo continuo de deformación de montañas"
+      ],
+      "achievements": [
+        "Contribuyó al exitoso avance del túnel con desviación <1cm",
+        "Mantuvo precisión a pesar de 1800m de montaña arriba",
+        "Coordinó equipos de topografía internacionales (AT/IT)",
+        "Estableció sistemas innovadores de monitoreo alpino"
+      ],
+      "clientName": "BBT SE (Brenner Basistunnel)",
+      "durationPeriod": "2017-2024",
+      "teamSizeCount": "4-6 especialistas"
     },
     "railBaltica": {
       "title": "Rail Baltica",
       "location": "Bálticos",
-      "description": "Integración de los estados bálticos en la red ferroviaria europea."
+      "description": "Integración de los estados bálticos en la red ferroviaria europea.",
+      "overview": "Rail Baltica es un proyecto de transporte europeo transformador que conecta los Estados Bálticos (Estonia, Letonia, Lituania) con la red ferroviaria europea de alta velocidad. NR-GEO proporcionó servicios de topografía y red de control para secciones críticas de túneles.",
+      "scope": [
+        "Redes de control geodésicas para alineación transfronteriza",
+        "Topografía de precisión para estándares de ferrocarril de alta velocidad",
+        "Topografía de túneles para pasos inferiores y secciones",
+        "Integración con sistemas de topografía nacionales bálticos",
+        "Topografía de control de calidad para construcción de vías",
+        "Documentación según construido para requisitos de informes de la UE"
+      ],
+      "achievements": [
+        "Armonizó exitosamente estándares geodésicos internacionales",
+        "Logró precisión para requisitos de tren de alta velocidad de 240 km/h",
+        "Coordinó con firmas de ingeniería de 3 países",
+        "Entregó especificaciones de red TEN-T de la UE"
+      ],
+      "clientName": "RB Rail AS (Rail Baltica)",
+      "durationPeriod": "2019-2024",
+      "teamSizeCount": "3-5 especialistas"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",
       "location": "Suecia",
-      "description": "Sección crítica del bypass de Estocolmo que requiere topografía subterránea de precisión."
+      "description": "Sección crítica del bypass de Estocolmo que requiere topografía subterránea de precisión.",
+      "overview": "El Túnel de Järfälla es una sección crítica de 1,4 km del proyecto más grande Förbifart Stockholm. NR-GEO realizó topografía subterránea especializada, guía TBM y monitoreo de deformación para este proyecto de túnel urbano.",
+      "scope": [
+        "Guía TBM para sección 4713",
+        "Establecimiento de redes de control subterráneas",
+        "Monitoreo de deformación de edificios e infraestructura cercana",
+        "Posicionamiento en tiempo real para equipos de excavación",
+        "Escaneo láser para verificación de perfil de túnel",
+        "Documentación según construido y garantía de calidad"
+      ],
+      "achievements": [
+        "Cero incidentes en monitoreo de edificios",
+        "Logró precisión de avance dentro de 3mm",
+        "Monitoreo exitoso en área urbana densamente poblada",
+        "Todos los hitos de calidad cumplidos"
+      ],
+      "clientName": "Trafikverket (Administración de Transporte Sueca)",
+      "durationPeriod": "2020-2023",
+      "teamSizeCount": "4-6 topógrafos"
     },
     "tvr": {
       "title": "TVR E05 Korsvägen",
       "location": "Gotemburgo, Suecia",
-      "description": "Topografía avanzada de túneles para el importante proyecto de infraestructura de transporte de Gotemburgo."
+      "description": "Topografía avanzada de túneles para el importante proyecto de infraestructura de transporte de Gotemburgo.",
+      "overview": "El proyecto TVR E05 Korsvägen es parte de la actualización de la infraestructura de transporte de Gotemburgo, incluyendo trabajos complejos de túneles en el núcleo urbano. NR-GEO proporcionó servicios de topografía de precisión y monitoreo para este desafiante proyecto urbano.",
+      "scope": [
+        "Topografía de precisión para construcción de túneles urbanos",
+        "Monitoreo de deformación de estructuras cercanas",
+        "Coordinación con infraestructura urbana",
+        "Recolección de datos y reportes en tiempo real",
+        "Topografía de control de calidad",
+        "Integración con flujos de trabajo BIM"
+      ],
+      "achievements": [
+        "Entrega exitosa en área urbana densamente poblada",
+        "Mantuvo precisión milimétrica bajo condiciones urbanas",
+        "Cero interrupciones de infraestructura urbana",
+        "Logró integración BIM sin problemas"
+      ],
+      "clientName": "Trafikverket (Administración de Transporte Sueca)",
+      "durationPeriod": "2021-2023",
+      "teamSizeCount": "3-4 topógrafos"
     }
   },
   "contact": {
@@ -230,5 +302,66 @@
     "terms": "Términos de servicio",
     "gdpr": "GDPR",
     "rights": "Todos los derechos reservados."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "subtitle": "Información legal y política de privacidad",
+    "backToHome": "Volver al inicio",
+    "companyInfo": "Información de la empresa",
+    "companyName": "Nombre de la empresa",
+    "legalForm": "Forma jurídica",
+    "legalFormFull": "Spoločnosť s ručením obmedzeným (s.r.o.)",
+    "legalFormShort": "Sociedad de responsabilidad limitada",
+    "contactDetails": "Datos de contacto",
+    "registeredAddress": "Dirección registrada",
+    "phone": "Teléfono",
+    "phoneSlovak": "Eslovaco:",
+    "phoneEnglish": "Inglés:",
+    "email": "Correo electrónico",
+    "website": "Sitio web",
+    "responsiblePerson": "Persona responsable",
+    "contactPerson": "Persona de contacto",
+    "privacyPolicy": "Política de privacidad y protección de datos",
+    "dataCollection": "Recopilación y uso de datos",
+    "dataCollectionText": "NR-GEO s.r.o. se compromete a proteger su privacidad. Recopilamos y procesamos datos personales solo en la medida necesaria para proporcionar nuestros servicios y de acuerdo con las leyes de protección de datos aplicables, incluido el Reglamento General de Protección de Datos (GDPR).",
+    "whatDataWeCollect": "Qué datos recopilamos",
+    "dataWeCollect": [
+      "Información de contacto (nombre, correo electrónico, número de teléfono) cuando envía consultas a través de nuestro formulario de contacto",
+      "Datos técnicos (dirección IP, tipo de navegador, información del dispositivo) para la funcionalidad y seguridad del sitio web",
+      "Información relacionada con el proyecto cuando utiliza nuestros servicios"
+    ],
+    "howWeUseData": "Cómo usamos sus datos",
+    "dataUsage": [
+      "Para responder a sus consultas y proporcionar los servicios solicitados",
+      "Para mejorar nuestro sitio web y la experiencia del usuario",
+      "Para cumplir con obligaciones legales"
+    ],
+    "yourRights": "Sus derechos bajo GDPR",
+    "yourRightsIntro": "Usted tiene derecho a:",
+    "rights": [
+      "Acceder a sus datos personales",
+      "Solicitar la corrección o eliminación de sus datos",
+      "Oponerse al procesamiento de datos",
+      "Solicitar la portabilidad de datos",
+      "Retirar el consentimiento en cualquier momento",
+      "Presentar una queja ante una autoridad de control"
+    ],
+    "dataProtectionContact": "Para preguntas sobre protección de datos, contáctenos en",
+    "cookiePolicy": "Política de cookies",
+    "cookiePolicyIntro": "Este sitio web utiliza cookies para mejorar la experiencia del usuario y analizar el tráfico del sitio web.",
+    "cookieTypes": "Tipos de cookies que utilizamos",
+    "essentialCookies": "Cookies esenciales",
+    "essentialCookiesDesc": "Necesarias para la funcionalidad básica del sitio web, incluidas las preferencias de idioma y la gestión de sesiones. Estas cookies no se pueden desactivar.",
+    "analyticsCookies": "Cookies analíticas",
+    "analyticsCookiesDesc": "Nos ayudan a entender cómo los visitantes interactúan con nuestro sitio web para mejorar la experiencia del usuario. Puede optar por no recibir estas cookies.",
+    "cookieControl": "Puede controlar las cookies a través de la configuración de su navegador. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "disclaimer": "Descargo de responsabilidad",
+    "disclaimerText1": "El contenido de este sitio web se ha compilado con meticuloso cuidado y según nuestro mejor conocimiento. Sin embargo, NR-GEO s.r.o. no puede asumir ninguna responsabilidad por la actualidad, integridad o precisión de las páginas y la información proporcionada.",
+    "disclaimerText2": "NR-GEO s.r.o. no es responsable del contenido de enlaces externos. Los operadores de las páginas enlazadas son los únicos responsables de su contenido.",
+    "disclaimerText3": "Toda la información proporcionada en este sitio web es solo para fines informativos generales y no constituye asesoramiento profesional. Para requisitos específicos del proyecto, contáctenos directamente.",
+    "copyright": "Derechos de autor y propiedad intelectual",
+    "copyrightText": "Todos los derechos reservados.",
+    "copyrightDesc": "Todo el contenido, imágenes, logotipos y marcas comerciales en este sitio web son propiedad de NR-GEO s.r.o. o de sus respectivos propietarios. La reproducción, distribución o uso comercial sin permiso previo por escrito está prohibido.",
+    "backToTop": "Volver arriba"
   }
 }

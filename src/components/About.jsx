@@ -92,7 +92,7 @@ const About = () => {
                       whileInView={{ opacity: 1, y: 0 }}
                       viewport={{ once: true }}
                       transition={{ delay: index * 0.1, duration: 0.5 }}
-                      className="flex items-center space-x-3 p-4 rounded-lg bg-dark-50 dark:bg-dark-400 hover:bg-primary-50 dark:hover:bg-dark-600 transition-colors group"
+                      className="flex items-center space-x-3 p-4 rounded-lg bg-dark-50 dark:bg-dark-500 border border-dark-100 dark:border-dark-600 hover:bg-primary-50 dark:hover:bg-dark-600 transition-colors group"
                     >
                       <div className="w-10 h-10 bg-white dark:bg-dark-400 group-hover:bg-primary rounded-lg flex items-center justify-center transition-colors">
                         <Icon className="text-primary group-hover:text-white transition-colors" size={20} />

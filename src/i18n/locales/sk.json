@@ -188,22 +188,94 @@
     "brenner": {
       "title": "Brenner Base Tunnel",
       "location": "Rakúsko/Taliansko",
-      "description": "Najdlhší podzemný železničný tunel na svete - 64 km."
+      "description": "Najdlhší podzemný železničný tunel na svete - 64 km.",
+      "overview": "Brenner Base Tunnel je najdlhší podzemný železničný tunel na svete, spájajúci Rakúsko a Taliansko cez Alpy. NR-GEO prispela špecializovanými geodetickými znalosťami k tomuto inžinierskemu majstrovskému dielu.",
+      "scope": [
+        "Vysoko presné alpské meranie za extrémnych podmienok",
+        "Cezhraničné zosúladenie geodetických sietí",
+        "Teplotne kompenzované merania pre alpské prostredie",
+        "Integrácia s talianskymi a rakúskymi meracími systémami",
+        "Plánovanie presnosti prierazu tunela",
+        "Nepretržité monitorovanie deformácie hôr"
+      ],
+      "achievements": [
+        "Prispeli k úspešnému prierazu tunela s odchýlkou <1cm",
+        "Zachovaná presnosť napriek 1800m hore nad tunelom",
+        "Koordinované medzinárodné geodetické tímy (AT/IT)",
+        "Zavedené inovatívne alpské monitorovacie systémy"
+      ],
+      "clientName": "BBT SE (Brenner Basistunnel)",
+      "durationPeriod": "2017-2024",
+      "teamSizeCount": "4-6 špecialistov"
     },
     "railBaltica": {
       "title": "Rail Baltica",
       "location": "Pobaltie",
-      "description": "Integrácia pobaltských štátov do európskej železničnej siete."
+      "description": "Integrácia pobaltských štátov do európskej železničnej siete.",
+      "overview": "Rail Baltica je transformačný európsky dopravný projekt spájajúci pobaltské štáty (Estónsko, Lotyšsko, Litva) s európskou vysokorýchlostnou železničnou sieťou. NR-GEO poskytla geodetické a kontrolné sieťové služby pre kritické tunelovanie.",
+      "scope": [
+        "Geodetické kontrolné siete pre cezhraničné zosúladenie",
+        "Presné meranie pre vysokorýchlostné železničné štandardy",
+        "Tunelovanie pre podjazdy a úseky",
+        "Integrácia s pobaltskými národnými meracími systémami",
+        "Kontrola kvality merania pre výstavbu koľajníc",
+        "As-built dokumentácia pre požiadavky EÚ na podávanie správ"
+      ],
+      "achievements": [
+        "Úspešne harmonizované medzinárodné geodetické štandardy",
+        "Dosiahnutá presnosť pre požiadavky vysokorýchlostnej železnice 240 km/h",
+        "Koordinované s inžinierskymi firmami z 3 krajín",
+        "Dodané špecifikácie siete EÚ TEN-T"
+      ],
+      "clientName": "RB Rail AS (Rail Baltica)",
+      "durationPeriod": "2019-2024",
+      "teamSizeCount": "3-5 špecialistov"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",
       "location": "Švédsko",
-      "description": "Kritická sekcia obchvatu Štokholmu vyžadujúca presnú podpovrchovú geodéziu."
+      "description": "Kritická sekcia obchvatu Štokholmu vyžadujúca presnú podpovrchovú geodéziu.",
+      "overview": "Järfällatunnel je kritický 1,4 km úsek väčšieho projektu Förbifart Stockholm. NR-GEO vykonala špecializované podpovrchové meranie, vedenie TBM a monitorovanie deformácií pre tento mestský tunelovací projekt.",
+      "scope": [
+        "Vedenie TBM pre sekciu 4713",
+        "Zriadenie podpovrchových kontrolných sietí",
+        "Monitorovanie deformácií blízkych budov a infraštruktúry",
+        "Polohovanie vybavenia na výkopy v reálnom čase",
+        "Laserové skenovanie pre overenie tunelového profilu",
+        "As-built dokumentácia a zabezpečenie kvality"
+      ],
+      "achievements": [
+        "Nulové incidenty pri monitorovaní budov",
+        "Dosiahnutá presnosť prierazu do 3mm",
+        "Úspešné monitorovanie v hustej mestskej oblasti",
+        "Splnené všetky míľniky kvality"
+      ],
+      "clientName": "Švédska dopravná správa",
+      "durationPeriod": "2020-2023",
+      "teamSizeCount": "4-6 geodetov"
     },
     "tvr": {
       "title": "TVR E05 Korsvägen",
       "location": "Göteborg, Švédsko",
-      "description": "Pokročilé tunelovanie a meranie pre hlavný dopravný infraštruktúrny projekt Göteborgu."
+      "description": "Pokročilé tunelovanie a meranie pre hlavný dopravný infraštruktúrny projekt Göteborgu.",
+      "overview": "TVR E05 Korsvägen projekt je súčasťou modernizácie dopravnej infraštruktúry Göteborgu, zahŕňajúcej komplexné tunelovacie práce v mestskom jadre. NR-GEO poskytla presné geodetické a monitorovacie služby pre tento náročný mestský projekt.",
+      "scope": [
+        "Presné meranie pre mestské tunelovanie",
+        "Monitorovanie deformácií blízkych štruktúr",
+        "Koordinácia s mestskou infraštruktúrou",
+        "Zber a hlásenie údajov v reálnom čase",
+        "Kontrola kvality merania",
+        "Integrácia s BIM pracovnými postupmi"
+      ],
+      "achievements": [
+        "Úspešné dodanie v hustej mestskej oblasti",
+        "Zachovaná presnosť na milimetre v mestských podmienkach",
+        "Nulové prerušenia mestskej infraštruktúry",
+        "Dosiahnutá bezproblémová integrácia BIM"
+      ],
+      "clientName": "Trafikverket (Švédska dopravná správa)",
+      "durationPeriod": "2021-2023",
+      "teamSizeCount": "3-4 geodetov"
     }
   },
   "contact": {
@@ -229,5 +301,66 @@
     "terms": "Podmienky používania",
     "gdpr": "GDPR",
     "rights": "Všetky práva vyhradené."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "subtitle": "Právne informácie a ochrana osobných údajov",
+    "backToHome": "Späť domov",
+    "companyInfo": "Informácie o spoločnosti",
+    "companyName": "Názov spoločnosti",
+    "legalForm": "Právna forma",
+    "legalFormFull": "Spoločnosť s ručením obmedzeným (s.r.o.)",
+    "legalFormShort": "Spoločnosť s ručením obmedzeným",
+    "contactDetails": "Kontaktné údaje",
+    "registeredAddress": "Sídlo spoločnosti",
+    "phone": "Telefón",
+    "phoneSlovak": "Slovensky:",
+    "phoneEnglish": "Anglicky:",
+    "email": "Email",
+    "website": "Webová stránka",
+    "responsiblePerson": "Zodpovedná osoba",
+    "contactPerson": "Kontaktná osoba",
+    "privacyPolicy": "Ochrana osobných údajov",
+    "dataCollection": "Zhromažďovanie a používanie údajov",
+    "dataCollectionText": "NR-GEO s.r.o. sa zaväzuje chrániť vaše súkromie. Osobné údaje zhromažďujeme a spracúvame len v rozsahu nevyhnutnom na poskytovanie našich služieb a v súlade s platnými zákonmi o ochrane údajov vrátane všeobecného nariadenia o ochrane údajov (GDPR).",
+    "whatDataWeCollect": "Aké údaje zhromažďujeme",
+    "dataWeCollect": [
+      "Kontaktné informácie (meno, email, telefónne číslo) pri odosielaní dopytov cez kontaktný formulár",
+      "Technické údaje (IP adresa, typ prehliadača, informácie o zariadení) pre funkčnosť webovej stránky a bezpečnosť",
+      "Informácie súvisiace s projektom pri využívaní našich služieb"
+    ],
+    "howWeUseData": "Ako používame vaše údaje",
+    "dataUsage": [
+      "Na odpoveď na vaše dopyty a poskytovanie požadovaných služieb",
+      "Na zlepšenie našej webovej stránky a používateľskej skúsenosti",
+      "Na dodržiavanie zákonných povinností"
+    ],
+    "yourRights": "Vaše práva podľa GDPR",
+    "yourRightsIntro": "Máte právo na:",
+    "rights": [
+      "Prístup k vašim osobným údajom",
+      "Požiadať o opravu alebo vymazanie vašich údajov",
+      "Namietať proti spracovaniu údajov",
+      "Požiadať o prenosnosť údajov",
+      "Kedykoľvek odvolať súhlas",
+      "Podať sťažnosť dozornému orgánu"
+    ],
+    "dataProtectionContact": "V prípade otázok týkajúcich sa ochrany údajov nás kontaktujte na",
+    "cookiePolicy": "Politika cookies",
+    "cookiePolicyIntro": "Táto webová stránka používa cookies na zlepšenie používateľskej skúsenosti a analýzu návštevnosti.",
+    "cookieTypes": "Typy cookies, ktoré používame",
+    "essentialCookies": "Nevyhnutné cookies",
+    "essentialCookiesDesc": "Potrebné pre základnú funkčnosť webovej stránky vrátane jazykových preferencií a správy relácií. Tieto cookies nemožno zakázať.",
+    "analyticsCookies": "Analytické cookies",
+    "analyticsCookiesDesc": "Pomáhajú nám pochopiť, ako návštevníci interagujú s našou webovou stránkou na zlepšenie používateľskej skúsenosti. Môžete sa odhlásiť z týchto cookies.",
+    "cookieControl": "Cookies môžete ovládať prostredníctvom nastavení prehliadača. Upozorňujeme, že zakázanie určitých cookies môže ovplyvniť funkčnosť webovej stránky.",
+    "disclaimer": "Zrieknutie sa zodpovednosti",
+    "disclaimerText1": "Obsah tejto webovej stránky bol zostavený s maximálnou starostlivosťou a podľa najlepších vedomostí. NR-GEO s.r.o. však nemôže prevziať žiadnu zodpovednosť za aktuálnosť, úplnosť alebo presnosť poskytnutých stránok a informácií.",
+    "disclaimerText2": "NR-GEO s.r.o. nezodpovedá za obsah externých odkazov. Prevádzkovatelia odkazovaných stránok sú výlučne zodpovední za ich obsah.",
+    "disclaimerText3": "Všetky informácie poskytnuté na tejto webovej stránke slúžia len na všeobecné informačné účely a nepredstavujú odbornú radu. Pre konkrétne požiadavky projektu nás kontaktujte priamo.",
+    "copyright": "Autorské práva a duševné vlastníctvo",
+    "copyrightText": "Všetky práva vyhradené.",
+    "copyrightDesc": "Všetok obsah, obrázky, logá a ochranné známky na tejto webovej stránke sú majetkom NR-GEO s.r.o. alebo ich príslušných vlastníkov. Reprodukcia, distribúcia alebo komerčné použitie bez predchádzajúceho písomného súhlasu je zakázané.",
+    "backToTop": "Späť hore"
   }
 }

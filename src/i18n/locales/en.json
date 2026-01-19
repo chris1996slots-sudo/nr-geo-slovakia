@@ -188,22 +188,94 @@
     "brenner": {
       "title": "Brenner Base Tunnel",
       "location": "Austria/Italy",
-      "description": "The world's longest underground railway tunnel - 64 km."
+      "description": "The world's longest underground railway tunnel - 64 km.",
+      "overview": "The Brenner Base Tunnel is the world's longest underground railway tunnel, connecting Austria and Italy through the Alps. NR-GEO contributed specialized surveying expertise for this engineering masterpiece.",
+      "scope": [
+        "High-precision alpine surveying under extreme conditions",
+        "Cross-border geodetic network alignment",
+        "Temperature-compensated measurements for alpine environment",
+        "Integration with Italian and Austrian survey systems",
+        "Tunnel breakthrough precision planning",
+        "Continuous monitoring of mountain deformation"
+      ],
+      "achievements": [
+        "Contributed to successful tunnel breakthrough with <1cm deviation",
+        "Maintained accuracy despite 1800m mountain above",
+        "Coordinated international survey teams (AT/IT)",
+        "Established innovative alpine monitoring systems"
+      ],
+      "clientName": "BBT SE (Brenner Basistunnel)",
+      "durationPeriod": "2017-2024",
+      "teamSizeCount": "4-6 specialists"
     },
     "railBaltica": {
       "title": "Rail Baltica",
       "location": "Baltics",
-      "description": "Integrating Baltic states into the European railway network."
+      "description": "Integrating Baltic states into the European railway network.",
+      "overview": "Rail Baltica is a transformative railway project connecting the Baltic states (Estonia, Latvia, Lithuania) with the European railway network. NR-GEO provides ongoing surveying services for this strategically important infrastructure.",
+      "scope": [
+        "Cross-border geodetic network establishment",
+        "Railway alignment surveying for European gauge",
+        "Bridge and viaduct construction monitoring",
+        "Integration with existing Baltic infrastructure",
+        "Environmental monitoring during construction",
+        "BIM model creation for infrastructure management"
+      ],
+      "achievements": [
+        "Harmonized survey standards across 3 countries",
+        "Delivered first digital twin models for Baltic railway",
+        "Supporting EU's Trans-European Transport Network",
+        "Pioneering sustainable construction monitoring"
+      ],
+      "clientName": "RB Rail AS",
+      "durationPeriod": "2019-ongoing",
+      "teamSizeCount": "6-10 specialists across Baltic region"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",
       "location": "Sweden",
-      "description": "Critical section of Stockholm bypass requiring precision underground surveying."
+      "description": "Critical section of Stockholm bypass requiring precision underground surveying.",
+      "overview": "Järfällatunnel 4713 is a critical section of the Stockholm bypass system, requiring precision underground surveying and mining geodesy expertise. NR-GEO provided comprehensive measurement services for tunnel excavation and structural monitoring.",
+      "scope": [
+        "Underground control network for tunnel construction",
+        "Mining surveying and geological documentation",
+        "Laser scanning of tunnel profiles and as-built conditions",
+        "Deformation monitoring during excavation",
+        "Real-time data processing and reporting",
+        "Integration with main Förbifart Stockholm project"
+      ],
+      "achievements": [
+        "Maintained sub-centimeter accuracy in challenging geology",
+        "Successfully documented complex rock formations",
+        "Provided 24/7 surveying support during critical phases",
+        "Established new standards for tunnel profile documentation"
+      ],
+      "clientName": "Swedish Transport Administration",
+      "durationPeriod": "2018-2023",
+      "teamSizeCount": "4-6 specialists"
     },
     "tvr": {
       "title": "TVR E05 Korsvägen",
       "location": "Gothenburg, Sweden",
-      "description": "Advanced tunnel surveying for Gothenburg's major transport infrastructure project."
+      "description": "Advanced tunnel surveying for Gothenburg's major transport infrastructure project.",
+      "overview": "TVR E05 Korsvägen is a critical component of Gothenburg's public transport expansion, connecting major city districts through underground infrastructure. NR-GEO provided comprehensive tunnel surveying and monitoring services for this technically demanding urban project.",
+      "scope": [
+        "Urban tunnel surveying in densely populated area",
+        "Integration with existing metro infrastructure",
+        "Real-time monitoring of sensitive buildings",
+        "Precision alignment for metro tunnel excavation",
+        "Deformation analysis and risk assessment",
+        "Coordination with city planning authorities"
+      ],
+      "achievements": [
+        "Zero service disruption to existing metro operations",
+        "Maintained millimeter precision in urban environment",
+        "Successfully navigated complex underground utilities",
+        "Delivered comprehensive as-built documentation"
+      ],
+      "clientName": "Trafikverket / Gothenburg Municipality",
+      "durationPeriod": "2020-2024",
+      "teamSizeCount": "6-8 specialists"
     }
   },
   "contact": {
@@ -229,5 +301,66 @@
     "terms": "Terms of Service",
     "gdpr": "GDPR",
     "rights": "All rights reserved."
+  },
+  "impressum": {
+    "title": "Impressum",
+    "subtitle": "Legal Information & Privacy Policy",
+    "backToHome": "Back to Home",
+    "companyInfo": "Company Information",
+    "companyName": "Company Name",
+    "legalForm": "Legal Form",
+    "legalFormFull": "Spoločnosť s ručením obmedzeným (s.r.o.)",
+    "legalFormShort": "Limited Liability Company",
+    "contactDetails": "Contact Details",
+    "registeredAddress": "Registered Address",
+    "phone": "Phone",
+    "phoneSlovak": "Slovak:",
+    "phoneEnglish": "English:",
+    "email": "Email",
+    "website": "Website",
+    "responsiblePerson": "Responsible Person",
+    "contactPerson": "Contact Person",
+    "privacyPolicy": "Privacy Policy & Data Protection",
+    "dataCollection": "Data Collection and Usage",
+    "dataCollectionText": "NR-GEO s.r.o. is committed to protecting your privacy. We collect and process personal data only to the extent necessary for providing our services and in accordance with applicable data protection laws, including the General Data Protection Regulation (GDPR).",
+    "whatDataWeCollect": "What Data We Collect",
+    "dataWeCollect": [
+      "Contact information (name, email, phone number) when you submit inquiries through our contact form",
+      "Technical data (IP address, browser type, device information) for website functionality and security",
+      "Project-related information when you engage our services"
+    ],
+    "howWeUseData": "How We Use Your Data",
+    "dataUsage": [
+      "To respond to your inquiries and provide requested services",
+      "To improve our website and user experience",
+      "To comply with legal obligations"
+    ],
+    "yourRights": "Your Rights Under GDPR",
+    "yourRightsIntro": "You have the right to:",
+    "rights": [
+      "Access your personal data",
+      "Request correction or deletion of your data",
+      "Object to data processing",
+      "Request data portability",
+      "Withdraw consent at any time",
+      "Lodge a complaint with a supervisory authority"
+    ],
+    "dataProtectionContact": "For questions about data protection, please contact us at",
+    "cookiePolicy": "Cookie Policy",
+    "cookiePolicyIntro": "This website uses cookies to enhance user experience and analyze website traffic.",
+    "cookieTypes": "Types of Cookies We Use",
+    "essentialCookies": "Essential Cookies",
+    "essentialCookiesDesc": "Required for basic website functionality, including language preferences and session management. These cookies cannot be disabled.",
+    "analyticsCookies": "Analytics Cookies",
+    "analyticsCookiesDesc": "Help us understand how visitors interact with our website to improve user experience. You can opt-out of these cookies.",
+    "cookieControl": "You can control cookies through your browser settings. Note that disabling certain cookies may affect website functionality.",
+    "disclaimer": "Disclaimer",
+    "disclaimerText1": "The content of this website has been compiled with meticulous care and to the best of our knowledge. However, NR-GEO s.r.o. cannot assume any liability for the up-to-dateness, completeness, or accuracy of the pages and information provided.",
+    "disclaimerText2": "NR-GEO s.r.o. is not responsible for the content of external links. The operators of the linked pages are solely responsible for their content.",
+    "disclaimerText3": "All information provided on this website is for general informational purposes only and does not constitute professional advice. For specific project requirements, please contact us directly.",
+    "copyright": "Copyright & Intellectual Property",
+    "copyrightText": "All rights reserved.",
+    "copyrightDesc": "All content, images, logos, and trademarks on this website are the property of NR-GEO s.r.o. or their respective owners. Reproduction, distribution, or commercial use without prior written permission is prohibited.",
+    "backToTop": "Back to Top"
   }
 }

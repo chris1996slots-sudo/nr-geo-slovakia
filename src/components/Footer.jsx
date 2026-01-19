@@ -193,11 +193,11 @@ const Footer = ({ onShowImpressum }) => {
           </div>
 
           {/* Compliance Badges */}
-          <div className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-white/40">
-            <span className="bg-white/5 px-3 py-1 rounded">ISO 9001:2015 Certified</span>
-            <span className="bg-white/5 px-3 py-1 rounded">Millimeter Precision</span>
-            <span className="bg-white/5 px-3 py-1 rounded">Licensed Surveyors</span>
-            <span className="bg-white/5 px-3 py-1 rounded">BIM Level 2</span>
+          <div className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-white/90">
+            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">ISO 9001:2015 Certified</span>
+            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">Millimeter Precision</span>
+            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">Licensed Surveyors</span>
+            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">BIM Level 2</span>
           </div>
         </div>
       </div>

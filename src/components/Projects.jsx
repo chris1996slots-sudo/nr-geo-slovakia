@@ -11,6 +11,7 @@ const Projects = () => {
   const [lightboxImages, setLightboxImages] = useState([])
   const [lightboxIndex, setLightboxIndex] = useState(0)
 
+  // Remove hardcoded details - will use translation keys instead
   const projects = [
     {
       key: 'forbifart',
@@ -38,27 +39,7 @@ const Projects = () => {
         '/images/projects/forbifart/d4d4fbf6-cae3-44bd-a845-13732365c183-min.jpg',
         '/images/projects/forbifart/FSE-209-kontur_page-0001-min-scaled.jpg',
       ],
-      stats: ['21 km', '2015-2026', 'TBM Operations'],
-      details: {
-        overview: 'Förbifart Stockholm is one of Europe\'s largest infrastructure projects - a 21 km bypass route with 18 km of tunnel beneath the Swedish capital. NR-GEO provided comprehensive surveying and monitoring services throughout the entire construction phase.',
-        scope: [
-          'TBM guidance for 4 tunnel boring machines',
-          'Continuous deformation monitoring of existing infrastructure',
-          'Underground control network establishment and maintenance',
-          'Real-time positioning for excavation equipment',
-          'As-built documentation and quality control',
-          'Coordination with Swedish Transport Administration'
-        ],
-        achievements: [
-          'Zero incidents related to surveying precision',
-          'Maintained millimeter accuracy over 21 km route',
-          'Successfully monitored 200+ buildings above tunnel route',
-          'Delivered all milestones on schedule'
-        ],
-        client: 'Swedish Transport Administration',
-        duration: '2015-2026',
-        teamSize: '8-12 specialists on-site'
-      }
+      stats: ['21 km', '2015-2026', 'TBM Operations']
     },
     {
       key: 'brenner',
@@ -78,27 +59,7 @@ const Projects = () => {
         '/images/projects/oslo/pristupovka-1.png',
         '/images/projects/oslo/pristupovka-2.png',
       ],
-      stats: ['64 km', 'Alpine Tunnel', 'Precision Survey'],
-      details: {
-        overview: 'The Brenner Base Tunnel is the world\'s longest underground railway tunnel, connecting Austria and Italy through the Alps. NR-GEO contributed specialized surveying expertise for this engineering masterpiece.',
-        scope: [
-          'High-precision alpine surveying under extreme conditions',
-          'Cross-border geodetic network alignment',
-          'Temperature-compensated measurements for alpine environment',
-          'Integration with Italian and Austrian survey systems',
-          'Tunnel breakthrough precision planning',
-          'Continuous monitoring of mountain deformation'
-        ],
-        achievements: [
-          'Contributed to successful tunnel breakthrough with <1cm deviation',
-          'Maintained accuracy despite 1800m mountain above',
-          'Coordinated international survey teams (AT/IT)',
-          'Established innovative alpine monitoring systems'
-        ],
-        client: 'BBT SE (Brenner Basistunnel)',
-        duration: '2017-2024',
-        teamSize: '4-6 specialists'
-      }
+      stats: ['64 km', 'Alpine Tunnel', 'Precision Survey']
     },
     {
       key: 'railBaltica',
@@ -114,27 +75,7 @@ const Projects = () => {
         '/images/projects/hammarby/Snímek-obrazovky-2022-04-21-081410-min.png',
         '/images/projects/hammarby/Snímek-obrazovky-2022-04-21-082134-min.png',
       ],
-      stats: ['870 km', '3 Countries', 'Railway Integration'],
-      details: {
-        overview: 'Rail Baltica is a transformative railway project connecting the Baltic states (Estonia, Latvia, Lithuania) with the European railway network. NR-GEO provides ongoing surveying services for this strategically important infrastructure.',
-        scope: [
-          'Cross-border geodetic network establishment',
-          'Railway alignment surveying for European gauge',
-          'Bridge and viaduct construction monitoring',
-          'Integration with existing Baltic infrastructure',
-          'Environmental monitoring during construction',
-          'BIM model creation for infrastructure management'
-        ],
-        achievements: [
-          'Harmonized survey standards across 3 countries',
-          'Delivered first digital twin models for Baltic railway',
-          'Supporting EU\'s Trans-European Transport Network',
-          'Pioneering sustainable construction monitoring'
-        ],
-        client: 'RB Rail AS',
-        duration: '2019-ongoing',
-        teamSize: '6-10 specialists across Baltic region'
-      }
+      stats: ['870 km', '3 Countries', 'Railway Integration']
     },
     {
       key: 'jarfalla',
@@ -164,27 +105,7 @@ const Projects = () => {
         '/images/projects/jarfalla/received_548816559801734-min.jpeg',
         '/images/projects/jarfalla/received_899816034303176-min.jpeg',
       ],
-      stats: ['4.7 km', 'Järfälla Tunnel', 'Sweden'],
-      details: {
-        overview: 'Järfällatunnel 4713 is a critical section of the Stockholm bypass system, requiring precision underground surveying and mining geodesy expertise. NR-GEO provided comprehensive measurement services for tunnel excavation and structural monitoring.',
-        scope: [
-          'Underground control network for tunnel construction',
-          'Mining surveying and geological documentation',
-          'Laser scanning of tunnel profiles and as-built conditions',
-          'Deformation monitoring during excavation',
-          'Real-time data processing and reporting',
-          'Integration with main Förbifart Stockholm project'
-        ],
-        achievements: [
-          'Maintained sub-centimeter accuracy in challenging geology',
-          'Successfully documented complex rock formations',
-          'Provided 24/7 surveying support during critical phases',
-          'Established new standards for tunnel profile documentation'
-        ],
-        client: 'Swedish Transport Administration',
-        duration: '2018-2023',
-        teamSize: '4-6 specialists'
-      }
+      stats: ['4.7 km', 'Järfälla Tunnel', 'Sweden']
     },
     {
       key: 'tvr',
@@ -198,27 +119,7 @@ const Projects = () => {
         '/images/projects/tvr/tvr-6.jpg',
         '/images/projects/tvr/tvr-7.jpg',
       ],
-      stats: ['E05 Route', 'Gothenburg', 'Metro Expansion'],
-      details: {
-        overview: 'TVR E05 Korsvägen is a critical component of Gothenburg\'s public transport expansion, connecting major city districts through underground infrastructure. NR-GEO provided comprehensive tunnel surveying and monitoring services for this technically demanding urban project.',
-        scope: [
-          'Urban tunnel surveying in densely populated area',
-          'Integration with existing metro infrastructure',
-          'Real-time monitoring of sensitive buildings',
-          'Precision alignment for metro tunnel excavation',
-          'Deformation analysis and risk assessment',
-          'Coordination with city planning authorities'
-        ],
-        achievements: [
-          'Zero service disruption to existing metro operations',
-          'Maintained millimeter precision in urban environment',
-          'Successfully navigated complex underground utilities',
-          'Delivered comprehensive as-built documentation'
-        ],
-        client: 'Trafikverket / Gothenburg Municipality',
-        duration: '2020-2024',
-        teamSize: '6-8 specialists'
-      }
+      stats: ['E05 Route', 'Gothenburg', 'Metro Expansion']
     },
   ]
 
@@ -317,17 +218,17 @@ const Projects = () => {
                   {/* View Details Button */}
                   <div
                     onClick={() => toggleProject(project.key)}
-                    className={`p-6 bg-white dark:bg-dark-400 hover:bg-dark-50 transition-colors cursor-pointer ${
-                      isExpanded ? 'border-t-2 border-primary' : 'border-t border-dark-100'
+                    className={`p-6 bg-white dark:bg-dark-500 hover:bg-dark-50 dark:hover:bg-dark-600 transition-colors cursor-pointer ${
+                      isExpanded ? 'border-t-2 border-primary' : 'border-t border-dark-100 dark:border-dark-600'
                     }`}
                   >
                     <div className="flex items-center justify-between">
-                      <div className="flex items-center text-primary font-semibold group-hover:text-primary-600 transition-colors">
+                      <div className="flex items-center text-primary dark:text-primary-300 font-semibold group-hover:text-primary-600 transition-colors">
                         <span>View Details</span>
                         <ArrowRight size={16} className="ml-2 group-hover:translate-x-1 transition-transform" />
                       </div>
-                      <div className={`w-10 h-10 rounded-full bg-dark-50 flex items-center justify-center transition-all duration-300 ${
-                        isExpanded ? 'bg-primary text-white rotate-180' : 'group-hover:bg-primary group-hover:text-white'
+                      <div className={`w-10 h-10 rounded-full bg-dark-50 dark:bg-dark-600 flex items-center justify-center transition-all duration-300 ${
+                        isExpanded ? 'bg-primary dark:bg-primary text-white rotate-180' : 'text-dark-700 dark:text-dark-200 group-hover:bg-primary group-hover:text-white'
                       }`}>
                         <ChevronDown size={24} />
                       </div>
@@ -363,9 +264,9 @@ const Projects = () => {
                       <div className="bg-gradient-to-br from-white to-dark-50 dark:from-dark-400 dark:to-dark-500 border-2 border-t-0 border-primary rounded-b-2xl shadow-2xl p-6 md:p-8 will-change-auto">
                         {/* Project Overview */}
                         <div className="mb-8">
-                          <h4 className="text-2xl font-bold text-dark-700 dark:text-dark-50 mb-4">Project Overview</h4>
+                          <h4 className="text-2xl font-bold text-dark-700 dark:text-dark-50 mb-4">{t('projects.projectOverview')}</h4>
                           <p className="text-lg text-dark-600 dark:text-dark-200 leading-relaxed">
-                            {project.details.overview}
+                            {t(`projects.${project.key}.overview`)}
                           </p>
                         </div>
 
@@ -374,7 +275,7 @@ const Projects = () => {
                           <div className="mb-8">
                             <h4 className="text-xl font-bold text-dark-700 dark:text-dark-50 mb-4 flex items-center">
                               <ImageIcon className="text-primary mr-2" size={24} />
-                              Project Gallery ({project.images.length} images)
+                              {t('projects.projectGallery')} ({project.images.length} {t('projects.images')})
                             </h4>
                             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
                               {project.images.slice(0, 4).map((img, idx) => (
@@ -410,10 +311,10 @@ const Projects = () => {
                           <div>
                             <h4 className="text-xl font-bold text-dark-700 dark:text-dark-50 mb-4 flex items-center">
                               <Target className="text-blue-500 mr-2" size={24} />
-                              Scope of Work
+                              {t('projects.scopeOfWork')}
                             </h4>
                             <ul className="space-y-2">
-                              {project.details.scope.map((item, idx) => (
+                              {t(`projects.${project.key}.scope`, { returnObjects: true }).map((item, idx) => (
                                 <li key={idx} className="flex items-start text-dark-600 dark:text-dark-200">
                                   <span className="text-primary mr-2 mt-1">•</span>
                                   <span>{item}</span>
@@ -426,10 +327,10 @@ const Projects = () => {
                           <div>
                             <h4 className="text-xl font-bold text-dark-700 dark:text-dark-50 mb-4 flex items-center">
                               <Award className="text-green-500 mr-2" size={24} />
-                              Key Achievements
+                              {t('projects.keyAchievements')}
                             </h4>
                             <ul className="space-y-2">
-                              {project.details.achievements.map((achievement, idx) => (
+                              {t(`projects.${project.key}.achievements`, { returnObjects: true }).map((achievement, idx) => (
                                 <li key={idx} className="flex items-start text-dark-600 dark:text-dark-200">
                                   <CheckCircle2 className="text-green-500 mr-2 mt-0.5 flex-shrink-0" size={18} />
                                   <span>{achievement}</span>
@@ -441,28 +342,28 @@ const Projects = () => {
 
                         {/* Project Info Cards */}
                         <div className="grid sm:grid-cols-3 gap-4">
-                          <div className="bg-blue-50 rounded-xl p-4 border border-blue-100">
+                          <div className="bg-blue-50 dark:bg-blue-900/20 rounded-xl p-4 border border-blue-100 dark:border-blue-800">
                             <div className="flex items-center gap-2 mb-2">
-                              <Users className="text-blue-600" size={20} />
-                              <span className="text-sm font-semibold text-blue-900">Client</span>
+                              <Users className="text-blue-600 dark:text-blue-400" size={20} />
+                              <span className="text-sm font-semibold text-blue-900 dark:text-blue-100">{t('projects.client')}</span>
                             </div>
-                            <p className="text-blue-700 font-medium">{project.details.client}</p>
+                            <p className="text-blue-700 dark:text-blue-300 font-medium">{t(`projects.${project.key}.clientName`)}</p>
                           </div>
 
-                          <div className="bg-purple-50 rounded-xl p-4 border border-purple-100">
+                          <div className="bg-purple-50 dark:bg-purple-900/20 rounded-xl p-4 border border-purple-100 dark:border-purple-800">
                             <div className="flex items-center gap-2 mb-2">
-                              <Calendar className="text-purple-600" size={20} />
-                              <span className="text-sm font-semibold text-purple-900">Duration</span>
+                              <Calendar className="text-purple-600 dark:text-purple-400" size={20} />
+                              <span className="text-sm font-semibold text-purple-900 dark:text-purple-100">{t('projects.duration')}</span>
                             </div>
-                            <p className="text-purple-700 font-medium">{project.details.duration}</p>
+                            <p className="text-purple-700 dark:text-purple-300 font-medium">{t(`projects.${project.key}.durationPeriod`)}</p>
                           </div>
 
-                          <div className="bg-primary-50 rounded-xl p-4 border border-primary-100">
+                          <div className="bg-primary-50 dark:bg-primary-900/20 rounded-xl p-4 border border-primary-100 dark:border-primary-800">
                             <div className="flex items-center gap-2 mb-2">
-                              <Users className="text-primary-600" size={20} />
-                              <span className="text-sm font-semibold text-primary-900">Team Size</span>
+                              <Users className="text-primary-600 dark:text-primary-400" size={20} />
+                              <span className="text-sm font-semibold text-primary-900 dark:text-primary-100">{t('projects.teamSize')}</span>
                             </div>
-                            <p className="text-primary-700 font-medium">{project.details.teamSize}</p>
+                            <p className="text-primary-700 dark:text-primary-300 font-medium">{t(`projects.${project.key}.teamSizeCount`)}</p>
                           </div>
                         </div>
                       </div>
@@ -482,7 +383,7 @@ const Projects = () => {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="mt-16"
         >
-          <div className="bg-white dark:bg-dark-400 rounded-2xl p-8 sm:p-12 shadow-lg border border-dark-100">
+          <div className="bg-white dark:bg-dark-500 rounded-2xl p-8 sm:p-12 shadow-lg border border-dark-100 dark:border-dark-600">
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-dark-700 dark:text-dark-50 mb-3">
                 Certified Excellence
@@ -501,9 +402,9 @@ const Projects = () => {
               ].map((cert, idx) => (
                 <div
                   key={idx}
-                  className="flex items-center space-x-3 p-4 bg-dark-50 rounded-xl"
+                  className="flex items-center space-x-3 p-4 bg-dark-50 dark:bg-dark-600 border border-dark-100 dark:border-dark-600 rounded-xl"
                 >
-                  <CheckCircle2 className="text-green-500 flex-shrink-0" size={24} />
+                  <CheckCircle2 className="text-green-500 dark:text-green-400 flex-shrink-0" size={24} />
                   <span className="font-medium text-dark-700 dark:text-dark-50">{cert}</span>
                 </div>
               ))}
