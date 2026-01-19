@@ -69,8 +69,8 @@ const Hero = () => {
             backgroundImage: `url('/images/home.jpg')`,
           }}
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-dark-900/80 via-dark-800/70 to-dark-700/60" />
-        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark-900/40" />
+        <div className="absolute inset-0 bg-gradient-to-r from-dark-900/68 via-dark-800/58 to-dark-700/48" />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-dark-900/28" />
       </div>
 
       {/* Interactive Animated Grid Pattern */}
