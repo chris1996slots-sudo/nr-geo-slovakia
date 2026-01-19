@@ -302,16 +302,31 @@ const Projects = () => {
                 </div>
 
                 {/* Expanded Details */}
-                <AnimatePresence>
+                <AnimatePresence initial={false}>
                   {isExpanded && (
                     <motion.div
-                      initial={{ opacity: 0, height: 0 }}
-                      animate={{ opacity: 1, height: 'auto' }}
-                      exit={{ opacity: 0, height: 0 }}
-                      transition={{ duration: 0.3 }}
-                      className="overflow-hidden"
+                      initial={{ opacity: 0, height: 0, marginTop: 0 }}
+                      animate={{
+                        opacity: 1,
+                        height: 'auto',
+                        marginTop: 0,
+                        transition: {
+                          height: { duration: 0.4, ease: [0.4, 0.0, 0.2, 1] },
+                          opacity: { duration: 0.25, delay: 0.1 }
+                        }
+                      }}
+                      exit={{
+                        opacity: 0,
+                        height: 0,
+                        marginTop: 0,
+                        transition: {
+                          height: { duration: 0.3, ease: [0.4, 0.0, 0.2, 1] },
+                          opacity: { duration: 0.2 }
+                        }
+                      }}
+                      className="overflow-hidden will-change-[height,opacity]"
                     >
-                      <div className="bg-gradient-to-br from-white to-dark-50 dark:from-dark-400 dark:to-dark-500 border-2 border-t-0 border-primary rounded-b-2xl shadow-2xl p-6 md:p-8">
+                      <div className="bg-gradient-to-br from-white to-dark-50 dark:from-dark-400 dark:to-dark-500 border-2 border-t-0 border-primary rounded-b-2xl shadow-2xl p-6 md:p-8 will-change-auto">
                         {/* Project Overview */}
                         <div className="mb-8">
                           <h4 className="text-2xl font-bold text-dark-700 dark:text-dark-50 mb-4">Project Overview</h4>
