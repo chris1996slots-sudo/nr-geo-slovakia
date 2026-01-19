@@ -23,7 +23,9 @@
     "value1": "Précision et qualité",
     "value2": "Normes européennes",
     "value3": "Approvisionnement durable",
-    "value4": "Technologie innovante"
+    "value4": "Technologie innovante",
+    "precisionExcellence": "Excellence de précision",
+    "precisionExcellenceText": "Arpentage au millimètre près avec des équipements géodésiques certifiés et des professionnels agréés"
   },
   "services": {
     "title": "Nos services",

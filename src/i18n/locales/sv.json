@@ -23,7 +23,9 @@
     "value1": "Precision & kvalitet",
     "value2": "Europeiska standarder",
     "value3": "Hållbar inköp",
-    "value4": "Innovativ teknologi"
+    "value4": "Innovativ teknologi",
+    "precisionExcellence": "Precisionsexcellens",
+    "precisionExcellenceText": "Millimeternoggrann mätning med certifierad geodetisk utrustning och licensierade yrkesmän"
   },
   "services": {
     "title": "Våra tjänster",

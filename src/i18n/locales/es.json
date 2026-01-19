@@ -23,7 +23,9 @@
     "value1": "Precisión y calidad",
     "value2": "Estándares europeos",
     "value3": "Abastecimiento sostenible",
-    "value4": "Tecnología innovadora"
+    "value4": "Tecnología innovadora",
+    "precisionExcellence": "Excelencia en precisión",
+    "precisionExcellenceText": "Topografía con precisión milimétrica con equipos geodésicos certificados y profesionales licenciados"
   },
   "services": {
     "title": "Nuestros servicios",

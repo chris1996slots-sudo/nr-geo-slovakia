@@ -84,17 +84,37 @@ const Footer = ({ onShowImpressum }) => {
           <div>
             <h4 className="text-lg font-bold mb-4">{t('footer.services')}</h4>
             <ul className="space-y-2 text-sm text-white/70">
-              <li className="hover:text-primary transition-colors cursor-pointer">
-                Tunneling & Underground Surveying
+              <li>
+                <button
+                  onClick={() => scrollToSection('services')}
+                  className="hover:text-primary transition-colors text-left"
+                >
+                  {t('services.tunneling.title')}
+                </button>
               </li>
-              <li className="hover:text-primary transition-colors cursor-pointer">
-                Scan-to-BIM & Digital Twins
+              <li>
+                <button
+                  onClick={() => scrollToSection('services')}
+                  className="hover:text-primary transition-colors text-left"
+                >
+                  {t('services.scanToBim.title')}
+                </button>
               </li>
-              <li className="hover:text-primary transition-colors cursor-pointer">
-                Geotechnical Monitoring
+              <li>
+                <button
+                  onClick={() => scrollToSection('services')}
+                  className="hover:text-primary transition-colors text-left"
+                >
+                  {t('services.geotechnical.title')}
+                </button>
               </li>
-              <li className="hover:text-primary transition-colors cursor-pointer">
-                Cadastral Surveying
+              <li>
+                <button
+                  onClick={() => scrollToSection('services')}
+                  className="hover:text-primary transition-colors text-left"
+                >
+                  {t('services.cadastral.title')}
+                </button>
               </li>
             </ul>
           </div>

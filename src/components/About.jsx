@@ -36,10 +36,10 @@ const About = () => {
               <div className="absolute bottom-6 left-6 bg-white dark:bg-dark-400 rounded-xl p-6 shadow-2xl max-w-xs">
                 <div className="flex items-center space-x-3 mb-2">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                  <span className="text-sm font-semibold text-dark-700 dark:text-dark-100">Precision Excellence</span>
+                  <span className="text-sm font-semibold text-dark-700 dark:text-dark-100">{t('about.precisionExcellence')}</span>
                 </div>
                 <p className="text-xs text-dark-500 dark:text-dark-300">
-                  Millimeter-accurate surveying with certified geodetic equipment and licensed professionals
+                  {t('about.precisionExcellenceText')}
                 </p>
               </div>
             </div>
