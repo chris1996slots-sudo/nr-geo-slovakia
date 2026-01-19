@@ -1,9 +1,19 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { Building2, Mail, Phone, MapPin, FileText, Shield, Cookie, ArrowLeft } from 'lucide-react'
+import { Building2, Mail, Phone, MapPin, FileText, Shield, Cookie, ArrowLeft, Globe } from 'lucide-react'
 
 const ImpressumPage = ({ onBack }) => {
-  const { t } = useTranslation()
+  const { t, i18n } = useTranslation()
+
+  const availableLanguages = [
+    { code: 'en', label: 'EN' },
+    { code: 'de', label: 'DE' },
+    { code: 'sk', label: 'SK' }
+  ]
+
+  const changeLanguage = (langCode) => {
+    i18n.changeLanguage(langCode)
+  }
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -14,13 +24,35 @@ const ImpressumPage = ({ onBack }) => {
       {/* Header */}
       <div className="bg-gradient-to-r from-dark-800 to-dark-900 text-white py-16">
         <div className="container-custom">
-          <button
-            onClick={onBack}
-            className="flex items-center gap-2 text-white/70 hover:text-white transition-colors mb-8"
-          >
-            <ArrowLeft size={20} />
-            <span>Back to Home</span>
-          </button>
+          <div className="flex justify-between items-center mb-8">
+            <button
+              onClick={onBack}
+              className="flex items-center gap-2 text-white/70 hover:text-white transition-colors"
+            >
+              <ArrowLeft size={20} />
+              <span>Back to Home</span>
+            </button>
+
+            {/* Language Switch */}
+            <div className="flex items-center gap-2">
+              <Globe size={20} className="text-white/70" />
+              <div className="flex gap-1 bg-white/10 rounded-lg p-1">
+                {availableLanguages.map((lang) => (
+                  <button
+                    key={lang.code}
+                    onClick={() => changeLanguage(lang.code)}
+                    className={`px-4 py-2 rounded-md font-semibold transition-all ${
+                      i18n.language === lang.code
+                        ? 'bg-primary text-white shadow-lg'
+                        : 'text-white/70 hover:text-white hover:bg-white/10'
+                    }`}
+                  >
+                    {lang.label}
+                  </button>
+                ))}
+              </div>
+            </div>
+          </div>
 
           <motion.div
             initial={{ opacity: 0, y: 20 }}
