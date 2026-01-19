@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Hjem",
+    "about": "Om oss",
+    "services": "Tjenester",
+    "markets": "Markeder",
+    "projects": "Prosjekter",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Presisjon under bakken",
+    "subtitle": "Slovakisk ingeniørkunst for Europas megaprosjekter",
+    "cta": "Les mer",
+    "contact": "Kontakt oss"
+  },
+  "about": {
+    "title": "Om NR-GEO",
+    "heading": "Slovakisk byggeintelligens",
+    "description": "NR-GEO Slovakia er et ledende ingeniørmåleselskap som spesialiserer seg på underjordisk konstruksjon, tunnelbygging og presisjonsmåling. Med over to tiår med erfaring leverer vi løsninger i verdensklasse for Europas mest krevende prosjekter.",
+    "mission": "Vårt oppdrag",
+    "missionText": "Å tilby presis, pålitelig geodetisk støtte for kritisk infrastruktur med vekt på bærekraftige metoder og ikke-russiske forsyningskjeder.",
+    "values": "Våre verdier",
+    "value1": "Presisjon & kvalitet",
+    "value2": "Europeiske standarder",
+    "value3": "Bærekraftig innkjøp",
+    "value4": "Innovativ teknologi"
+  },
+  "services": {
+    "title": "Våre tjenester",
+    "subtitle": "Omfattende løsninger for moderne underjordisk konstruksjon",
+    "tunneling": {
+      "title": "Tunnelbygging & underjordisk måling",
+      "description": "Spesialiserte geodetiske tjenester for TBM-operasjoner, tunnelboring og underjordiske grotter med millimeterpresisjon."
+    },
+    "scanToBim": {
+      "title": "Scan-to-BIM & digitale tvillinger",
+      "description": "Banebrytende laserskanningsteknologi for materialoptimalisering og infrastrukturens livssyklusstyring."
+    },
+    "geotechnical": {
+      "title": "Geoteknisk overvåking",
+      "description": "Automatiserte sensorsystemer for sanntidsovervåking av stabilitet, deformasjonsvarslingssystemer og risikoanalyse."
+    },
+    "supplyChain": {
+      "title": "Forsyningskjedelogistikk",
+      "description": "Sertifisert stålinnkjøp fra Tyrkia, India og andre ikke-russiske markeder for europeiske prosjekter."
+    }
+  },
+  "markets": {
+    "title": "Våre markeder",
+    "subtitle": "Aktive der Europas fremtid bygges",
+    "scandinavia": {
+      "title": "Skandinavia",
+      "description": "Aktive prosjekter i Sverige og Norge inkludert stor transportinfrastruktur."
+    },
+    "balkans": {
+      "title": "Balkan - Korridor VIII",
+      "description": "Strategiske transittprosjekter som forbinder øst- og vest-Europa."
+    },
+    "ukraine": {
+      "title": "Ukraina - gjenoppbygging",
+      "description": "Partnerskap i gjenoppbygging av kritisk infrastruktur med vekt på bærekraftige materialer."
+    },
+    "worldwide": {
+      "title": "Globale prosjekter",
+      "description": "Vi tar imot prosjekter globalt - hvor presisjonsingeniørkunst er nødvendig, leverer vi fortreffelighet."
+    }
+  },
+  "projects": {
+    "title": "Referanser",
+    "subtitle": "Utvalgte prosjekter fra vår portefølje",
+    "forbifart": {
+      "title": "Förbifart Stockholm",
+      "location": "Sverige",
+      "description": "21 km Stockholms ringvei - et av Europas største transportprosjekter."
+    },
+    "brenner": {
+      "title": "Brenner Base Tunnel",
+      "location": "Østerrike/Italia",
+      "description": "Verdens lengste underjordiske jernbanetunnel - 64 km."
+    },
+    "railBaltica": {
+      "title": "Rail Baltica",
+      "location": "Baltikum",
+      "description": "Integrering av baltiske stater i det europeiske jernbanenettet."
+    }
+  },
+  "contact": {
+    "title": "Kontakt oss",
+    "subtitle": "Klar til å diskutere prosjektet ditt",
+    "name": "Navn",
+    "email": "E-post",
+    "company": "Selskap",
+    "message": "Melding",
+    "send": "Send melding",
+    "info": "Kontaktinformasjon",
+    "address": "Adresse",
+    "phone": "Telefon",
+    "emailLabel": "E-post"
+  },
+  "footer": {
+    "description": "Ledende slovakisk ingeniørmåleselskap som spesialiserer seg på underjordisk konstruksjon og tunnelbygging.",
+    "quickLinks": "Hurtiglenker",
+    "services": "Tjenester",
+    "markets": "Markeder",
+    "legal": "Juridisk",
+    "privacy": "Personvernregler",
+    "terms": "Brukervilkår",
+    "gdpr": "GDPR",
+    "rights": "Alle rettigheter reservert."
+  }
+}

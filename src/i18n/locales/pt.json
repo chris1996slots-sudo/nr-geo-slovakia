@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "markets": "Mercados",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "title": "Precisão Subterrânea",
+    "subtitle": "Engenharia eslovaca para os megaprojetos da Europa",
+    "cta": "Saiba mais",
+    "contact": "Entre em contato"
+  },
+  "about": {
+    "title": "Sobre NR-GEO",
+    "heading": "Inteligência de construção eslovaca",
+    "description": "NR-GEO Slovakia é uma empresa líder em topografia de engenharia especializada em construção subterrânea, tunelamento e geodésia de precisão.",
+    "mission": "Nossa missão",
+    "missionText": "Fornecer suporte geodésico preciso e confiável para infraestrutura crítica com ênfase em cadeias de suprimento não russas.",
+    "values": "Nossos valores",
+    "value1": "Precisão e qualidade",
+    "value2": "Padrões europeus",
+    "value3": "Fornecimento sustentável",
+    "value4": "Tecnologia inovadora"
+  },
+  "services": {
+    "title": "Nossos serviços",
+    "subtitle": "Soluções abrangentes para construção subterrânea moderna",
+    "tunneling": {
+      "title": "Tunelamento e topografia subterrânea",
+      "description": "Serviços geodésicos especializados para operações TBM com precisão milimétrica."
+    },
+    "scanToBim": {
+      "title": "Scan-to-BIM e gêmeos digitais",
+      "description": "Tecnologia de varredura a laser de ponta para otimização de materiais."
+    },
+    "geotechnical": {
+      "title": "Monitoramento geotécnico",
+      "description": "Sistemas de sensores automatizados para monitoramento de estabilidade em tempo real."
+    },
+    "supplyChain": {
+      "title": "Logística da cadeia de suprimentos",
+      "description": "Fornecimento certificado de aço da Turquia, Índia para projetos europeus."
+    }
+  },
+  "markets": {
+    "title": "Nossos mercados",
+    "subtitle": "Operando onde o futuro da Europa está sendo construído",
+    "scandinavia": {
+      "title": "Escandinávia",
+      "description": "Projetos ativos na Suécia e Noruega."
+    },
+    "balkans": {
+      "title": "Bálcãs - Corredor VIII",
+      "description": "Projetos de trânsito estratégicos conectando o Leste e o Oeste da Europa."
+    },
+    "ukraine": {
+      "title": "Ucrânia - Reconstrução",
+      "description": "Parceria na reconstrução de infraestrutura crítica."
+    },
+    "worldwide": {
+      "title": "Worldwide Projects",
+      "description": "We accept projects globally - wherever precision engineering is needed, we deliver excellence."
+    }
+  },
+  "projects": {
+    "title": "Referências",
+    "subtitle": "Projetos selecionados do nosso portfólio",
+    "forbifart": {
+      "title": "Förbifart Stockholm",
+      "location": "Suécia",
+      "description": "Desvio de Estocolmo de 21 km."
+    },
+    "brenner": {
+      "title": "Brenner Base Tunnel",
+      "location": "Áustria/Itália",
+      "description": "O túnel ferroviário subterrâneo mais longo do mundo - 64 km."
+    },
+    "railBaltica": {
+      "title": "Rail Baltica",
+      "location": "Bálticos",
+      "description": "Integração dos estados bálticos na rede ferroviária europeia."
+    }
+  },
+  "contact": {
+    "title": "Entre em contato",
+    "subtitle": "Prontos para discutir seu projeto",
+    "name": "Nome",
+    "email": "E-mail",
+    "company": "Empresa",
+    "message": "Mensagem",
+    "send": "Enviar mensagem",
+    "info": "Informações de contato",
+    "address": "Endereço",
+    "phone": "Telefone",
+    "emailLabel": "E-mail"
+  },
+  "footer": {
+    "description": "Empresa eslovaca líder em topografia de engenharia especializada em construção subterrânea e tunelamento.",
+    "quickLinks": "Links rápidos",
+    "services": "Serviços",
+    "markets": "Mercados",
+    "legal": "Jurídico",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço",
+    "gdpr": "GDPR",
+    "rights": "Todos os direitos reservados."
+  }
+}

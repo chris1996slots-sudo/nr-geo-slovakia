@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Domov",
+    "about": "O nás",
+    "services": "Služby",
+    "markets": "Trhy",
+    "projects": "Projekty",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Presnosť pod zemou",
+    "subtitle": "Slovenské inžinierstvo pre európske megaprojekty",
+    "cta": "Zistiť viac",
+    "contact": "Kontaktujte nás"
+  },
+  "about": {
+    "title": "O spoločnosti NR-GEO",
+    "heading": "Slovenská stavebná inteligencia",
+    "description": "NR-GEO Slovakia je popredná spoločnosť pre inžiniersku geodéziu špecializujúca sa na podzemné stavby, tunelovanie a presné meranie. S viac ako dvoma desaťročiami skúseností dodávame riešenia svetového štandardu pre najnáročnejšie projekty v Európe.",
+    "mission": "Naša misia",
+    "missionText": "Poskytovať presnú, spoľahlivú geodetickú podporu pre kritickú infraštruktúru s dôrazom na udržateľné postupy a nezávislé dodávateľské reťazce mimo Ruska.",
+    "values": "Naše hodnoty",
+    "value1": "Presnosť a kvalita",
+    "value2": "Európske štandardy",
+    "value3": "Udržateľné zdroje",
+    "value4": "Inovatívna technológia"
+  },
+  "services": {
+    "title": "Naše služby",
+    "subtitle": "Komplexné riešenia pre modernú podzemného staviteľstva",
+    "tunneling": {
+      "title": "Tunelovanie a podzemné meranie",
+      "description": "Špecializované geodetické služby pre TBM operácie, razenie tunelov a podzemné kaverny s presnosťou na milimetre."
+    },
+    "scanToBim": {
+      "title": "Scan-to-BIM & digitálne dvojčatá",
+      "description": "Najmodernejšia technológia laserového skenovania pre optimalizáciu materiálov a správu životného cyklu infraštruktúry."
+    },
+    "geotechnical": {
+      "title": "Geotechnický monitoring",
+      "description": "Automatizované senzorové systémy pre monitorovanie stability v reálnom čase, varný systém deformácií a analýza rizík."
+    },
+    "cadastral": {
+      "title": "Katastrálne meranie",
+      "description": "Profesionálne zameranie nehnuteľností, určovanie hraníc a právna dokumentácia pre správu pozemkov."
+    }
+  },
+  "markets": {
+    "title": "Naše trhy",
+    "subtitle": "Pôsobíme tam, kde sa buduje budúcnosť Európy",
+    "scandinavia": {
+      "title": "Škandinávie",
+      "description": "Aktívne projekty vo Švédsku a Nórsku vrátane veľkých dopravných infraštruktúr."
+    },
+    "balkans": {
+      "title": "Balkán - Koridor VIII",
+      "description": "Strategické tranzitné projekty spájajúce východ a západ Európy."
+    },
+    "ukraine": {
+      "title": "Ukrajina - obnova",
+      "description": "Partnerstvo pri obnove kritickej infraštruktúry s dôrazom na udržateľné materiály."
+    },
+    "worldwide": {
+      "title": "Celosvetové projekty",
+      "description": "Prijímame projekty na celom svete - kdekoľvek je potrebné presné inžinierstvo, poskytujeme excelenciu."
+    }
+  },
+  "projects": {
+    "title": "Referencie",
+    "subtitle": "Vybrané projekty z nášho portfólia",
+    "forbifart": {
+      "title": "Förbifart Stockholm",
+      "location": "Švédsko",
+      "description": "21 km obchvat Štokholmu - jeden z najväčších dopravných projektov v Európe."
+    },
+    "brenner": {
+      "title": "Brenner Base Tunnel",
+      "location": "Rakúsko/Taliansko",
+      "description": "Najdlhší podzemný železničný tunel na svete - 64 km."
+    },
+    "railBaltica": {
+      "title": "Rail Baltica",
+      "location": "Pobaltie",
+      "description": "Integrácia pobaltských štátov do európskej železničnej siete."
+    }
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "subtitle": "Pripravení diskutovať o vašom projekte",
+    "name": "Meno",
+    "email": "Email",
+    "company": "Spoločnosť",
+    "message": "Správa",
+    "send": "Odoslať správu",
+    "info": "Kontaktné informácie",
+    "address": "Adresa",
+    "phone": "Telefón",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "description": "Vedúca slovenská spoločnosť pre inžiniersku geodéziu špecializujúca sa na podzemné stavby a tunelovanie.",
+    "quickLinks": "Rýchle odkazy",
+    "services": "Služby",
+    "markets": "Trhy",
+    "legal": "Právne informácie",
+    "privacy": "Ochrana súkromia",
+    "terms": "Podmienky používania",
+    "gdpr": "GDPR",
+    "rights": "Všetky práva vyhradené."
+  }
+}

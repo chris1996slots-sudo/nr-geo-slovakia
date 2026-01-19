@@ -1,0 +1,116 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "markets": "Markets",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Precision Underground",
+    "subtitle": "Slovak Engineering for Europe's Megaprojects",
+    "cta": "Learn More",
+    "contact": "Contact Us"
+  },
+  "about": {
+    "title": "About NR-GEO",
+    "heading": "Slovak Construction Intelligence",
+    "description": "NR-GEO Slovakia is a leading engineering surveying company specializing in underground construction, tunneling, and precision geodesy. With over two decades of experience, we deliver world-class solutions for Europe's most demanding projects.",
+    "mission": "Our Mission",
+    "missionText": "To provide precise, reliable geodetic support for critical infrastructure with emphasis on sustainable practices and non-Russian supply chains.",
+    "values": "Our Values",
+    "value1": "Precision & Quality",
+    "value2": "European Standards",
+    "value3": "Sustainable Sourcing",
+    "value4": "Innovative Technology"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive solutions for modern underground construction",
+    "tunneling": {
+      "title": "Tunneling & Underground Surveying",
+      "description": "Specialized geodetic services for TBM operations, tunnel boring, and underground caverns with millimeter precision."
+    },
+    "scanToBim": {
+      "title": "Scan-to-BIM & Digital Twins",
+      "description": "Cutting-edge laser scanning technology for material optimization and infrastructure lifecycle management."
+    },
+    "geotechnical": {
+      "title": "Geotechnical Monitoring",
+      "description": "Automated sensor systems for real-time stability monitoring, deformation warning systems, and risk analysis."
+    },
+    "cadastral": {
+      "title": "Cadastral Surveying",
+      "description": "Professional property surveys, boundary determination, and legal documentation for land management."
+    }
+  },
+  "markets": {
+    "title": "Our Markets",
+    "subtitle": "Operating where Europe's future is being built",
+    "scandinavia": {
+      "title": "Scandinavia",
+      "description": "Active projects in Sweden and Norway including major transport infrastructure."
+    },
+    "balkans": {
+      "title": "Balkans - Corridor VIII",
+      "description": "Strategic transit projects connecting Eastern and Western Europe."
+    },
+    "ukraine": {
+      "title": "Ukraine - Reconstruction",
+      "description": "Partnership in rebuilding critical infrastructure with emphasis on sustainable materials."
+    },
+    "worldwide": {
+      "title": "Worldwide Projects",
+      "description": "We accept projects globally - wherever precision engineering is needed, we deliver excellence."
+    }
+  },
+  "projects": {
+    "title": "References",
+    "subtitle": "Selected projects from our portfolio",
+    "forbifart": {
+      "title": "Förbifart Stockholm",
+      "location": "Sweden",
+      "description": "21 km Stockholm bypass - one of Europe's largest transport projects."
+    },
+    "brenner": {
+      "title": "Brenner Base Tunnel",
+      "location": "Austria/Italy",
+      "description": "The world's longest underground railway tunnel - 64 km."
+    },
+    "railBaltica": {
+      "title": "Rail Baltica",
+      "location": "Baltics",
+      "description": "Integrating Baltic states into the European railway network."
+    },
+    "jarfalla": {
+      "title": "Järfällatunnel 4713",
+      "location": "Sweden",
+      "description": "Critical section of Stockholm bypass requiring precision underground surveying."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready to discuss your project",
+    "name": "Name",
+    "email": "Email",
+    "company": "Company",
+    "message": "Message",
+    "send": "Send Message",
+    "info": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "emailLabel": "Email"
+  },
+  "footer": {
+    "description": "Leading Slovak engineering surveying company specializing in underground construction and tunneling.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "markets": "Markets",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "gdpr": "GDPR",
+    "rights": "All rights reserved."
+  }
+}

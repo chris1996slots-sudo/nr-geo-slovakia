@@ -1,0 +1,111 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "markets": "Marchés",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Précision souterraine",
+    "subtitle": "Ingénierie slovaque pour les mégaprojets européens",
+    "cta": "En savoir plus",
+    "contact": "Nous contacter"
+  },
+  "about": {
+    "title": "À propos de NR-GEO",
+    "heading": "Intelligence de construction slovaque",
+    "description": "NR-GEO Slovakia est une société leader en géodésie d'ingénierie spécialisée dans la construction souterraine, le creusement de tunnels et la géodésie de précision.",
+    "mission": "Notre mission",
+    "missionText": "Fournir un soutien géodésique précis et fiable pour les infrastructures critiques en mettant l'accent sur les chaînes d'approvisionnement non russes.",
+    "values": "Nos valeurs",
+    "value1": "Précision et qualité",
+    "value2": "Normes européennes",
+    "value3": "Approvisionnement durable",
+    "value4": "Technologie innovante"
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Solutions complètes pour la construction souterraine moderne",
+    "tunneling": {
+      "title": "Tunnels et topographie souterraine",
+      "description": "Services géodésiques spécialisés pour les opérations TBM avec une précision millimétrique."
+    },
+    "scanToBim": {
+      "title": "Scan-to-BIM et jumeaux numériques",
+      "description": "Technologie de balayage laser de pointe pour l'optimisation des matériaux."
+    },
+    "geotechnical": {
+      "title": "Surveillance géotechnique",
+      "description": "Systèmes de capteurs automatisés pour la surveillance de stabilité en temps réel."
+    },
+    "supplyChain": {
+      "title": "Logistique de la chaîne d'approvisionnement",
+      "description": "Approvisionnement certifié en acier de Turquie, d'Inde pour les projets européens."
+    }
+  },
+  "markets": {
+    "title": "Nos marchés",
+    "subtitle": "Opérant là où l'avenir de l'Europe se construit",
+    "scandinavia": {
+      "title": "Scandinavie",
+      "description": "Projets actifs en Suède et en Norvège."
+    },
+    "balkans": {
+      "title": "Balkans - Corridor VIII",
+      "description": "Projets de transit stratégiques reliant l'Europe de l'Est et de l'Ouest."
+    },
+    "ukraine": {
+      "title": "Ukraine - Reconstruction",
+      "description": "Partenariat dans la reconstruction d'infrastructures critiques."
+    },
+    "worldwide": {
+      "title": "Projets mondiaux",
+      "description": "Nous acceptons des projets dans le monde entier - partout où l'ingénierie de précision est nécessaire, nous fournissons l'excellence."
+    }
+  },
+  "projects": {
+    "title": "Références",
+    "subtitle": "Projets sélectionnés de notre portefeuille",
+    "forbifart": {
+      "title": "Förbifart Stockholm",
+      "location": "Suède",
+      "description": "Contournement de Stockholm de 21 km."
+    },
+    "brenner": {
+      "title": "Brenner Base Tunnel",
+      "location": "Autriche/Italie",
+      "description": "Le plus long tunnel ferroviaire souterrain du monde - 64 km."
+    },
+    "railBaltica": {
+      "title": "Rail Baltica",
+      "location": "Pays baltes",
+      "description": "Intégration des États baltes dans le réseau ferroviaire européen."
+    }
+  },
+  "contact": {
+    "title": "Nous contacter",
+    "subtitle": "Prêts à discuter de votre projet",
+    "name": "Nom",
+    "email": "E-mail",
+    "company": "Entreprise",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "info": "Informations de contact",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "emailLabel": "E-mail"
+  },
+  "footer": {
+    "description": "Société slovaque leader en géodésie d'ingénierie spécialisée dans la construction souterraine et les tunnels.",
+    "quickLinks": "Liens rapides",
+    "services": "Services",
+    "markets": "Marchés",
+    "legal": "Légal",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "gdpr": "RGPD",
+    "rights": "Tous droits réservés."
+  }
+}
