@@ -240,7 +240,7 @@ const Projects = () => {
               >
                 {/* Project Card */}
                 <div className={`card p-0 overflow-hidden transition-all duration-300 ${
-                  isExpanded ? 'shadow-2xl border-2 border-primary' : 'hover:shadow-xl'
+                  isExpanded ? 'shadow-2xl border-2 border-primary rounded-b-none' : 'hover:shadow-xl'
                 }`}>
                   {/* Project Image */}
                   <div className="relative h-64 md:h-80 overflow-hidden">
@@ -283,7 +283,9 @@ const Projects = () => {
                   {/* View Details Button */}
                   <div
                     onClick={() => toggleProject(project.key)}
-                    className="p-6 bg-white dark:bg-dark-400 hover:bg-dark-50 transition-colors cursor-pointer border-t border-dark-100"
+                    className={`p-6 bg-white dark:bg-dark-400 hover:bg-dark-50 transition-colors cursor-pointer ${
+                      isExpanded ? 'border-t-2 border-primary' : 'border-t border-dark-100'
+                    }`}
                   >
                     <div className="flex items-center justify-between">
                       <div className="flex items-center text-primary font-semibold group-hover:text-primary-600 transition-colors">
@@ -309,7 +311,7 @@ const Projects = () => {
                       transition={{ duration: 0.3 }}
                       className="overflow-hidden"
                     >
-                      <div className="card dark:bg-dark-400 dark:border-dark-600 mt-4 bg-gradient-to-br from-white to-dark-50 border-2 border-primary/20">
+                      <div className="bg-gradient-to-br from-white to-dark-50 dark:from-dark-400 dark:to-dark-500 border-2 border-t-0 border-primary rounded-b-2xl shadow-2xl p-6 md:p-8">
                         {/* Project Overview */}
                         <div className="mb-8">
                           <h4 className="text-2xl font-bold text-dark-700 dark:text-dark-50 mb-4">Project Overview</h4>
