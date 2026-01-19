@@ -108,17 +108,28 @@ const Navbar = () => {
               </button>
             ))}
 
-            {/* Theme Toggle */}
+            {/* Theme Toggle - Switch Style */}
             <button
               onClick={toggleTheme}
-              className={`p-2 rounded-lg transition-all ${
+              className={`relative flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${
                 scrolled
                   ? 'bg-dark-50 hover:bg-dark-100 text-dark-700 dark:bg-dark-500 dark:hover:bg-dark-600 dark:text-dark-100'
                   : 'bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm'
               }`}
               aria-label="Toggle theme"
             >
-              {isDark ? <Sun size={20} /> : <Moon size={20} />}
+              <div className="relative w-12 h-6 bg-dark-200 dark:bg-dark-700 rounded-full transition-colors">
+                <div
+                  className={`absolute top-0.5 left-0.5 w-5 h-5 bg-primary rounded-full transition-transform duration-300 flex items-center justify-center ${
+                    isDark ? 'translate-x-6' : 'translate-x-0'
+                  }`}
+                >
+                  {isDark ? <Moon size={12} className="text-white" /> : <Sun size={12} className="text-white" />}
+                </div>
+              </div>
+              <span className="text-sm font-medium whitespace-nowrap">
+                {isDark ? 'Dark' : 'Light'}
+              </span>
             </button>
 
             {/* Language Selector */}
@@ -194,15 +205,23 @@ const Navbar = () => {
                 ))}
 
                 {/* Mobile Theme Toggle */}
-                <div className="px-6 py-3 border-t border-dark-100 mt-2">
+                <div className="px-6 py-3 border-t border-dark-100 dark:border-dark-700 mt-2">
                   <button
                     onClick={toggleTheme}
-                    className="w-full flex items-center justify-between px-4 py-3 bg-dark-50 hover:bg-dark-100 rounded-lg transition-colors"
+                    className="w-full flex items-center justify-between px-4 py-3 bg-dark-50 dark:bg-dark-600 hover:bg-dark-100 dark:hover:bg-dark-700 rounded-lg transition-colors"
                   >
-                    <span className="text-sm font-medium text-dark-700">
-                      {isDark ? 'Light Mode' : 'Dark Mode'}
+                    <span className="text-sm font-medium text-dark-700 dark:text-dark-100">
+                      Theme: {isDark ? 'Dark' : 'Light'}
                     </span>
-                    {isDark ? <Sun size={20} className="text-dark-700" /> : <Moon size={20} className="text-dark-700" />}
+                    <div className="relative w-12 h-6 bg-dark-200 dark:bg-dark-800 rounded-full transition-colors">
+                      <div
+                        className={`absolute top-0.5 left-0.5 w-5 h-5 bg-primary rounded-full transition-transform duration-300 flex items-center justify-center ${
+                          isDark ? 'translate-x-6' : 'translate-x-0'
+                        }`}
+                      >
+                        {isDark ? <Moon size={12} className="text-white" /> : <Sun size={12} className="text-white" />}
+                      </div>
+                    </div>
                   </button>
                 </div>
 
