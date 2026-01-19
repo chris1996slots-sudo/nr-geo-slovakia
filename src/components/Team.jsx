@@ -5,32 +5,9 @@ import { Award, Briefcase } from 'lucide-react'
 const Team = () => {
   const { t } = useTranslation()
 
-  // Team members data - can be extended
+  // Team members data - will be populated with 7 team members
   const teamMembers = [
-    {
-      id: 1,
-      name: 'Renáta Rehánková',
-      role: {
-        en: 'Managing Director & Lead Surveyor',
-        de: 'Geschäftsführerin & Leitende Vermesserin',
-        sk: 'Konateľka & Vedúca geodetka',
-        sv: 'VD & Ledande Mätare',
-        no: 'Daglig leder & Ledende Landmåler',
-        es: 'Directora General & Topógrafa Principal',
-        fr: 'Directrice Générale & Géomètre Principal'
-      },
-      experience: 20,
-      skills: {
-        en: ['Underground Surveying', 'TBM Guidance', 'Project Management', 'BIM Coordination'],
-        de: ['Untertagevermessung', 'TBM-Führung', 'Projektmanagement', 'BIM-Koordination'],
-        sk: ['Podzemné meranie', 'Vedenie TBM', 'Projektový manažment', 'BIM koordinácia'],
-        sv: ['Underjordisk mätning', 'TBM-styrning', 'Projektledning', 'BIM-koordinering'],
-        no: ['Underjordisk måling', 'TBM-styring', 'Prosjektledelse', 'BIM-koordinering'],
-        es: ['Topografía subterránea', 'Guía TBM', 'Gestión de proyectos', 'Coordinación BIM'],
-        fr: ['Arpentage souterrain', 'Guidage TBM', 'Gestion de projet', 'Coordination BIM']
-      },
-      image: '/images/team/member1.jpg'
-    }
+    // Awaiting team member data
   ]
 
   return (
