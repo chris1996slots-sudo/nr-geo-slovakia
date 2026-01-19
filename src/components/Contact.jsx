@@ -22,8 +22,20 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // In a real implementation, this would send to a backend
-    console.log('Form submitted:', formData)
+
+    // Create mailto link with form data
+    const subject = encodeURIComponent(`Contact Form: ${formData.name}${formData.company ? ` - ${formData.company}` : ''}`)
+    const body = encodeURIComponent(
+      `Name: ${formData.name}\n` +
+      `Email: ${formData.email}\n` +
+      `Company: ${formData.company || 'N/A'}\n\n` +
+      `Message:\n${formData.message}`
+    )
+
+    // Open email client
+    window.location.href = `mailto:info@nr-geo.sk?subject=${subject}&body=${body}`
+
+    // Show success message
     setIsSubmitted(true)
     setTimeout(() => {
       setIsSubmitted(false)

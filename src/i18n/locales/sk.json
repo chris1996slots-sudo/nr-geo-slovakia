@@ -82,6 +82,11 @@
       "title": "Rail Baltica",
       "location": "Pobaltie",
       "description": "Integrácia pobaltských štátov do európskej železničnej siete."
+    },
+    "jarfalla": {
+      "title": "Järfällatunnel 4713",
+      "location": "Švédsko",
+      "description": "Kritická sekcia obchvatu Štokholmu vyžadujúca presnú podpovrchovú geodéziu."
     }
   },
   "contact": {

@@ -169,10 +169,10 @@ const Services = () => {
                   <div className="flex items-center justify-between">
                     <div className="flex items-center space-x-6 flex-1">
                       {/* Icon */}
-                      <div className={`w-16 h-16 ${service.bgColor} rounded-xl flex items-center justify-center flex-shrink-0 ${
+                      <div className={`w-16 h-16 ${service.bgColor} dark:bg-dark-600 rounded-xl flex items-center justify-center flex-shrink-0 ${
                         isExpanded ? 'scale-110' : 'group-hover:scale-105'
                       } transition-transform duration-300`}>
-                        <Icon className={service.iconColor} size={32} />
+                        <Icon className={`${service.iconColor} dark:text-primary`} size={32} />
                       </div>
 
                       {/* Title & Description */}
@@ -189,8 +189,8 @@ const Services = () => {
                     </div>
 
                     {/* Expand Button */}
-                    <div className={`ml-4 flex-shrink-0 w-10 h-10 rounded-full bg-dark-50 flex items-center justify-center transition-all duration-300 ${
-                      isExpanded ? 'bg-primary text-white rotate-180' : 'group-hover:bg-primary group-hover:text-white'
+                    <div className={`ml-4 flex-shrink-0 w-10 h-10 rounded-full bg-dark-50 dark:bg-dark-600 flex items-center justify-center transition-all duration-300 ${
+                      isExpanded ? 'bg-primary dark:bg-primary text-white rotate-180' : 'group-hover:bg-primary group-hover:text-white'
                     }`}>
                       <ChevronDown size={24} />
                     </div>
@@ -212,13 +212,13 @@ const Services = () => {
                       transition={{ duration: 0.3 }}
                       className="overflow-hidden"
                     >
-                      <div className="card dark:bg-dark-400 dark:border-dark-600 mt-4 bg-gradient-to-br from-white to-dark-50 border-2 border-primary/20">
+                      <div className="card dark:bg-dark-500 dark:border-primary/30 mt-4 bg-gradient-to-br from-white to-dark-50 dark:from-dark-600 dark:to-dark-500 border-2 border-primary/20">
                         {/* Overview */}
                         <div className="mb-8">
                           <div className="flex items-center gap-3 mb-4">
                             {service.detailIcons.map((DetailIcon, idx) => (
-                              <div key={idx} className={`w-8 h-8 ${service.bgColor} rounded-lg flex items-center justify-center`}>
-                                <DetailIcon className={service.iconColor} size={18} />
+                              <div key={idx} className={`w-8 h-8 ${service.bgColor} dark:bg-dark-600 rounded-lg flex items-center justify-center`}>
+                                <DetailIcon className={`${service.iconColor} dark:text-primary`} size={18} />
                               </div>
                             ))}
                           </div>
@@ -254,7 +254,7 @@ const Services = () => {
                               {service.details.technologies.map((tech, idx) => (
                                 <span
                                   key={idx}
-                                  className={`${service.bgColor} ${service.iconColor} text-sm font-semibold px-4 py-2 rounded-lg border-2 border-transparent hover:border-current transition-colors`}
+                                  className={`${service.bgColor} dark:bg-dark-600 ${service.iconColor} dark:text-primary text-sm font-semibold px-4 py-2 rounded-lg border-2 border-transparent hover:border-current transition-colors`}
                                 >
                                   {tech}
                                 </span>

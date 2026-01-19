@@ -40,9 +40,9 @@
       "title": "Geoteknisk övervakning",
       "description": "Automatiserade sensorsystem för realtidsövervakning av stabilitet, deformationsvarningssystem och riskanalys."
     },
-    "supplyChain": {
-      "title": "Leveranskedjelogistik",
-      "description": "Certifierad stålinköp från Turkiet, Indien och andra icke-ryska marknader för europeiska projekt."
+    "cadastral": {
+      "title": "Katastralmätning",
+      "description": "Professionella fastighetsundersökningar, gränsbestämning och juridisk dokumentation för fastighetsförvaltning."
     }
   },
   "markets": {
@@ -82,6 +82,11 @@
       "title": "Rail Baltica",
       "location": "Baltikum",
       "description": "Integrering av baltiska stater i det europeiska järnvägsnätet."
+    },
+    "jarfalla": {
+      "title": "Järfällatunnel 4713",
+      "location": "Sverige",
+      "description": "Kritisk sektion av Stockholms förbifart som kräver precis underjordisk mätning."
     }
   },
   "contact": {

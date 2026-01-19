@@ -40,9 +40,9 @@
       "title": "Surveillance géotechnique",
       "description": "Systèmes de capteurs automatisés pour la surveillance de stabilité en temps réel."
     },
-    "supplyChain": {
-      "title": "Logistique de la chaîne d'approvisionnement",
-      "description": "Approvisionnement certifié en acier de Turquie, d'Inde pour les projets européens."
+    "cadastral": {
+      "title": "Arpentage cadastral",
+      "description": "Levés professionnels de propriétés, détermination des limites et documentation légale pour la gestion des terres."
     }
   },
   "markets": {
@@ -82,6 +82,11 @@
       "title": "Rail Baltica",
       "location": "Pays baltes",
       "description": "Intégration des États baltes dans le réseau ferroviaire européen."
+    },
+    "jarfalla": {
+      "title": "Järfällatunnel 4713",
+      "location": "Suède",
+      "description": "Section critique du contournement de Stockholm nécessitant un relevé souterrain de précision."
     }
   },
   "contact": {
