@@ -16,9 +16,9 @@
   "about": {
     "title": "O spoločnosti NR-GEO",
     "heading": "Slovenská stavebná inteligencia",
-    "description": "NR-GEO Slovakia je popredná spoločnosť pre inžiniersku geodéziu špecializujúca sa na podzemné stavby, tunelovanie a presné meranie. S viac ako dvoma desaťročiami skúseností dodávame riešenia svetového štandardu pre najnáročnejšie projekty v Európe.",
+    "description": "NR-GEO Slovakia je popredná spoločnosť pre inžiniersku geodéziu špecializujúca sa na podzemné stavby, tunelovanie a presné meranie. S dlhoročnými skúsenosťami dodávame riešenia svetového štandardu pre najnáročnejšie projekty v Európe.",
     "mission": "Naša misia",
-    "missionText": "Poskytovať presnú, spoľahlivú geodetickú podporu pre kritickú infraštruktúru s dôrazom na udržateľné postupy a nezávislé dodávateľské reťazce mimo Ruska.",
+    "missionText": "Poskytovať presnú, spoľahlivú geodetickú podporu pre kritickú infraštruktúru s dôrazom na udržateľné postupy a európske štandardy kvality.",
     "values": "Naše hodnoty",
     "value1": "Presnosť a kvalita",
     "value2": "Európske štandardy",
@@ -87,6 +87,11 @@
       "title": "Järfällatunnel 4713",
       "location": "Švédsko",
       "description": "Kritická sekcia obchvatu Štokholmu vyžadujúca presnú podpovrchovú geodéziu."
+    },
+    "tvr": {
+      "title": "TVR E05 Korsvägen",
+      "location": "Göteborg, Švédsko",
+      "description": "Pokročilé tunelovanie a meranie pre hlavný dopravný infraštruktúrny projekt Göteborgu."
     }
   },
   "contact": {

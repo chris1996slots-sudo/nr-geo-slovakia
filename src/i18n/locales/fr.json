@@ -16,9 +16,9 @@
   "about": {
     "title": "À propos de NR-GEO",
     "heading": "Intelligence de construction slovaque",
-    "description": "NR-GEO Slovakia est une société leader en géodésie d'ingénierie spécialisée dans la construction souterraine, le creusement de tunnels et la géodésie de précision.",
+    "description": "NR-GEO Slovakia est une société leader en géodésie d'ingénierie spécialisée dans la construction souterraine, le creusement de tunnels et la géodésie de précision. Avec une vaste expérience, nous livrons des solutions de classe mondiale pour les projets les plus exigeants d'Europe.",
     "mission": "Notre mission",
-    "missionText": "Fournir un soutien géodésique précis et fiable pour les infrastructures critiques en mettant l'accent sur les chaînes d'approvisionnement non russes.",
+    "missionText": "Fournir un soutien géodésique précis et fiable pour les infrastructures critiques en mettant l'accent sur les pratiques durables et les normes de qualité européennes.",
     "values": "Nos valeurs",
     "value1": "Précision et qualité",
     "value2": "Normes européennes",
@@ -87,6 +87,11 @@
       "title": "Järfällatunnel 4713",
       "location": "Suède",
       "description": "Section critique du contournement de Stockholm nécessitant un relevé souterrain de précision."
+    },
+    "tvr": {
+      "title": "TVR E05 Korsvägen",
+      "location": "Göteborg, Suède",
+      "description": "Relevé de tunnel avancé pour le grand projet d'infrastructure de transport de Göteborg."
     }
   },
   "contact": {

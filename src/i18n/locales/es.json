@@ -16,9 +16,9 @@
   "about": {
     "title": "Sobre NR-GEO",
     "heading": "Inteligencia de construcción eslovaca",
-    "description": "NR-GEO Slovakia es una empresa líder en topografía de ingeniería especializada en construcción subterránea, túneles y geodesia de precisión. Con más de dos décadas de experiencia, ofrecemos soluciones de clase mundial para los proyectos más exigentes de Europa.",
+    "description": "NR-GEO Slovakia es una empresa líder en topografía de ingeniería especializada en construcción subterránea, túneles y geodesia de precisión. Con amplia experiencia, ofrecemos soluciones de clase mundial para los proyectos más exigentes de Europa.",
     "mission": "Nuestra misión",
-    "missionText": "Proporcionar soporte geodésico preciso y confiable para infraestructura crítica con énfasis en prácticas sostenibles y cadenas de suministro no rusas.",
+    "missionText": "Proporcionar soporte geodésico preciso y confiable para infraestructura crítica con énfasis en prácticas sostenibles y estándares de calidad europeos.",
     "values": "Nuestros valores",
     "value1": "Precisión y calidad",
     "value2": "Estándares europeos",
@@ -87,6 +87,11 @@
       "title": "Järfällatunnel 4713",
       "location": "Suecia",
       "description": "Sección crítica del bypass de Estocolmo que requiere topografía subterránea de precisión."
+    },
+    "tvr": {
+      "title": "TVR E05 Korsvägen",
+      "location": "Gotemburgo, Suecia",
+      "description": "Topografía avanzada de túneles para el importante proyecto de infraestructura de transporte de Gotemburgo."
     }
   },
   "contact": {

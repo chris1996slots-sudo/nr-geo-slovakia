@@ -186,6 +186,40 @@ const Projects = () => {
         teamSize: '4-6 specialists'
       }
     },
+    {
+      key: 'tvr',
+      image: '/images/projects/tvr/tvr-1.jpg',
+      images: [
+        '/images/projects/tvr/tvr-1.jpg',
+        '/images/projects/tvr/tvr-2.jpg',
+        '/images/projects/tvr/tvr-3.jpg',
+        '/images/projects/tvr/tvr-4.jpg',
+        '/images/projects/tvr/tvr-5.jpg',
+        '/images/projects/tvr/tvr-6.jpg',
+        '/images/projects/tvr/tvr-7.jpg',
+      ],
+      stats: ['E05 Route', 'Gothenburg', 'Metro Expansion'],
+      details: {
+        overview: 'TVR E05 Korsvägen is a critical component of Gothenburg\'s public transport expansion, connecting major city districts through underground infrastructure. NR-GEO provided comprehensive tunnel surveying and monitoring services for this technically demanding urban project.',
+        scope: [
+          'Urban tunnel surveying in densely populated area',
+          'Integration with existing metro infrastructure',
+          'Real-time monitoring of sensitive buildings',
+          'Precision alignment for metro tunnel excavation',
+          'Deformation analysis and risk assessment',
+          'Coordination with city planning authorities'
+        ],
+        achievements: [
+          'Zero service disruption to existing metro operations',
+          'Maintained millimeter precision in urban environment',
+          'Successfully navigated complex underground utilities',
+          'Delivered comprehensive as-built documentation'
+        ],
+        client: 'Trafikverket / Gothenburg Municipality',
+        duration: '2020-2024',
+        teamSize: '6-8 specialists'
+      }
+    },
   ]
 
   const toggleProject = (key) => {

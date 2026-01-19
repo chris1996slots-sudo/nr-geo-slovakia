@@ -16,9 +16,9 @@
   "about": {
     "title": "Om NR-GEO",
     "heading": "Slovakisk byggeintelligens",
-    "description": "NR-GEO Slovakia er et ledende ingeniørmåleselskap som spesialiserer seg på underjordisk konstruksjon, tunnelbygging og presisjonsmåling. Med over to tiår med erfaring leverer vi løsninger i verdensklasse for Europas mest krevende prosjekter.",
+    "description": "NR-GEO Slovakia er et ledende ingeniørmåleselskap som spesialiserer seg på underjordisk konstruksjon, tunnelbygging og presisjonsmåling. Med mangeårig erfaring leverer vi løsninger i verdensklasse for Europas mest krevende prosjekter.",
     "mission": "Vårt oppdrag",
-    "missionText": "Å tilby presis, pålitelig geodetisk støtte for kritisk infrastruktur med vekt på bærekraftige metoder og ikke-russiske forsyningskjeder.",
+    "missionText": "Å tilby presis, pålitelig geodetisk støtte for kritisk infrastruktur med vekt på bærekraftige metoder og europeiske kvalitetsstandarder.",
     "values": "Våre verdier",
     "value1": "Presisjon & kvalitet",
     "value2": "Europeiske standarder",
@@ -87,6 +87,11 @@
       "title": "Järfällatunnel 4713",
       "location": "Sverige",
       "description": "Kritisk seksjon av Stockholms omkjøringsvei som krever presis underjordisk måling."
+    },
+    "tvr": {
+      "title": "TVR E05 Korsvägen",
+      "location": "Göteborg, Sverige",
+      "description": "Avansert tunnelmåling for Göteborgs store transportinfrastrukturprosjekt."
     }
   },
   "contact": {

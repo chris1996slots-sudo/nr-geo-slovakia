@@ -16,9 +16,9 @@
   "about": {
     "title": "Über NR-GEO",
     "heading": "Slowakische Bauintelligenz",
-    "description": "NR-GEO Slowakei ist ein führendes Ingenieurbüro für Vermessung, spezialisiert auf Untertagebau, Tunnelbau und Präzisionsgeodäsie. Mit über zwei Jahrzehnten Erfahrung liefern wir erstklassige Lösungen für Europas anspruchsvollste Projekte.",
+    "description": "NR-GEO Slowakei ist ein führendes Ingenieurbüro für Vermessung, spezialisiert auf Untertagebau, Tunnelbau und Präzisionsgeodäsie. Mit langjähriger Erfahrung liefern wir erstklassige Lösungen für Europas anspruchsvollste Projekte.",
     "mission": "Unsere Mission",
-    "missionText": "Präzise, zuverlässige geodätische Unterstützung für kritische Infrastruktur mit Schwerpunkt auf nachhaltigen Praktiken und nicht-russischen Lieferketten.",
+    "missionText": "Präzise, zuverlässige geodätische Unterstützung für kritische Infrastruktur mit Schwerpunkt auf nachhaltigen Praktiken und europäischen Qualitätsstandards.",
     "values": "Unsere Werte",
     "value1": "Präzision & Qualität",
     "value2": "Europäische Standards",
@@ -87,6 +87,11 @@
       "title": "Järfällatunnel 4713",
       "location": "Schweden",
       "description": "Kritischer Abschnitt der Stockholmer Umgehung, der präzise Untergrundvermessung erfordert."
+    },
+    "tvr": {
+      "title": "TVR E05 Korsvägen",
+      "location": "Göteborg, Schweden",
+      "description": "Fortschrittliche Tunnelvermessung für Göteborgs wichtiges Verkehrsinfrastrukturprojekt."
     }
   },
   "contact": {
