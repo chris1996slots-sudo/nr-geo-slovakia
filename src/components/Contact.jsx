@@ -13,15 +13,37 @@ const Contact = () => {
   })
   const [isSubmitted, setIsSubmitted] = useState(false)
 
+  const sanitizeInput = (input) => {
+    // Basic sanitization: remove potentially harmful characters
+    return input
+      .replace(/[<>]/g, '') // Remove < and > to prevent HTML injection
+      .replace(/javascript:/gi, '') // Remove javascript: protocol
+      .replace(/on\w+=/gi, '') // Remove event handlers like onclick=
+      .trim()
+  }
+
   const handleChange = (e) => {
+    const sanitized = sanitizeInput(e.target.value)
     setFormData({
       ...formData,
-      [e.target.name]: e.target.value,
+      [e.target.name]: sanitized,
     })
   }
 
   const handleSubmit = (e) => {
     e.preventDefault()
+
+    // Additional validation
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+    if (!emailRegex.test(formData.email)) {
+      alert('Please enter a valid email address.')
+      return
+    }
+
+    if (formData.message.length < 10) {
+      alert('Please provide a more detailed message (minimum 10 characters).')
+      return
+    }
 
     // Create mailto link with form data
     const subject = encodeURIComponent(`Contact Form: ${formData.name}${formData.company ? ` - ${formData.company}` : ''}`)
