@@ -4,6 +4,11 @@ import { X, ChevronLeft, ChevronRight } from 'lucide-react'
 
 const ImageLightbox = ({ images, initialIndex = 0, onClose }) => {
   const [currentIndex, setCurrentIndex] = useState(initialIndex)
+  const [touchStart, setTouchStart] = useState(null)
+  const [touchEnd, setTouchEnd] = useState(null)
+
+  // Minimum swipe distance (in px)
+  const minSwipeDistance = 50
 
   useEffect(() => {
     const handleKeyDown = (e) => {
@@ -20,6 +25,29 @@ const ImageLightbox = ({ images, initialIndex = 0, onClose }) => {
       document.body.style.overflow = 'unset'
     }
   }, [currentIndex])
+
+  const onTouchStart = (e) => {
+    setTouchEnd(null)
+    setTouchStart(e.targetTouches[0].clientX)
+  }
+
+  const onTouchMove = (e) => {
+    setTouchEnd(e.targetTouches[0].clientX)
+  }
+
+  const onTouchEnd = () => {
+    if (!touchStart || !touchEnd) return
+
+    const distance = touchStart - touchEnd
+    const isLeftSwipe = distance > minSwipeDistance
+    const isRightSwipe = distance < -minSwipeDistance
+
+    if (isLeftSwipe) {
+      goToNext()
+    } else if (isRightSwipe) {
+      goToPrevious()
+    }
+  }
 
   const goToNext = () => {
     setCurrentIndex((prev) => (prev + 1) % images.length)
@@ -89,6 +117,9 @@ const ImageLightbox = ({ images, initialIndex = 0, onClose }) => {
           transition={{ duration: 0.3 }}
           className="max-w-7xl max-h-[90vh] mx-auto px-4"
           onClick={(e) => e.stopPropagation()}
+          onTouchStart={onTouchStart}
+          onTouchMove={onTouchMove}
+          onTouchEnd={onTouchEnd}
         >
           <img
             src={images[currentIndex]}
