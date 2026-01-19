@@ -252,7 +252,7 @@ const Projects = () => {
                     <div className="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/50 to-transparent" />
 
                     {/* Location Badge */}
-                    <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm rounded-full px-4 py-2 flex items-center space-x-2 text-sm font-semibold text-dark-700 dark:text-dark-50">
+                    <div className="absolute top-4 right-4 bg-white dark:bg-dark-700 backdrop-blur-sm rounded-full px-4 py-2 flex items-center space-x-2 text-sm font-semibold text-dark-700 dark:text-white shadow-lg">
                       <MapPin size={16} className="text-primary" />
                       <span>{t(`projects.${project.key}.location`)}</span>
                     </div>
