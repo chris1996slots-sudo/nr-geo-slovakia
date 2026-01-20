@@ -40,7 +40,7 @@
     "tunneling": {
       "title": "Tunnelbygge & underjordisk mätning",
       "description": "Specialiserade geodetiska tjänster för TBM-operationer, tunnelborrning och underjordiska grottor med millimeterprecision.",
-      "overview": "Specialiserade geodetiska tjänster för underjordisk konstruktion med millimeterprecision. Över 20 års erfarenhet av Europas mest krävande tunnelprojekt.",
+      "overview": "Specialiserade geodetiska tjänster för underjordisk konstruktion med millimeterprecision. Över 20 års erfarenhet av de mest krävande tunnelprojekten i Europa.",
       "capabilities": [
         "TBM (Tunnel Boring Machine) styrning och övervakning",
         "Etablering av underjordiska kontrollnätverk",
@@ -59,7 +59,7 @@
       "experience": "150+ km tunnlar uppmätta över Skandinavien, Alperna och Balkan"
     },
     "scanToBim": {
-      "title": "Scaning 3D BIM Projection & digitala tvillingar",
+      "title": "3D-skanning",
       "description": "Toppmodern laserskanningsteknologi för materialoptimering och infrastrukturens livscykelhantering.",
       "overview": "Toppmodern 3D-verklighetsupptagning omvandlad till intelligenta BIM-modeller. Materialoptimeringsteknologi som minskar betonganvändningen med upp till 15% genom noggrann as-built modellering.",
       "capabilities": [

@@ -40,7 +40,7 @@
     "tunneling": {
       "title": "Tunnel- & Untergrundvermessung",
       "description": "Spezialisierte geodätische Dienstleistungen für TBM-Operationen, Tunnelvortrieb und unterirdische Kavernen mit Millimeterpräzision.",
-      "overview": "Spezialisierte geodätische Dienstleistungen für Untertagebau mit Millimeterpräzision. Über 20 Jahre Erfahrung in den anspruchsvollsten Tunnelprojekten Europas.",
+      "overview": "Spezialisierte geodätische Dienstleistungen für den Untertagebau mit Millimeterpräzision. Über 20 Jahre Erfahrung in den anspruchsvollsten Tunnelprojekten in ganz Europa.",
       "capabilities": [
         "TBM (Tunnelbohrmaschine) Führung und Überwachung",
         "Einrichtung unterirdischer Kontrollnetze",
@@ -59,7 +59,7 @@
       "experience": "150+ km Tunnel vermessen in Skandinavien, Alpen und Balkan"
     },
     "scanToBim": {
-      "title": "Scaning 3D BIM Projection & Digitale Zwillinge",
+      "title": "3D-Scannen",
       "description": "Modernste Laserscanning-Technologie für Materialoptimierung und Infrastruktur-Lebenszyklusmanagement.",
       "overview": "Modernste 3D-Realitätserfassung transformiert in intelligente BIM-Modelle. Materialoptimierungstechnologie, die den Betonverbrauch durch präzise Bestandsmodellierung um bis zu 15% reduziert.",
       "capabilities": [
