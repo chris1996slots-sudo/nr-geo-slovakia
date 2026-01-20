@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { motion } from 'framer-motion'
-import { Award, Briefcase } from 'lucide-react'
+import { Award } from 'lucide-react'
 
 const Team = () => {
   const { t } = useTranslation()
@@ -238,34 +238,11 @@ const Team = () => {
                   </div>
 
                   {/* Experience Badge */}
-                  <div className="flex items-center gap-2 mb-3 p-2 bg-primary-50 dark:bg-dark-600 rounded-lg border border-primary-100 dark:border-dark-600">
+                  <div className="flex items-center gap-2 p-2 bg-primary-50 dark:bg-dark-600 rounded-lg border border-primary-100 dark:border-dark-600">
                     <Award className="text-primary dark:text-primary-300 flex-shrink-0" size={16} />
                     <span className="text-dark-700 dark:text-dark-100 font-semibold text-sm">
                       {member.experience}+ {t('team.yearsExperience')}
                     </span>
-                  </div>
-
-                  {/* Skills */}
-                  <div className="mb-2">
-                    <div className="flex items-center gap-2 mb-2">
-                      <Briefcase className="text-primary dark:text-primary-300" size={16} />
-                      <h4 className="font-bold text-dark-700 dark:text-dark-100 text-sm">{t('team.skills')}</h4>
-                    </div>
-                    <div className="flex flex-wrap gap-1.5">
-                      {member.skills[t('nav.home') === 'Home' ? 'en' :
-                                    t('nav.home') === 'Start' ? 'de' :
-                                    t('nav.home') === 'Hem' ? 'sv' :
-                                    t('nav.home') === 'Hjem' ? 'no' :
-                                    t('nav.home') === 'Inicio' ? 'es' :
-                                    t('nav.home') === 'Accueil' ? 'fr' : 'sk'].map((skill, idx) => (
-                        <span
-                          key={idx}
-                          className="px-2 py-1 bg-dark-100 dark:bg-dark-600 text-dark-700 dark:text-dark-100 border border-dark-200 dark:border-dark-600 rounded-full text-xs font-medium hover:bg-primary hover:text-white dark:hover:bg-primary transition-colors cursor-default"
-                        >
-                          {skill}
-                        </span>
-                      ))}
-                    </div>
                   </div>
                 </div>
               </div>
