@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'framer-motion'
-import { CircleDot, ScanLine, Activity, ChevronDown, CheckCircle, Ruler, Cpu, TrendingUp, Shield, Clock, Users } from 'lucide-react'
+import { CircleDot, ScanLine, Activity, ChevronDown, CheckCircle, Cpu, TrendingUp, Shield, Clock } from 'lucide-react'
 
 const Services = () => {
   const { t } = useTranslation()
@@ -31,15 +31,7 @@ const Services = () => {
       bgColor: 'bg-green-50',
       iconColor: 'text-green-600',
       detailIcons: [Activity, Shield, Clock]
-    },
-    {
-      key: 'cadastral',
-      icon: Ruler,
-      gradient: 'from-orange-500 to-orange-600',
-      bgColor: 'bg-orange-50',
-      iconColor: 'text-orange-600',
-      detailIcons: [Ruler, CheckCircle, Users]
-    },
+    }
   ]
 
   const toggleService = (key) => {

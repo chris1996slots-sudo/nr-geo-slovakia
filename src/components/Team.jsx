@@ -20,7 +20,7 @@ const Team = () => {
         fr: 'Géomètre en Chef'
       },
       experience: 12,
-      image: '/images/team/worker7.jpeg'
+      image: '/images/team/worker7.webp'
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const Team = () => {
         fr: 'Géomètre en Chef'
       },
       experience: 10,
-      image: '/images/team/worker2.jpeg'
+      image: '/images/team/worker2.webp'
     },
     {
       id: 3,
@@ -50,7 +50,7 @@ const Team = () => {
         fr: 'Géomètre'
       },
       experience: 16,
-      image: '/images/team/worker1.jpeg'
+      image: '/images/team/worker1.webp'
     },
     {
       id: 4,
@@ -65,7 +65,7 @@ const Team = () => {
         fr: 'Géomètre'
       },
       experience: 11,
-      image: '/images/team/worker3.jpeg'
+      image: '/images/team/worker3.webp'
     },
     {
       id: 5,
@@ -80,7 +80,7 @@ const Team = () => {
         fr: 'Géomètre'
       },
       experience: 12,
-      image: '/images/team/worker6.jpeg'
+      image: '/images/team/worker6.webp'
     },
     {
       id: 6,
@@ -95,7 +95,7 @@ const Team = () => {
         fr: 'Géomètre'
       },
       experience: 6,
-      image: '/images/team/worker5.jpeg'
+      image: '/images/team/worker5.webp'
     },
     {
       id: 7,
@@ -110,7 +110,7 @@ const Team = () => {
         fr: 'Géomètre'
       },
       experience: 7,
-      image: '/images/team/worker4.jpeg'
+      image: '/images/team/worker4.webp'
     }
   ]
 
