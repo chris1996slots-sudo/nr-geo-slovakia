@@ -65,7 +65,6 @@
       "capabilities": [
         "Hochdichte Punktwolkenerfassung",
         "Scan-to-BIM Modellerstellung",
-        "Digitale Zwillinge für Infrastruktur",
         "Materialmengenoptimierung",
         "Kollisionserkennung und -vermeidung",
         "Vorbereitung für Lebenszyklus-Asset-Management"
@@ -99,27 +98,6 @@
         "Machine Learning für Vorhersagen"
       ],
       "experience": "Überwachung kritischer Infrastruktur in 12 europäischen Ländern"
-    },
-    "cadastral": {
-      "title": "Katastervermessung",
-      "description": "Professionelle Grundstücksvermessungen, Grenzfeststellung und rechtliche Dokumentation für Grundstücksverwaltung.",
-      "overview": "Professionelle Katastervermessung und Grundstücksverwaltungsdienste. Grenzfeststellung, Grundstücksvermessungen und rechtliche Dokumentation für Infrastruktur- und Entwicklungsprojekte.",
-      "capabilities": [
-        "Katastergrenzenvermessung und Absteckung",
-        "Grundstücksgrenzenbestimmung und Kartierung",
-        "Topografische Vermessungen für Bauplanung",
-        "Bestandsvermessungen für fertiggestellte Bauwerke",
-        "Rechtliche Dokumentation und Koordinatensysteme",
-        "Grundbuchintegration und Einreichungen"
-      ],
-      "technologies": [
-        "GNSS RTK Vermessung",
-        "Totalstations-Netze",
-        "Digitale Katastersysteme",
-        "CAD & GIS Integration",
-        "Slowakisches Katasterportal Integration"
-      ],
-      "experience": "Lizenzierte Vermesser mit 20+ Jahren für slowakische und internationale Projekte"
     }
   },
   "markets": {
@@ -184,52 +162,6 @@
       "clientName": "Schwedische Verkehrsverwaltung",
       "durationPeriod": "2015-2026",
       "teamSizeCount": "8-12 Spezialisten vor Ort"
-    },
-    "brenner": {
-      "title": "Brenner Basistunnel",
-      "location": "Österreich/Italien",
-      "description": "Der längste Eisenbahntunnel der Welt im Untergrund - 64 km.",
-      "overview": "Der Brenner Basistunnel ist der längste Eisenbahntunnel der Welt im Untergrund und verbindet Österreich und Italien durch die Alpen. NR-GEO trug mit spezialisiertem Vermessungs-Know-how zu diesem ingenieurtechnischen Meisterwerk bei.",
-      "scope": [
-        "Hochpräzise Alpenvermessung unter extremen Bedingungen",
-        "Grenzüberschreitende geodätische Netzabstimmung",
-        "Temperaturkompensierte Messungen für alpine Umgebung",
-        "Integration mit italienischen und österreichischen Vermessungssystemen",
-        "Präzisionsplanung für Tunneldurchschlag",
-        "Kontinuierliche Überwachung von Bergverformungen"
-      ],
-      "achievements": [
-        "Beitrag zum erfolgreichen Tunneldurchschlag mit <1cm Abweichung",
-        "Präzision trotz 1800m Berg darüber aufrechterhalten",
-        "Internationale Vermessungsteams koordiniert (AT/IT)",
-        "Innovative alpine Überwachungssysteme etabliert"
-      ],
-      "clientName": "BBT SE (Brenner Basistunnel)",
-      "durationPeriod": "2017-2024",
-      "teamSizeCount": "4-6 Spezialisten"
-    },
-    "railBaltica": {
-      "title": "Rail Baltica",
-      "location": "Baltikum",
-      "description": "Integration der baltischen Staaten in das europäische Bahnnetz.",
-      "overview": "Rail Baltica ist ein transformatives europäisches Verkehrsprojekt, das die baltischen Staaten (Estland, Lettland, Litauen) mit dem europäischen Hochgeschwindigkeitsbahnnetz verbindet. NR-GEO erbrachte Vermessungs- und Kontrollnetzleistungen für kritische Tunnelabschnitte.",
-      "scope": [
-        "Geodätische Kontrollnetze für grenzüberschreitende Ausrichtung",
-        "Präzisionsvermessung für Hochgeschwindigkeitsbahnstandards",
-        "Tunnelvermessung für Unterführungen und Abschnitte",
-        "Integration mit baltischen nationalen Vermessungssystemen",
-        "Qualitätskontrollvermessung für Gleisbau",
-        "Bestandsdokumentation für EU-Berichtsanforderungen"
-      ],
-      "achievements": [
-        "Erfolgreich internationale geodätische Standards harmonisiert",
-        "Präzision für 240 km/h Hochgeschwindigkeitsbahnanforderungen erreicht",
-        "Mit Ingenieurbüros aus 3 Ländern koordiniert",
-        "EU TEN-T Netzwerkspezifikationen geliefert"
-      ],
-      "clientName": "RB Rail AS (Rail Baltica)",
-      "durationPeriod": "2019-2024",
-      "teamSizeCount": "3-5 Spezialisten"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",

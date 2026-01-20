@@ -65,7 +65,6 @@
       "capabilities": [
         "Acquisition de nuages de points haute densité",
         "Création de modèles Scan-to-BIM",
-        "Développement de jumeaux numériques pour l'infrastructure",
         "Optimisation des quantités de matériaux",
         "Détection et prévention des conflits",
         "Préparation de la gestion des actifs du cycle de vie"
@@ -99,27 +98,6 @@
         "Machine Learning pour prédiction"
       ],
       "experience": "Surveillance d'infrastructures critiques dans 12 pays européens"
-    },
-    "cadastral": {
-      "title": "Arpentage cadastral",
-      "description": "Levés professionnels de propriétés, détermination des limites et documentation légale pour la gestion des terres.",
-      "overview": "Services professionnels d'arpentage cadastral et de gestion foncière. Détermination des limites, levés de propriété et documentation légale pour projets d'infrastructure et de développement.",
-      "capabilities": [
-        "Levés et jalonnement des limites cadastrales",
-        "Détermination et cartographie des lignes de propriété",
-        "Levés topographiques pour planification de construction",
-        "Levés as-built pour structures terminées",
-        "Documentation légale et systèmes de coordonnées",
-        "Intégration et soumissions au registre foncier"
-      ],
-      "technologies": [
-        "Arpentage GNSS RTK",
-        "Réseaux de stations totales",
-        "Systèmes cadastraux numériques",
-        "Intégration CAO & SIG",
-        "Intégration portail cadastral slovaque"
-      ],
-      "experience": "Arpenteurs agréés avec 20+ ans au service de projets slovaques et internationaux"
     }
   },
   "markets": {
@@ -184,52 +162,6 @@
       "clientName": "Administration suédoise des transports",
       "durationPeriod": "2015-2026",
       "teamSizeCount": "8-12 spécialistes sur site"
-    },
-    "brenner": {
-      "title": "Brenner Base Tunnel",
-      "location": "Autriche/Italie",
-      "description": "Le plus long tunnel ferroviaire souterrain du monde - 64 km.",
-      "overview": "Le tunnel de base du Brenner est le plus long tunnel ferroviaire souterrain du monde, reliant l'Autriche et l'Italie à travers les Alpes. NR-GEO a contribué avec une expertise spécialisée en géodésie à ce chef-d'œuvre d'ingénierie.",
-      "scope": [
-        "Levé alpin de haute précision dans des conditions extrêmes",
-        "Ajustement de réseau géodésique transfrontalier",
-        "Mesures compensées en température pour environnement alpin",
-        "Intégration avec les systèmes de levé italiens et autrichiens",
-        "Planification de précision pour la percée du tunnel",
-        "Surveillance continue de la déformation des montagnes"
-      ],
-      "achievements": [
-        "A contribué à la percée réussie du tunnel avec une déviation <1cm",
-        "Maintenu la précision malgré 1800m de montagne au-dessus",
-        "Coordonné des équipes de levé internationales (AT/IT)",
-        "Établi des systèmes de surveillance alpins innovants"
-      ],
-      "clientName": "BBT SE (Brenner Basistunnel)",
-      "durationPeriod": "2017-2024",
-      "teamSizeCount": "4-6 spécialistes"
-    },
-    "railBaltica": {
-      "title": "Rail Baltica",
-      "location": "Pays baltes",
-      "description": "Intégration des États baltes dans le réseau ferroviaire européen.",
-      "overview": "Rail Baltica est un projet de transport européen transformateur reliant les États baltes (Estonie, Lettonie, Lituanie) au réseau ferroviaire européen à grande vitesse. NR-GEO a fourni des services de levé et de réseau de contrôle pour les sections critiques de tunnels.",
-      "scope": [
-        "Réseaux de contrôle géodésiques pour alignement transfrontalier",
-        "Levé de précision pour les normes ferroviaires à grande vitesse",
-        "Levé de tunnels pour passages inférieurs et sections",
-        "Intégration avec les systèmes de levé nationaux baltes",
-        "Levé de contrôle qualité pour la construction de voies",
-        "Documentation selon constructions pour les exigences de reporting de l'UE"
-      ],
-      "achievements": [
-        "Harmonisé avec succès les normes géodésiques internationales",
-        "Atteint la précision pour les exigences de train à grande vitesse de 240 km/h",
-        "Coordonné avec des cabinets d'ingénierie de 3 pays",
-        "Livré les spécifications du réseau TEN-T de l'UE"
-      ],
-      "clientName": "RB Rail AS (Rail Baltica)",
-      "durationPeriod": "2019-2024",
-      "teamSizeCount": "3-5 spécialistes"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",

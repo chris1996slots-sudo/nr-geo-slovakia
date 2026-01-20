@@ -65,7 +65,6 @@
       "capabilities": [
         "Högdensitets punktmolnsanskaffning",
         "Scan-to-BIM modellskapande",
-        "Digital Twin-utveckling för infrastruktur",
         "Materialkvantitetsoptimering",
         "Kollisionsdetektering och förebyggande",
         "Förberedelse för livscykelhantering av tillgångar"
@@ -99,27 +98,6 @@
         "Machine Learning för förutsägelse"
       ],
       "experience": "Övervakning av kritisk infrastruktur i 12 europeiska länder"
-    },
-    "cadastral": {
-      "title": "Katastralmätning",
-      "description": "Professionella fastighetsundersökningar, gränsbestämning och juridisk dokumentation för fastighetsförvaltning.",
-      "overview": "Professionella katastermätnings- och markförvaltningsstjänster. Gränsbestämning, fastighetsundersökningar och juridisk dokumentation för infrastruktur- och utvecklingsprojekt.",
-      "capabilities": [
-        "Katastergränsundersökningar och utsättning",
-        "Fastighetslinjebestämning och kartläggning",
-        "Topografiska undersökningar för byggplanering",
-        "As-built undersökningar för färdiga strukturer",
-        "Juridisk dokumentation och koordinatsystem",
-        "Integration och inlämningar till fastighetsregister"
-      ],
-      "technologies": [
-        "GNSS RTK-mätning",
-        "Totalstationsnätverk",
-        "Digitala katastersystem",
-        "CAD & GIS-integration",
-        "Slovakisk katasterportalintegration"
-      ],
-      "experience": "Licensierade lantmätare med 20+ års erfarenhet av slovakiska och internationella projekt"
     }
   },
   "markets": {
@@ -184,52 +162,6 @@
       "clientName": "Trafikverket",
       "durationPeriod": "2015-2026",
       "teamSizeCount": "8-12 specialister på plats"
-    },
-    "brenner": {
-      "title": "Brenner Base Tunnel",
-      "location": "Österrike/Italien",
-      "description": "Världens längsta underjordiska järnvägstunnel - 64 km.",
-      "overview": "Brenner Bastunnel är världens längsta underjordiska järnvägstunnel som förbinder Österrike och Italien genom Alperna. NR-GEO bidrog med specialiserad mätningskompetens till detta tekniska mästerverk.",
-      "scope": [
-        "Högprecisionsalpinmätning under extrema förhållanden",
-        "Gränsöverskridande geodetisk nätverksjustering",
-        "Temperaturkompenserade mätningar för alpin miljö",
-        "Integration med italienska och österrikiska mätsystem",
-        "Precisionplanering för tunnelgenombrott",
-        "Kontinuerlig övervakning av bergdeformation"
-      ],
-      "achievements": [
-        "Bidrog till framgångsrikt tunnelgenombrott med <1cm avvikelse",
-        "Bibehållen noggrannhet trots 1800m berg ovanför",
-        "Koordinerade internationella mätteam (AT/IT)",
-        "Etablerade innovativa alpina övervakningssystem"
-      ],
-      "clientName": "BBT SE (Brenner Basistunnel)",
-      "durationPeriod": "2017-2024",
-      "teamSizeCount": "4-6 specialister"
-    },
-    "railBaltica": {
-      "title": "Rail Baltica",
-      "location": "Baltikum",
-      "description": "Integrering av baltiska stater i det europeiska järnvägsnätet.",
-      "overview": "Rail Baltica är ett transformativt europeiskt transportprojekt som förbinder de baltiska staterna (Estland, Lettland, Litauen) med det europeiska höghastighetstågnätverket. NR-GEO tillhandahöll mätnings- och kontrollnätverkstjänster för kritiska tunnelsektioner.",
-      "scope": [
-        "Geodetiska kontrollnätverk för gränsöverskridande justering",
-        "Precisionsmätning för höghastighetstågsstandard",
-        "Tunnelmätning för underföringar och sektioner",
-        "Integration med baltiska nationella mätsystem",
-        "Kvalitetskontrollmätning för rälsbyggnad",
-        "As-built dokumentation för EU-rapporteringskrav"
-      ],
-      "achievements": [
-        "Framgångsrikt harmoniserade internationella geodetiska standarder",
-        "Uppnådde precision för höghastighetstågs krav på 240 km/h",
-        "Koordinerade med ingenjörsfirmor från 3 länder",
-        "Levererade EU TEN-T nätverksspecifikationer"
-      ],
-      "clientName": "RB Rail AS (Rail Baltica)",
-      "durationPeriod": "2019-2024",
-      "teamSizeCount": "3-5 specialister"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",

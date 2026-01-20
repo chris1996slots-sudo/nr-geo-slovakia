@@ -99,27 +99,6 @@
         "Strojové učenie pre predpovede"
       ],
       "experience": "Monitorovanie kritickej infraštruktúry v 12 európskych krajinách"
-    },
-    "cadastral": {
-      "title": "Katastrálne meranie",
-      "description": "Profesionálne zameranie nehnuteľností, určovanie hraníc a právna dokumentácia pre správu pozemkov.",
-      "overview": "Profesionálne katastrálne meranie a služby správy pozemkov. Určovanie hraníc, zameranie nehnuteľností a právna dokumentácia pre infraštruktúrne a rozvojové projekty.",
-      "capabilities": [
-        "Katastrálne meranie hraníc a vytyčovanie",
-        "Určovanie a mapovanie hraníc pozemkov",
-        "Topografické merania pre stavebnú plánovanie",
-        "As-built merania pre dokončené stavby",
-        "Právna dokumentácia a súradnicové systémy",
-        "Integrácia a podania katastra nehnuteľností"
-      ],
-      "technologies": [
-        "GNSS RTK meranie",
-        "Siete totálnych staníc",
-        "Digitálne katastrálne systémy",
-        "CAD & GIS integrácia",
-        "Integrácia slovenského katastrálneho portálu"
-      ],
-      "experience": "Licencovaní geodeti s 20+ rokmi pre slovenské a medzinárodné projekty"
     }
   },
   "markets": {
@@ -184,52 +163,6 @@
       "clientName": "Švédska dopravná správa",
       "durationPeriod": "2015-2026",
       "teamSizeCount": "8-12 špecialistov na mieste"
-    },
-    "brenner": {
-      "title": "Brenner Base Tunnel",
-      "location": "Rakúsko/Taliansko",
-      "description": "Najdlhší podzemný železničný tunel na svete - 64 km.",
-      "overview": "Brenner Base Tunnel je najdlhší podzemný železničný tunel na svete, spájajúci Rakúsko a Taliansko cez Alpy. NR-GEO prispela špecializovanými geodetickými znalosťami k tomuto inžinierskemu majstrovskému dielu.",
-      "scope": [
-        "Vysoko presné alpské meranie za extrémnych podmienok",
-        "Cezhraničné zosúladenie geodetických sietí",
-        "Teplotne kompenzované merania pre alpské prostredie",
-        "Integrácia s talianskymi a rakúskymi meracími systémami",
-        "Plánovanie presnosti prierazu tunela",
-        "Nepretržité monitorovanie deformácie hôr"
-      ],
-      "achievements": [
-        "Prispeli k úspešnému prierazu tunela s odchýlkou <1cm",
-        "Zachovaná presnosť napriek 1800m hore nad tunelom",
-        "Koordinované medzinárodné geodetické tímy (AT/IT)",
-        "Zavedené inovatívne alpské monitorovacie systémy"
-      ],
-      "clientName": "BBT SE (Brenner Basistunnel)",
-      "durationPeriod": "2017-2024",
-      "teamSizeCount": "4-6 špecialistov"
-    },
-    "railBaltica": {
-      "title": "Rail Baltica",
-      "location": "Pobaltie",
-      "description": "Integrácia pobaltských štátov do európskej železničnej siete.",
-      "overview": "Rail Baltica je transformačný európsky dopravný projekt spájajúci pobaltské štáty (Estónsko, Lotyšsko, Litva) s európskou vysokorýchlostnou železničnou sieťou. NR-GEO poskytla geodetické a kontrolné sieťové služby pre kritické tunelovanie.",
-      "scope": [
-        "Geodetické kontrolné siete pre cezhraničné zosúladenie",
-        "Presné meranie pre vysokorýchlostné železničné štandardy",
-        "Tunelovanie pre podjazdy a úseky",
-        "Integrácia s pobaltskými národnými meracími systémami",
-        "Kontrola kvality merania pre výstavbu koľajníc",
-        "As-built dokumentácia pre požiadavky EÚ na podávanie správ"
-      ],
-      "achievements": [
-        "Úspešne harmonizované medzinárodné geodetické štandardy",
-        "Dosiahnutá presnosť pre požiadavky vysokorýchlostnej železnice 240 km/h",
-        "Koordinované s inžinierskymi firmami z 3 krajín",
-        "Dodané špecifikácie siete EÚ TEN-T"
-      ],
-      "clientName": "RB Rail AS (Rail Baltica)",
-      "durationPeriod": "2019-2024",
-      "teamSizeCount": "3-5 špecialistov"
     },
     "jarfalla": {
       "title": "Järfällatunnel 4713",

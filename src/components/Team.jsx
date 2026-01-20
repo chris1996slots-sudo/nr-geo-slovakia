@@ -9,54 +9,51 @@ const Team = () => {
   const teamMembers = [
     {
       id: 1,
-      name: 'Miroslav Kudlicka',
+      name: 'Ing. Jozef Nemec',
       role: {
-        en: 'Surveyor',
-        de: 'Vermessungsingenieur',
-        sk: 'Geodet',
-        sv: 'Lantmätare',
-        no: 'Landmåler',
-        es: 'Topógrafo',
-        fr: 'Géomètre'
+        en: 'Chief Surveyor',
+        de: 'Leitender Vermessungsingenieur',
+        sk: 'Hlavný geodet',
+        sv: 'Cheflantmätare',
+        no: 'Sjeflandmåler',
+        es: 'Topógrafo Jefe',
+        fr: 'Géomètre en Chef'
       },
       experience: 12,
-      skills: {
-        en: ['Tunnel Surveying', 'TBM Guidance', '3D Scanning'],
-        de: ['Tunnelvermessung', 'TBM-Steuerung', '3D-Scanning'],
-        sk: ['Tunelové meranie', 'TBM vedenie', '3D skenovanie'],
-        sv: ['Tunnelmätning', 'TBM-styrning', '3D-skanning'],
-        no: ['Tunnelmåling', 'TBM-styring', '3D-skanning'],
-        es: ['Topografía de túneles', 'Guía TBM', 'Escaneo 3D'],
-        fr: ['Levé de tunnels', 'Guidage TBM', 'Balayage 3D']
-      },
-      image: '/images/team/worker1.jpeg'
+      image: '/images/team/worker7.jpeg'
     },
     {
       id: 2,
-      name: 'Noro Magat',
+      name: 'Ing. Noro Magat',
       role: {
-        en: 'Surveyor',
-        de: 'Vermessungsingenieur',
-        sk: 'Geodet',
-        sv: 'Lantmätare',
-        no: 'Landmåler',
-        es: 'Topógrafo',
-        fr: 'Géomètre'
+        en: 'Chief Surveyor',
+        de: 'Leitender Vermessungsingenieur',
+        sk: 'Hlavný geodet',
+        sv: 'Cheflantmätare',
+        no: 'Sjeflandmåler',
+        es: 'Topógrafo Jefe',
+        fr: 'Géomètre en Chef'
       },
-      experience: 12,
-      skills: {
-        en: ['GNSS Networks', 'Deformation Monitoring', 'BIM Integration'],
-        de: ['GNSS-Netzwerke', 'Deformationsüberwachung', 'BIM-Integration'],
-        sk: ['GNSS siete', 'Monitorovanie deformácií', 'BIM integrácia'],
-        sv: ['GNSS-nätverk', 'Deformationsövervakning', 'BIM-integration'],
-        no: ['GNSS-nettverk', 'Deformasjonsovervåking', 'BIM-integrasjon'],
-        es: ['Redes GNSS', 'Monitoreo de deformación', 'Integración BIM'],
-        fr: ['Réseaux GNSS', 'Surveillance des déformations', 'Intégration BIM']
-      },
+      experience: 10,
       image: '/images/team/worker2.jpeg'
     },
     {
       id: 3,
+      name: 'Mgr. Miroslav Kudlicka',
+      role: {
+        en: 'Surveyor',
+        de: 'Vermessungsingenieur',
+        sk: 'Geodet',
+        sv: 'Lantmätare',
+        no: 'Landmåler',
+        es: 'Topógrafo',
+        fr: 'Géomètre'
+      },
+      experience: 16,
+      image: '/images/team/worker1.jpeg'
+    },
+    {
+      id: 4,
       name: 'Andrej Horkovy',
       role: {
         en: 'Surveyor',
@@ -67,68 +64,11 @@ const Team = () => {
         es: 'Topógrafo',
         fr: 'Géomètre'
       },
-      experience: 12,
-      skills: {
-        en: ['Underground Networks', 'Quality Control', 'Precision Measurement'],
-        de: ['Unterirdische Netzwerke', 'Qualitätskontrolle', 'Präzisionsmessung'],
-        sk: ['Podzemné siete', 'Kontrola kvality', 'Presné meranie'],
-        sv: ['Underjordiska nätverk', 'Kvalitetskontroll', 'Precisionsmätning'],
-        no: ['Underjordiske nettverk', 'Kvalitetskontroll', 'Presisjonsmåling'],
-        es: ['Redes subterráneas', 'Control de calidad', 'Medición de precisión'],
-        fr: ['Réseaux souterrains', 'Contrôle qualité', 'Mesure de précision']
-      },
+      experience: 11,
       image: '/images/team/worker3.jpeg'
     },
     {
-      id: 4,
-      name: 'Richard Kubik',
-      role: {
-        en: 'Surveyor',
-        de: 'Vermessungsingenieur',
-        sk: 'Geodet',
-        sv: 'Lantmätare',
-        no: 'Landmåler',
-        es: 'Topógrafo',
-        fr: 'Géomètre'
-      },
-      experience: 12,
-      skills: {
-        en: ['Cadastral Surveys', 'Legal Documentation', 'CAD Systems'],
-        de: ['Katastervermessung', 'Rechtliche Dokumentation', 'CAD-Systeme'],
-        sk: ['Katastrálne meranie', 'Právna dokumentácia', 'CAD systémy'],
-        sv: ['Fastighetsmätning', 'Juridisk dokumentation', 'CAD-system'],
-        no: ['Katastralmåling', 'Juridisk dokumentasjon', 'CAD-systemer'],
-        es: ['Topografía catastral', 'Documentación legal', 'Sistemas CAD'],
-        fr: ['Levés cadastraux', 'Documentation juridique', 'Systèmes CAO']
-      },
-      image: '/images/team/worker4.jpeg'
-    },
-    {
       id: 5,
-      name: 'Erik Fidrik',
-      role: {
-        en: 'Surveyor',
-        de: 'Vermessungsingenieur',
-        sk: 'Geodet',
-        sv: 'Lantmätare',
-        no: 'Landmåler',
-        es: 'Topógrafo',
-        fr: 'Géomètre'
-      },
-      experience: 12,
-      skills: {
-        en: ['Monitoring Systems', 'Data Analysis', 'Geotechnical Surveys'],
-        de: ['Überwachungssysteme', 'Datenanalyse', 'Geotechnische Vermessung'],
-        sk: ['Monitorovacie systémy', 'Analýza dát', 'Geotechnické meranie'],
-        sv: ['Övervakningssystem', 'Dataanalys', 'Geoteknisk mätning'],
-        no: ['Overvåkingssystemer', 'Dataanalyse', 'Geoteknisk måling'],
-        es: ['Sistemas de monitoreo', 'Análisis de datos', 'Estudios geotécnicos'],
-        fr: ['Systèmes de surveillance', 'Analyse de données', 'Levés géotechniques']
-      },
-      image: '/images/team/worker5.jpeg'
-    },
-    {
-      id: 6,
       name: 'Andrej Gladis',
       role: {
         en: 'Surveyor',
@@ -140,20 +80,11 @@ const Team = () => {
         fr: 'Géomètre'
       },
       experience: 12,
-      skills: {
-        en: ['Digital Twins', 'Point Cloud Processing', '3D Modeling'],
-        de: ['Digitale Zwillinge', 'Punktwolkenverarbeitung', '3D-Modellierung'],
-        sk: ['Digitálne dvojčatá', 'Spracovanie mračna bodov', '3D modelovanie'],
-        sv: ['Digitala tvillingar', 'Punktmolnbearbetning', '3D-modellering'],
-        no: ['Digitale tvillinger', 'Punktskybehandling', '3D-modellering'],
-        es: ['Gemelos digitales', 'Procesamiento de nubes de puntos', 'Modelado 3D'],
-        fr: ['Jumeaux numériques', 'Traitement de nuages de points', 'Modélisation 3D']
-      },
       image: '/images/team/worker6.jpeg'
     },
     {
-      id: 7,
-      name: 'Jozef Nemec',
+      id: 6,
+      name: 'Erik Fidrik',
       role: {
         en: 'Surveyor',
         de: 'Vermessungsingenieur',
@@ -163,17 +94,23 @@ const Team = () => {
         es: 'Topógrafo',
         fr: 'Géomètre'
       },
-      experience: 12,
-      skills: {
-        en: ['As-Built Surveys', 'Construction Support', 'Technical Documentation'],
-        de: ['Bestandsvermessung', 'Bauunterstützung', 'Technische Dokumentation'],
-        sk: ['As-built meranie', 'Podpora výstavby', 'Technická dokumentácia'],
-        sv: ['Relationshandlingar', 'Byggstöd', 'Teknisk dokumentation'],
-        no: ['As-built målinger', 'Byggstøtte', 'Teknisk dokumentasjon'],
-        es: ['Planos según obra', 'Apoyo a la construcción', 'Documentación técnica'],
-        fr: ['Plans de récolement', 'Support de construction', 'Documentation technique']
+      experience: 6,
+      image: '/images/team/worker5.jpeg'
+    },
+    {
+      id: 7,
+      name: 'Richard Kubik',
+      role: {
+        en: 'Surveyor',
+        de: 'Vermessungsingenieur',
+        sk: 'Geodet',
+        sv: 'Lantmätare',
+        no: 'Landmåler',
+        es: 'Topógrafo',
+        fr: 'Géomètre'
       },
-      image: '/images/team/worker7.jpeg'
+      experience: 7,
+      image: '/images/team/worker4.jpeg'
     }
   ]
 
