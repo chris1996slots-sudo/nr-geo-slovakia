@@ -208,6 +208,75 @@
       "clientName": "Trafikverket (Administration suédoise des transports)",
       "durationPeriod": "2021-2023",
       "teamSizeCount": "3-4 géomètres"
+    },
+    "hammarby": {
+      "title": "Hammarby Sjöstad 7714",
+      "location": "Stockholm, Suède",
+      "description": "Première station de métro sous-marine de Stockholm - levé de précision sous le canal Hammarby.",
+      "overview": "L'extension du métro Hammarby Sjöstad fait partie de l'ambitieux projet d'expansion de la Ligne Bleue de Stockholm. Ce projet révolutionnaire comprend la station Hammarby Kanal, la première station de métro de Stockholm construite dans la roche sous l'eau, nécessitant des techniques de levé avancées pour la construction sous-marine.",
+      "scope": [
+        "Réseau de contrôle souterrain pour construction de tunnel de métro",
+        "Guidage TBM pour sections de tunnel sous-marin",
+        "Surveillance des déformations des structures du canal pendant excavation",
+        "Levé de précision sous le niveau de l'eau",
+        "Documentation de récolement pour station de caverne rocheuse",
+        "Intégration avec extension de Ligne Bleue vers Nacka"
+      ],
+      "achievements": [
+        "Levé réussi pour première station de métro sous-marine de Stockholm",
+        "Précision millimétrique dans environnement aquatique difficile",
+        "Zéro incident pendant opérations de proximité du canal",
+        "Pionnier de nouvelles techniques de levé pour construction de stations sous-marines"
+      ],
+      "clientName": "Administration Suédoise des Transports (Trafikverket)",
+      "durationPeriod": "2020-2030",
+      "teamSizeCount": "6-10 spécialistes"
+    },
+    "osloK2C": {
+      "title": "Oslo K2C extension de métro",
+      "location": "Oslo, Norvège",
+      "description": "Levé de haute précision pour expansion critique d'infrastructure de métro d'Oslo.",
+      "overview": "Le projet K2C fait partie du vaste développement d'infrastructure de métro et de chemin de fer d'Oslo, soutenant les besoins de transport croissants de la ville. NR-GEO a fourni des services de levé complets pour construction de tunnels, développement de stations et intégration avec infrastructure existante.",
+      "scope": [
+        "Levé de précision pour excavation de tunnel de métro",
+        "Établissement de réseau de contrôle souterrain",
+        "Guidage et surveillance TBM",
+        "Surveillance des déformations des structures existantes",
+        "Intégration avec réseau de métro existant d'Oslo",
+        "Traitement de données en temps réel et contrôle qualité"
+      ],
+      "achievements": [
+        "Précision sous-centimétrique tout au long du projet",
+        "Intégration réussie avec système de métro opérationnel",
+        "Zéro perturbation des services de métro existants",
+        "Tous les jalons livrés à temps"
+      ],
+      "clientName": "Bane NOR / Municipalité d'Oslo",
+      "durationPeriod": "2021-2024",
+      "teamSizeCount": "5-8 spécialistes"
+    },
+    "prahaMetroD": {
+      "title": "Praha Metro D",
+      "location": "Prague, République tchèque",
+      "description": "Quatrième ligne de métro de Prague - 10,6 km avec 10 stations, avec technologie de trains sans conducteur.",
+      "overview": "La ligne D du métro est la ligne de métro la plus récente et la plus technologiquement avancée de Prague, s'étendant sur 10,6 kilomètres avec 10 stations reliant Náměstí Míru et Depo Písnice. Ce projet d'infrastructure phare dispose de trains entièrement automatisés sans conducteur. NR-GEO fournit des services de levé de précision pour ce projet de construction souterraine complexe.",
+      "scope": [
+        "Levé d'alignement de tunnel de haute précision pour route de 10,6 km",
+        "Réseaux de contrôle souterrains pour 10 emplacements de stations",
+        "Guidage TBM et planification de précision de percée",
+        "Surveillance des déformations des structures historiques de la ville",
+        "Documentation de récolement pour systèmes de trains automatisés",
+        "Intégration avec lignes de métro existantes (transfert à Pankrác)"
+      ],
+      "achievements": [
+        "Contribution au plus grand projet d'expansion de métro de Prague",
+        "Soutien à la construction de première ligne de métro sans conducteur en République tchèque",
+        "Levé de précision pour conditions complexes de tunnelisation urbaine",
+        "Surveillance réussie dans environnement historique du centre-ville"
+      ],
+      "clientName": "Dopravní podnik hl. m. Prahy (Compagnie de Transport Public de Prague)",
+      "durationPeriod": "2022-2031",
+      "teamSizeCount": "8-12 spécialistes"
     }
   },
   "contact": {

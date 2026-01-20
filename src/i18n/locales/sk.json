@@ -209,6 +209,75 @@
       "clientName": "Trafikverket (Švédska dopravná správa)",
       "durationPeriod": "2021-2023",
       "teamSizeCount": "3-4 geodetov"
+    },
+    "hammarby": {
+      "title": "Hammarby Sjöstad 7714",
+      "location": "Štokholm, Švédsko",
+      "description": "Prvá podvodná stanica metra v Štokholme - presné meranie pod kanálom Hammarby.",
+      "overview": "Rozšírenie metra Hammarby Sjöstad je súčasťou ambiciózneho projektu rozšírenia modrej linky v Štokholme. Tento prelomový projekt zahŕňa stanicu Hammarby Kanal, prvú stanicu metra v Štokholme postavenú v skale pod vodou, vyžadujúcu pokročilé meracie techniky pre podvodnú výstavbu.",
+      "scope": [
+        "Podzemná kontrolná sieť pre výstavbu tunela metra",
+        "Vedenie TBM pre podvodné úseky tunela",
+        "Monitorovanie deformácií kanálových štruktúr počas výkopu",
+        "Presné meranie pod úrovňou vody",
+        "Dokumentácia skutočného stavu pre skalné stanice",
+        "Integrácia s rozšírením modrej linky do Nacky"
+      ],
+      "achievements": [
+        "Úspešné meranie pre prvú podvodnú stanicu metra v Štokholme",
+        "Milimetrová presnosť v náročnom vodnom prostredí",
+        "Nula incidentov počas operácií v blízkosti kanála",
+        "Priekopnícke nové meracie techniky pre výstavbu podvodných staníc"
+      ],
+      "clientName": "Švédska dopravná správa (Trafikverket)",
+      "durationPeriod": "2020-2030",
+      "teamSizeCount": "6-10 špecialistov"
+    },
+    "osloK2C": {
+      "title": "Oslo K2C rozšírenie metra",
+      "location": "Oslo, Nórsko",
+      "description": "Vysoko presné meranie pre kritické rozšírenie infraštruktúry metra v Osle.",
+      "overview": "Projekt K2C je súčasťou rozsiahleho rozvoja infraštruktúry metra a železníc v Osle, podporujúc rastúce dopravné potreby mesta. NR-GEO poskytla komplexné meracie služby pre výstavbu tunelov, vývoj staníc a integráciu s existujúcou infraštruktúrou.",
+      "scope": [
+        "Presné meranie pre výkop tunela metra",
+        "Zriadenie podzemnej kontrolnej siete",
+        "Vedenie a monitorovanie TBM",
+        "Monitorovanie deformácií existujúcich štruktúr",
+        "Integrácia s existujúcou sieťou metra v Osle",
+        "Spracovanie údajov v reálnom čase a kontrola kvality"
+      ],
+      "achievements": [
+        "Sub-centimetrová presnosť počas celého projektu",
+        "Úspešná integrácia s prevádzkovaným systémom metra",
+        "Nula narušení existujúcich služieb metra",
+        "Všetky míľniky dodané včas"
+      ],
+      "clientName": "Bane NOR / Mesto Oslo",
+      "durationPeriod": "2021-2024",
+      "teamSizeCount": "5-8 špecialistov"
+    },
+    "prahaMetroD": {
+      "title": "Praha Metro D",
+      "location": "Praha, Česká republika",
+      "description": "Štvrtá linka metra v Prahe - 10,6 km s 10 stanicami, s technológiou vlakov bez vodiča.",
+      "overview": "Metro linka D je najnovšia a technologicky najmodernejšia linka metra v Prahe, s dĺžkou 10,6 kilometra a 10 stanicami spájajúcimi Náměstí Míru a Depo Písnice. Tento vlajkový infraštruktúrny projekt využíva plne automatizované vlaky bez vodiča. NR-GEO poskytuje presné meracie služby pre tento komplexný projekt podzemnej výstavby.",
+      "scope": [
+        "Vysoko presné meranie zarovnania tunela pre 10,6 km trasu",
+        "Podzemné kontrolné siete pre 10 staníc",
+        "Vedenie TBM a plánovanie presnosti prierazu",
+        "Monitorovanie deformácií historických mestských štruktúr",
+        "Dokumentácia skutočného stavu pre automatizované vlakové systémy",
+        "Integrácia s existujúcimi linkami metra (prestup na Pankrác)"
+      ],
+      "achievements": [
+        "Prispievanie k najväčšiemu projektu rozšírenia metra v Prahe",
+        "Podpora výstavby prvej linky metra bez vodiča v Česku",
+        "Presné meranie pre komplexné mestské tunelovacie podmienky",
+        "Úspešné monitorovanie v historickom prostredí centra mesta"
+      ],
+      "clientName": "Dopravní podnik hl. m. Prahy (Pražská dopravná spoločnosť)",
+      "durationPeriod": "2022-2031",
+      "teamSizeCount": "8-12 špecialistov"
     }
   },
   "contact": {

@@ -208,6 +208,75 @@
       "clientName": "Trafikverket",
       "durationPeriod": "2021-2023",
       "teamSizeCount": "3-4 lantmätare"
+    },
+    "hammarby": {
+      "title": "Hammarby Sjöstad 7714",
+      "location": "Stockholm, Sverige",
+      "description": "Stockholms första tunnelbanestation under vatten - precisionsmätning under Hammarby kanal.",
+      "overview": "Hammarby Sjöstad tunnelbaneförlängning är en del av Stockholms ambitiösa Blå linjens utbyggnadsprojekt. Detta banbrytande projekt inkluderar Hammarby kanal station, Stockholms första tunnelbanestation byggd i berg under vatten, vilket kräver avancerad mätteknik för undervattenskonstruktion.",
+      "scope": [
+        "Underjordiskt kontrollnätverk för tunnelbanekonstruktion",
+        "TBM-styrning för undervattentunnelsektioner",
+        "Deformationsövervakning av kanalstrukturer under schaktning",
+        "Precisionsmätning under vattennivå",
+        "Relationshandlingar för bergkavernstation",
+        "Integration med Blå linjens förlängning till Nacka"
+      ],
+      "achievements": [
+        "Framgångsrik mätning för Stockholms första undervattentunnelbanestation",
+        "Millimeterprecision i utmanande akvatisk miljö",
+        "Noll incidenter under kanalnära operationer",
+        "Banbrytande nya mätteknikerför undervattenstationskonstruktion"
+      ],
+      "clientName": "Trafikverket",
+      "durationPeriod": "2020-2030",
+      "teamSizeCount": "6-10 specialister"
+    },
+    "osloK2C": {
+      "title": "Oslo K2C tunnelbaneförlängning",
+      "location": "Oslo, Norge",
+      "description": "Högprecisionsmätning för Oslos kritiska tunnelbaneinfrastrukturutbyggnad.",
+      "overview": "K2C-projektet är en del av Oslos omfattande tunnelbane- och järnvägsinfrastrukturutveckling som stödjer stadens växande transportbehov. NR-GEO tillhandahöll omfattande mättjänster för tunnelkonstruktion, stationsutveckling och integration med befintlig infrastruktur.",
+      "scope": [
+        "Precisionsmätning för tunnelbaneschaktning",
+        "Etablering av underjordiskt kontrollnätverk",
+        "TBM-styrning och övervakning",
+        "Deformationsövervakning av befintliga strukturer",
+        "Integration med Oslos befintliga tunnelbanenätverk",
+        "Realtidsdatabehandling och kvalitetskontroll"
+      ],
+      "achievements": [
+        "Sub-centimeter noggrannhet genom hela projektet",
+        "Framgångsrik integration med operativt tunnelbanesystem",
+        "Noll störningar för befintliga tunnelbanetjänster",
+        "Alla milstolpar levererade i tid"
+      ],
+      "clientName": "Bane NOR / Oslo kommun",
+      "durationPeriod": "2021-2024",
+      "teamSizeCount": "5-8 specialister"
+    },
+    "prahaMetroD": {
+      "title": "Praha Metro D",
+      "location": "Prag, Tjeckien",
+      "description": "Prags fjärde tunnelbanelinje - 10,6 km med 10 stationer, med förarlös tågteknik.",
+      "overview": "Metro linje D är Prags nyaste och mest teknologiskt avancerade tunnelbanelinje, som sträcker sig 10,6 kilometer med 10 stationer som förbinder Náměstí Míru och Depo Písnice. Detta flaggskepp infrastrukturprojekt har helt automatiserade förarlösa tåg. NR-GEO tillhandahåller precisionsmättjänster för detta komplexa underjordiska byggprojekt.",
+      "scope": [
+        "Högprecisionsmätning av tunneljustering för 10,6 km rutt",
+        "Underjordiska kontrollnätverk för 10 stationsplatser",
+        "TBM-styrning och genombrytningsprecisionsplanering",
+        "Deformationsövervakning av historiska stadsstrukturer",
+        "Relationshandlingar för automatiserade tågsystem",
+        "Integration med befintliga tunnelbanelinjer (byte vid Pankrác)"
+      ],
+      "achievements": [
+        "Bidrar till Prags största tunnelbaneexpansionsprojekt",
+        "Stöd för konstruktion av första förarlösa tunnelbanelinjen i Tjeckien",
+        "Precisionsmätning för komplexa urbana tunnelförhållanden",
+        "Framgångsrik övervakning i historisk innerstadsmiljö"
+      ],
+      "clientName": "Dopravní podnik hl. m. Prahy (Prags kollektivtrafik)",
+      "durationPeriod": "2022-2031",
+      "teamSizeCount": "8-12 specialister"
     }
   },
   "contact": {

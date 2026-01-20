@@ -208,6 +208,75 @@
       "clientName": "Trafikverket",
       "durationPeriod": "2021-2023",
       "teamSizeCount": "3-4 landmålere"
+    },
+    "hammarby": {
+      "title": "Hammarby Sjöstad 7714",
+      "location": "Stockholm, Sverige",
+      "description": "Stockholms første undervanns t-banestasjon - presisjonsmåling under Hammarby kanal.",
+      "overview": "Hammarby Sjöstad t-baneforlengelse er en del av Stockholms ambisiøse Blå linjes utbyggingsprosjekt. Dette banebrytende prosjektet inkluderer Hammarby kanal stasjon, Stockholms første t-banestasjon bygget i fjell under vann, som krever avanserte måleteknikker for undervannskonstruksjon.",
+      "scope": [
+        "Underjordisk kontrollnettverk for t-banekonstruksjon",
+        "TBM-styring for undervanns tunnelseksjoner",
+        "Deformasjonsovervåking av kanalstrukturer under graving",
+        "Presisjonsmåling under vannivå",
+        "Byggdokumentasjon for fjellkavernstasjon",
+        "Integrasjon med Blå linjes forlengelse til Nacka"
+      ],
+      "achievements": [
+        "Vellykket måling for Stockholms første undervanns t-banestasjon",
+        "Millimeterpresisjon i utfordrende akvatisk miljø",
+        "Null hendelser under kanalnære operasjoner",
+        "Banebrytende nye måleteknikker for undervannsstasjonsbygging"
+      ],
+      "clientName": "Svensk transportadministrasjon (Trafikverket)",
+      "durationPeriod": "2020-2030",
+      "teamSizeCount": "6-10 spesialister"
+    },
+    "osloK2C": {
+      "title": "Oslo K2C t-baneforlengelse",
+      "location": "Oslo, Norge",
+      "description": "Høypresisjonsmåling for Oslos kritiske t-baneinfrastrukturutbygging.",
+      "overview": "K2C-prosjektet er en del av Oslos omfattende t-bane- og jernbaneinfrastrukturutvikling som støtter byens voksende transportbehov. NR-GEO leverte omfattende måletjenester for tunnelbygging, stasjonsutvikling og integrasjon med eksisterende infrastruktur.",
+      "scope": [
+        "Presisjonsmåling for t-banetunnelgraving",
+        "Etablering av underjordisk kontrollnettverk",
+        "TBM-styring og overvåking",
+        "Deformasjonsovervåking av eksisterende strukturer",
+        "Integrasjon med Oslos eksisterende t-banenettverk",
+        "Sanntidsdatabehandling og kvalitetskontroll"
+      ],
+      "achievements": [
+        "Sub-centimeter nøyaktighet gjennom hele prosjektet",
+        "Vellykket integrasjon med operativt t-banesystem",
+        "Null forstyrrelser for eksisterende t-banetjenester",
+        "Alle milepæler levert i tide"
+      ],
+      "clientName": "Bane NOR / Oslo kommune",
+      "durationPeriod": "2021-2024",
+      "teamSizeCount": "5-8 spesialister"
+    },
+    "prahaMetroD": {
+      "title": "Praha Metro D",
+      "location": "Praha, Tsjekkia",
+      "description": "Prahas fjerde t-banelinje - 10,6 km med 10 stasjoner, med førerløs togteknologi.",
+      "overview": "Metro linje D er Prahas nyeste og mest teknologisk avanserte t-banelinje, som strekker seg 10,6 kilometer med 10 stasjoner som forbinder Náměstí Míru og Depo Písnice. Dette flaggskip infrastrukturprosjektet har helt automatiserte førerløse tog. NR-GEO leverer presisjonsmåletjenester for dette komplekse underjordiske byggeprosjektet.",
+      "scope": [
+        "Høypresisjonsmåling av tunneljustering for 10,6 km rute",
+        "Underjordiske kontrollnettverk for 10 stasjonslokasjoner",
+        "TBM-styring og gjennombruddspresisjon planlegging",
+        "Deformasjonsovervåking av historiske bystrukturer",
+        "Byggdokumentasjon for automatiserte togsystemer",
+        "Integrasjon med eksisterende t-banelinjer (bytte ved Pankrác)"
+      ],
+      "achievements": [
+        "Bidrar til Prahas største t-baneekspansjonsprosjekt",
+        "Støtte for bygging av første førerløse t-banelinje i Tsjekkia",
+        "Presisjonsmåling for komplekse urbane tunnelforhold",
+        "Vellykket overvåking i historisk sentrumsområde"
+      ],
+      "clientName": "Dopravní podnik hl. m. Prahy (Praha kollektivtransport)",
+      "durationPeriod": "2022-2031",
+      "teamSizeCount": "8-12 spesialister"
     }
   },
   "contact": {

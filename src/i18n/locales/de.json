@@ -208,6 +208,75 @@
       "clientName": "Trafikverket (Schwedische Verkehrsverwaltung)",
       "durationPeriod": "2021-2023",
       "teamSizeCount": "3-4 Vermesser"
+    },
+    "hammarby": {
+      "title": "Hammarby Sjöstad 7714",
+      "location": "Stockholm, Schweden",
+      "description": "Stockholms erste U-Bahn-Station unter Wasser - Präzisionsvermessung unter dem Hammarby-Kanal.",
+      "overview": "Die U-Bahn-Erweiterung Hammarby Sjöstad ist Teil von Stockholms ehrgeizigem Ausbauprojekt der Blauen Linie. Dieses bahnbrechende Projekt umfasst die Station Hammarby Kanal, Stockholms erste U-Bahn-Station, die im Fels unter Wasser gebaut wurde und fortschrittliche Vermessungstechniken für den Unterwasserbau erfordert.",
+      "scope": [
+        "Unterirdisches Kontrollnetzwerk für U-Bahn-Tunnelbau",
+        "TBM-Führung für Unterwasser-Tunnelabschnitte",
+        "Deformationsüberwachung von Kanalstrukturen während der Aushubarbeiten",
+        "Präzisionsvermessung unter Wasserspiegel",
+        "Bestandsdokumentation für Felskaverne-Station",
+        "Integration mit Blauer Linie Erweiterung nach Nacka"
+      ],
+      "achievements": [
+        "Erfolgreiche Vermessung für Stockholms erste Unterwasser-U-Bahn-Station",
+        "Millimeterpräzision in anspruchsvoller aquatischer Umgebung",
+        "Null Vorfälle während Operationen in Kanalnähe",
+        "Pionierarbeit bei neuen Vermessungstechniken für Unterwasser-Stationsbau"
+      ],
+      "clientName": "Schwedische Verkehrsverwaltung (Trafikverket)",
+      "durationPeriod": "2020-2030",
+      "teamSizeCount": "6-10 Spezialisten"
+    },
+    "osloK2C": {
+      "title": "Oslo K2C Metro-Erweiterung",
+      "location": "Oslo, Norwegen",
+      "description": "Hochpräzise Vermessung für Oslos kritische Metro-Infrastrukturerweiterung.",
+      "overview": "Das K2C-Projekt ist Teil der umfangreichen Metro- und Bahninfrastrukturentwicklung Oslos und unterstützt die wachsenden Transportbedürfnisse der Stadt. NR-GEO erbrachte umfassende Vermessungsdienstleistungen für Tunnelbau, Stationsentwicklung und Integration mit bestehender Infrastruktur.",
+      "scope": [
+        "Präzisionsvermessung für Metro-Tunnelaushub",
+        "Einrichtung unterirdischer Kontrollnetze",
+        "TBM-Führung und Überwachung",
+        "Deformationsüberwachung bestehender Strukturen",
+        "Integration mit Oslos bestehendem Metro-Netzwerk",
+        "Echtzeitdatenverarbeitung und Qualitätskontrolle"
+      ],
+      "achievements": [
+        "Sub-Zentimeter-Genauigkeit während des gesamten Projekts",
+        "Erfolgreiche Integration mit operativem Metro-System",
+        "Null Störungen für bestehende Metro-Dienste",
+        "Alle Meilensteine termingerecht geliefert"
+      ],
+      "clientName": "Bane NOR / Oslo Kommune",
+      "durationPeriod": "2021-2024",
+      "teamSizeCount": "5-8 Spezialisten"
+    },
+    "prahaMetroD": {
+      "title": "Praha Metro D",
+      "location": "Prag, Tschechische Republik",
+      "description": "Prags vierte Metro-Linie - 10,6 km mit 10 Stationen, mit fahrerlosen Zügen.",
+      "overview": "Metro-Linie D ist Prags neueste und technologisch fortschrittlichste Metro-Linie mit 10,6 Kilometern und 10 Stationen zwischen Náměstí Míru und Depo Písnice. Dieses Vorzeigeprojekt verfügt über vollautomatische fahrerlose Züge. NR-GEO bietet Präzisionsvermessungsdienste für dieses komplexe unterirdische Bauprojekt.",
+      "scope": [
+        "Hochpräzise Tunnelausrichtungsvermessung für 10,6 km Route",
+        "Unterirdische Kontrollnetze für 10 Stationsstandorte",
+        "TBM-Führung und Durchschlagspräzisionsplanung",
+        "Deformationsüberwachung historischer Stadtstrukturen",
+        "Bestandsdokumentation für automatisierte Zugsysteme",
+        "Integration mit bestehenden Metro-Linien (Umstieg bei Pankrác)"
+      ],
+      "achievements": [
+        "Beitrag zu Prags größtem Metro-Erweiterungsprojekt",
+        "Unterstützung beim Bau der ersten fahrerlosen Metro-Linie in Tschechien",
+        "Präzisionsvermessung für komplexe städtische Tunnelbedingungen",
+        "Erfolgreiche Überwachung in historischer Innenstadtumgebung"
+      ],
+      "clientName": "Dopravní podnik hl. m. Prahy (Prager Verkehrsbetriebe)",
+      "durationPeriod": "2022-2031",
+      "teamSizeCount": "8-12 Spezialisten"
     }
   },
   "contact": {

@@ -208,6 +208,75 @@
       "clientName": "Trafikverket (Administración de Transporte Sueca)",
       "durationPeriod": "2021-2023",
       "teamSizeCount": "3-4 topógrafos"
+    },
+    "hammarby": {
+      "title": "Hammarby Sjöstad 7714",
+      "location": "Estocolmo, Suecia",
+      "description": "Primera estación de metro subacuática de Estocolmo - topografía de precisión bajo el canal Hammarby.",
+      "overview": "La extensión del metro de Hammarby Sjöstad es parte del ambicioso proyecto de expansión de la Línea Azul de Estocolmo. Este proyecto innovador incluye la estación Hammarby Kanal, la primera estación de metro de Estocolmo construida en roca bajo el agua, que requiere técnicas avanzadas de topografía para construcción subacuática.",
+      "scope": [
+        "Red de control subterránea para construcción de túnel de metro",
+        "Guía TBM para secciones de túnel subacuático",
+        "Monitoreo de deformación de estructuras del canal durante excavación",
+        "Topografía de precisión bajo el nivel del agua",
+        "Documentación como construido para estación de caverna rocosa",
+        "Integración con extensión de Línea Azul a Nacka"
+      ],
+      "achievements": [
+        "Topografía exitosa para primera estación de metro subacuática de Estocolmo",
+        "Precisión milimétrica en ambiente acuático desafiante",
+        "Cero incidentes durante operaciones de proximidad al canal",
+        "Pioneros en nuevas técnicas de topografía para construcción de estaciones subacuáticas"
+      ],
+      "clientName": "Administración Sueca de Transporte (Trafikverket)",
+      "durationPeriod": "2020-2030",
+      "teamSizeCount": "6-10 especialistas"
+    },
+    "osloK2C": {
+      "title": "Oslo K2C extensión de metro",
+      "location": "Oslo, Noruega",
+      "description": "Topografía de alta precisión para expansión crítica de infraestructura de metro de Oslo.",
+      "overview": "El proyecto K2C es parte del extenso desarrollo de infraestructura de metro y ferrocarril de Oslo, apoyando las crecientes necesidades de transporte de la ciudad. NR-GEO proporcionó servicios integrales de topografía para construcción de túneles, desarrollo de estaciones e integración con infraestructura existente.",
+      "scope": [
+        "Topografía de precisión para excavación de túnel de metro",
+        "Establecimiento de red de control subterránea",
+        "Guía y monitoreo TBM",
+        "Monitoreo de deformación de estructuras existentes",
+        "Integración con red de metro existente de Oslo",
+        "Procesamiento de datos en tiempo real y control de calidad"
+      ],
+      "achievements": [
+        "Precisión sub-centimétrica durante todo el proyecto",
+        "Integración exitosa con sistema de metro operativo",
+        "Cero interrupciones a servicios de metro existentes",
+        "Todos los hitos entregados a tiempo"
+      ],
+      "clientName": "Bane NOR / Municipio de Oslo",
+      "durationPeriod": "2021-2024",
+      "teamSizeCount": "5-8 especialistas"
+    },
+    "prahaMetroD": {
+      "title": "Praha Metro D",
+      "location": "Praga, República Checa",
+      "description": "Cuarta línea de metro de Praga - 10,6 km con 10 estaciones, con tecnología de trenes sin conductor.",
+      "overview": "La línea D del Metro es la línea de metro más nueva y tecnológicamente avanzada de Praga, que abarca 10,6 kilómetros con 10 estaciones conectando Náměstí Míru y Depo Písnice. Este proyecto emblemático de infraestructura cuenta con trenes totalmente automatizados sin conductor. NR-GEO proporciona servicios de topografía de precisión para este complejo proyecto de construcción subterránea.",
+      "scope": [
+        "Topografía de alineación de túnel de alta precisión para ruta de 10,6 km",
+        "Redes de control subterráneas para 10 ubicaciones de estaciones",
+        "Guía TBM y planificación de precisión de avance",
+        "Monitoreo de deformación de estructuras históricas de la ciudad",
+        "Documentación como construido para sistemas de trenes automatizados",
+        "Integración con líneas de metro existentes (transferencia en Pankrác)"
+      ],
+      "achievements": [
+        "Contribuyendo al mayor proyecto de expansión de metro de Praga",
+        "Apoyando construcción de primera línea de metro sin conductor en República Checa",
+        "Topografía de precisión para condiciones complejas de tunelización urbana",
+        "Monitoreo exitoso en entorno histórico del centro de la ciudad"
+      ],
+      "clientName": "Dopravní podnik hl. m. Prahy (Compañía de Tránsito Público de Praga)",
+      "durationPeriod": "2022-2031",
+      "teamSizeCount": "8-12 especialistas"
     }
   },
   "contact": {

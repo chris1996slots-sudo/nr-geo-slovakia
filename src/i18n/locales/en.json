@@ -208,6 +208,75 @@
       "clientName": "Trafikverket / Gothenburg Municipality",
       "durationPeriod": "2020-2024",
       "teamSizeCount": "6-8 specialists"
+    },
+    "hammarby": {
+      "title": "Hammarby Sjöstad 7714",
+      "location": "Stockholm, Sweden",
+      "description": "Stockholm's first underwater metro station - precision surveying beneath Hammarby Canal.",
+      "overview": "The Hammarby Sjöstad metro extension is part of Stockholm's ambitious Blue Line expansion project. This groundbreaking project includes Hammarby Kanal station, Stockholm's first metro station built in rock beneath water, requiring advanced surveying techniques for underwater construction. The project includes sophisticated tunneling work with TBM operations and precision alignment in challenging aquatic conditions.",
+      "scope": [
+        "Underground control network for metro tunnel construction",
+        "TBM guidance for underwater tunnel sections",
+        "Deformation monitoring of canal structures during excavation",
+        "Precision surveying beneath water level",
+        "As-built documentation for rock cavern station",
+        "Integration with Blue Line extension to Nacka"
+      ],
+      "achievements": [
+        "Successfully delivered surveying for Stockholm's first underwater metro station",
+        "Maintained millimeter precision in challenging aquatic environment",
+        "Zero incidents during canal proximity operations",
+        "Pioneered new surveying techniques for underwater station construction"
+      ],
+      "clientName": "Swedish Transport Administration (Trafikverket)",
+      "durationPeriod": "2020-2030",
+      "teamSizeCount": "6-10 specialists"
+    },
+    "osloK2C": {
+      "title": "Oslo K2C Metro Extension",
+      "location": "Oslo, Norway",
+      "description": "High-precision surveying for Oslo's critical metro infrastructure expansion.",
+      "overview": "The K2C project is part of Oslo's extensive metro and railway infrastructure development, supporting the city's growing transportation needs. NR-GEO provided comprehensive surveying services for tunnel construction, station development, and integration with existing infrastructure in Norway's capital region.",
+      "scope": [
+        "Precision surveying for metro tunnel excavation",
+        "Underground control network establishment",
+        "TBM guidance and monitoring",
+        "Deformation monitoring of existing structures",
+        "Integration with Oslo's existing metro network",
+        "Real-time data processing and quality control"
+      ],
+      "achievements": [
+        "Maintained sub-centimeter accuracy throughout project",
+        "Successful integration with operational metro system",
+        "Zero disruptions to existing metro services",
+        "Delivered all milestones on schedule"
+      ],
+      "clientName": "Bane NOR / Oslo Municipality",
+      "durationPeriod": "2021-2024",
+      "teamSizeCount": "5-8 specialists"
+    },
+    "prahaMetroD": {
+      "title": "Praha Metro D",
+      "location": "Prague, Czech Republic",
+      "description": "Prague's fourth metro line - 10.6 km with 10 stations, featuring driverless train technology.",
+      "overview": "Metro Line D is Prague's newest and most technologically advanced metro line, spanning 10.6 kilometers with 10 stations connecting Náměstí Míru and Depo Písnice. This flagship infrastructure project features fully automated driverless trains and represents the future of Prague's public transportation. NR-GEO provides precision surveying services for this complex underground construction project, ensuring millimeter accuracy for tunnel alignment and station construction.",
+      "scope": [
+        "High-precision tunnel alignment surveying for 10.6 km route",
+        "Underground control networks for 10 station locations",
+        "TBM guidance and breakthrough precision planning",
+        "Deformation monitoring of historical city structures",
+        "As-built documentation for automated train systems",
+        "Integration with existing Metro lines (transfer at Pankrác)"
+      ],
+      "achievements": [
+        "Contributing to Prague's largest metro expansion project",
+        "Supporting construction of first driverless metro line in Czech Republic",
+        "Precision surveying for complex urban tunneling conditions",
+        "Successful monitoring in historic city center environment"
+      ],
+      "clientName": "Dopravní podnik hl. m. Prahy (Prague Public Transit Company)",
+      "durationPeriod": "2022-2031",
+      "teamSizeCount": "8-12 specialists"
     }
   },
   "contact": {

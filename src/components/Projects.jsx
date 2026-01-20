@@ -42,7 +42,23 @@ const Projects = () => {
       stats: ['21 km', '2015-2026', 'TBM Operations']
     },
     {
-      key: 'brenner',
+      key: 'hammarby',
+      image: '/images/projects/hammarby/hammarby-1.jpg',
+      images: [
+        '/images/projects/hammarby/hammarby-1.jpg',
+        '/images/projects/hammarby/hammarby-2.jpg',
+        '/images/projects/hammarby/hammarby-3.jpg',
+        '/images/projects/hammarby/20220420_141123-min.jpg',
+        '/images/projects/hammarby/Service-H-3421-3445_page-0001.jpg',
+        '/images/projects/hammarby/Service-H-Grout-3421-3446-omg1_page-0001.jpg',
+        '/images/projects/hammarby/Snímek-obrazovky-2022-04-20-104700-min.png',
+        '/images/projects/hammarby/Snímek-obrazovky-2022-04-21-081410-min.png',
+        '/images/projects/hammarby/Snímek-obrazovky-2022-04-21-082134-min.png',
+      ],
+      stats: ['Stockholm', '2020-2030', 'Underwater Station']
+    },
+    {
+      key: 'osloK2C',
       image: '/images/projects/oslo/oslo-1.jpg',
       images: [
         '/images/projects/oslo/oslo-1.jpg',
@@ -59,23 +75,17 @@ const Projects = () => {
         '/images/projects/oslo/pristupovka-1.png',
         '/images/projects/oslo/pristupovka-2.png',
       ],
-      stats: ['64 km', 'Alpine Tunnel', 'Precision Survey']
+      stats: ['Oslo', '2021-2024', 'Metro Extension']
     },
     {
-      key: 'railBaltica',
-      image: '/images/projects/hammarby/hammarby-1.jpg',
+      key: 'prahaMetroD',
+      image: '/images/hero/hero-1.jpg',
       images: [
-        '/images/projects/hammarby/hammarby-1.jpg',
-        '/images/projects/hammarby/hammarby-2.jpg',
-        '/images/projects/hammarby/hammarby-3.jpg',
-        '/images/projects/hammarby/20220420_141123-min.jpg',
-        '/images/projects/hammarby/Service-H-3421-3445_page-0001.jpg',
-        '/images/projects/hammarby/Service-H-Grout-3421-3446-omg1_page-0001.jpg',
-        '/images/projects/hammarby/Snímek-obrazovky-2022-04-20-104700-min.png',
-        '/images/projects/hammarby/Snímek-obrazovky-2022-04-21-081410-min.png',
-        '/images/projects/hammarby/Snímek-obrazovky-2022-04-21-082134-min.png',
+        '/images/hero/hero-1.jpg',
+        '/images/hero/hero-2.jpg',
+        '/images/hero/hero-3.jpg',
       ],
-      stats: ['870 km', '3 Countries', 'Railway Integration']
+      stats: ['10.6 km', '2022-2031', 'Driverless Metro']
     },
     {
       key: 'jarfalla',
