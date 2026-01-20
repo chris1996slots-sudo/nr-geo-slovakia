@@ -14,7 +14,7 @@ const Services = () => {
       gradient: 'from-blue-500 to-blue-600',
       bgColor: 'bg-blue-50',
       iconColor: 'text-blue-600',
-      detailIcons: [Ruler, CircleDot, CheckCircle]
+      detailIcons: [CircleDot, CheckCircle, Clock]
     },
     {
       key: 'scanToBim',

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- Homepage - English -->
+  <url>
+    <loc>https://nr-geo.com/</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+  <!-- English Version -->
+  <url>
+    <loc>https://nr-geo.com/en</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+  <!-- German Version -->
+  <url>
+    <loc>https://nr-geo.com/de</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+  <!-- Slovak Version -->
+  <url>
+    <loc>https://nr-geo.com/sk</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+  <!-- Swedish Version -->
+  <url>
+    <loc>https://nr-geo.com/sv</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+  <!-- Norwegian Version -->
+  <url>
+    <loc>https://nr-geo.com/no</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+  <!-- Spanish Version -->
+  <url>
+    <loc>https://nr-geo.com/es</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+  <!-- French Version -->
+  <url>
+    <loc>https://nr-geo.com/fr</loc>
+    <lastmod>2026-01-20</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://nr-geo.com/en"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://nr-geo.com/de"/>
+    <xhtml:link rel="alternate" hreflang="sk" href="https://nr-geo.com/sk"/>
+    <xhtml:link rel="alternate" hreflang="sv" href="https://nr-geo.com/sv"/>
+    <xhtml:link rel="alternate" hreflang="no" href="https://nr-geo.com/no"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://nr-geo.com/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://nr-geo.com/fr"/>
+  </url>
+
+</urlset>
