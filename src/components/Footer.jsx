@@ -108,14 +108,6 @@ const Footer = ({ onShowImpressum }) => {
                   {t('services.geotechnical.title')}
                 </button>
               </li>
-              <li>
-                <button
-                  onClick={() => scrollToSection('services')}
-                  className="hover:text-primary transition-colors text-left"
-                >
-                  {t('services.cadastral.title')}
-                </button>
-              </li>
             </ul>
           </div>
 
@@ -192,13 +184,6 @@ const Footer = ({ onShowImpressum }) => {
             </div>
           </div>
 
-          {/* Compliance Badges */}
-          <div className="mt-6 flex flex-wrap justify-center gap-4 text-xs text-white/90">
-            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">ISO 9001:2015 Certified</span>
-            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">Millimeter Precision</span>
-            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">Licensed Surveyors</span>
-            <span className="bg-white/10 px-3 py-1 rounded border border-white/20">BIM Level 2</span>
-          </div>
         </div>
       </div>
     </footer>
