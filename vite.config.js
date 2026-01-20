@@ -10,20 +10,16 @@ export default defineConfig({
   },
   build: {
     // Optimize production build
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true, // Remove console.logs in production
-        drop_debugger: true
-      }
-    },
+    minify: 'esbuild', // Using esbuild (default, faster than terser)
+    target: 'es2015', // Support modern browsers
     // Code splitting for better caching
     rollupOptions: {
       output: {
         manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'i18n-vendor': ['react-i18next', 'i18next'],
+          'react-vendor': ['react', 'react-dom'],
+          'i18n-vendor': ['react-i18next', 'i18next', 'i18next-browser-languagedetector'],
           'animation-vendor': ['framer-motion'],
+          'icons-vendor': ['lucide-react'],
         }
       }
     },
