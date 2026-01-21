@@ -42,12 +42,14 @@
       "description": "Spesialiserte måletjenester for tunneldrift og tunnelforing ved bruk av DRILL & BLAST metoder.",
       "overview": "Spesialiserte måletjenester for underjordisk konstruksjon.",
       "capabilities": [
-        "Styring av tunneldrift med D & B metode",
-        "Etablering av underjordiske kontrollnettverk",
-        "Deformasjonsovervåking og analyse",
-        "As-built dokumentasjon av tunnelstrukturer",
-        "Kontrollmålinger av tunnelforing",
-        "Geoteknisk overvåking"
+        "TBM",
+        "NRTM",
+        "Gravde tunneler",
+        "Konstruksjoner og broer",
+        "Konvergensmåling",
+        "Overvåking i 3D BIM projeksjon",
+        "Skanning av utgravinger og sprutbetong",
+        "Behandling av målinger og skanninger"
       ],
       "technologies": [
         "Robotiserte totalstasjoner",

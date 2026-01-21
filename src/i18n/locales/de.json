@@ -42,12 +42,14 @@
       "description": "Spezialisierte Vermessungsdienstleistungen für Tunnelvortrieb und Tunnelauskleidung mit DRILL & BLAST Methoden.",
       "overview": "Spezialisierte Vermessungsdienstleistungen für unterirdische Bauprojekte.",
       "capabilities": [
-        "Führung des Tunnelvortriebs mit D & B Methode",
-        "Einrichtung unterirdischer Kontrollnetze",
-        "Deformationsüberwachung und -analyse",
-        "As-built Dokumentation von Tunnelstrukturen",
-        "Kontrollmessungen der Tunnelauskleidung",
-        "Geotechnisches Monitoring"
+        "TBM",
+        "NRTM",
+        "Bergmännisch aufgefahrene Tunnel",
+        "Konstruktionen und Brücken",
+        "Konvergenzmessung",
+        "Monitoring in 3D BIM Projektion",
+        "Scannen von Ausbrüchen und Spritzbeton",
+        "Verarbeitung von Messungen und Scans"
       ],
       "technologies": [
         "Robotische Totalstationen",

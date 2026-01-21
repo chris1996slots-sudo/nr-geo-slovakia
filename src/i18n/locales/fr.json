@@ -42,12 +42,14 @@
       "description": "Services de géodésie spécialisés pour le creusement de tunnels et le revêtement de tunnels par méthodes DRILL & BLAST.",
       "overview": "Services de géodésie spécialisés pour la construction souterraine.",
       "capabilities": [
-        "Guidage du creusement de tunnels par méthode D & B",
-        "Établissement de réseaux de contrôle souterrains",
-        "Surveillance et analyse des déformations",
-        "Documentation as-built des structures de tunnels",
-        "Mesures de contrôle du revêtement de tunnels",
-        "Surveillance géotechnique"
+        "TBM",
+        "NRTM",
+        "Tunnels creusés",
+        "Structures et ponts",
+        "Mesure des déplacements de convergence",
+        "Surveillance en projection 3D BIM",
+        "Numérisation des excavations et béton projeté",
+        "Traitement des mesures et numérisations"
       ],
       "technologies": [
         "Stations totales robotiques",

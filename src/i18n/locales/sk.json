@@ -42,12 +42,14 @@
       "description": "Špecializované geodetické služby pre razenie tunelov a vystrojenie tunelov metódami DRILL & BLAST.",
       "overview": "Špecializované geodetické služby pre podzemné stavby.",
       "capabilities": [
-        "Vedenie razenia tunelov metódou D & B",
-        "Zriadenie podzemných kontrolných sietí",
-        "Monitorovanie a analýza deformácií",
-        "As-built dokumentácia tunelových štruktúr",
-        "Kontrolné merania vystrojenia tunelov",
-        "Geotechnický monitoring"
+        "TBM",
+        "NRTM",
+        "Hĺbené tunely",
+        "Konštrukcie a mosty",
+        "Meranie konvergenčných posunov",
+        "Monitoring v 3D BIM projekcii",
+        "Skenovanie výrubov a striekaného betónu",
+        "Spracovanie meraní a skenov"
       ],
       "technologies": [
         "Robotické totálne stanice",

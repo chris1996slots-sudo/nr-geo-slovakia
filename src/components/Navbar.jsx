@@ -109,41 +109,29 @@ const Navbar = () => {
               </button>
             ))}
 
-            {/* Theme Toggle - Switch Style */}
+            {/* Theme Toggle - Icon Only */}
             <button
               onClick={toggleTheme}
-              className={`relative flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${
+              className={`p-2 rounded-lg transition-all ${
                 scrolled
                   ? 'bg-dark-50 hover:bg-dark-100 text-dark-700 dark:bg-dark-500 dark:hover:bg-dark-600 dark:text-dark-100'
                   : 'bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm'
               }`}
               aria-label="Toggle theme"
             >
-              <div className="relative w-12 h-6 bg-dark-200 dark:bg-dark-700 rounded-full transition-colors">
-                <div
-                  className={`absolute top-0.5 left-0.5 w-5 h-5 bg-primary rounded-full transition-transform duration-300 flex items-center justify-center ${
-                    isDark ? 'translate-x-6' : 'translate-x-0'
-                  }`}
-                >
-                  {isDark ? <Moon size={12} className="text-white" /> : <Sun size={12} className="text-white" />}
-                </div>
-              </div>
-              <span className="text-sm font-medium whitespace-nowrap">
-                {isDark ? 'Dark' : 'Light'}
-              </span>
+              {isDark ? <Moon size={18} /> : <Sun size={18} />}
             </button>
 
             {/* Language Selector */}
             <div className="relative">
               <button
                 onClick={() => setLangDropdownOpen(!langDropdownOpen)}
-                className={`flex items-center space-x-2 px-4 py-2 rounded-lg transition-all ${
+                className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all ${
                   scrolled
                     ? 'bg-dark-50 hover:bg-dark-100 text-dark-700 dark:bg-dark-500 dark:hover:bg-dark-600 dark:text-dark-100'
                     : 'bg-white/10 hover:bg-white/20 text-white backdrop-blur-sm'
                 }`}
               >
-                <Globe size={18} />
                 <span className="text-lg leading-none" style={{ fontFamily: '"Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif' }}>
                   {currentLanguage.flag}
                 </span>

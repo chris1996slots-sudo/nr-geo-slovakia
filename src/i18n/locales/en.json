@@ -42,12 +42,14 @@
       "description": "Specialized surveying services for tunnel excavation and tunnel lining using DRILL & BLAST methods.",
       "overview": "Specialized surveying services for underground construction.",
       "capabilities": [
-        "Guidance of tunnel excavation using D & B method",
-        "Establishment of underground control networks",
-        "Deformation monitoring and analysis",
-        "As-built documentation of tunnel structures",
-        "Control measurements of tunnel lining",
-        "Geotechnical monitoring"
+        "TBM",
+        "NRTM",
+        "Mined tunnels",
+        "Structures and bridges",
+        "Convergence displacement measurement",
+        "Monitoring in 3D BIM projection",
+        "Scanning of excavations and shotcrete",
+        "Processing of measurements and scans"
       ],
       "technologies": [
         "Robotic Total Stations",

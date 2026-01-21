@@ -42,12 +42,14 @@
       "description": "Specialiserade mättjänster för tunneldrivning och tunnelklädsling med DRILL & BLAST metoder.",
       "overview": "Specialiserade mättjänster för underjordisk konstruktion.",
       "capabilities": [
-        "Styrning av tunneldrivning med D & B metod",
-        "Upprättande av underjordiska kontrollnät",
-        "Deformationsövervakning och analys",
-        "As-built dokumentation av tunnelstrukturer",
-        "Kontrollmätningar av tunnelklädsling",
-        "Geoteknisk övervakning"
+        "TBM",
+        "NRTM",
+        "Grävda tunnlar",
+        "Konstruktioner och broar",
+        "Konvergensmätning",
+        "Övervakning i 3D BIM projektion",
+        "Skanning av utgrävningar och sprutbetong",
+        "Bearbetning av mätningar och skanningar"
       ],
       "technologies": [
         "Robotiserade totalstationer",

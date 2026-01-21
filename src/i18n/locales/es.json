@@ -42,12 +42,14 @@
       "description": "Servicios especializados de topografía para excavación de túneles y revestimiento de túneles mediante métodos DRILL & BLAST.",
       "overview": "Servicios especializados de topografía para construcción subterránea.",
       "capabilities": [
-        "Guía de excavación de túneles mediante método D & B",
-        "Establecimiento de redes de control subterráneas",
-        "Monitoreo y análisis de deformaciones",
-        "Documentación as-built de estructuras de túneles",
-        "Mediciones de control del revestimiento de túneles",
-        "Monitoreo geotécnico"
+        "TBM",
+        "NRTM",
+        "Túneles excavados",
+        "Estructuras y puentes",
+        "Medición de desplazamientos de convergencia",
+        "Monitoreo en proyección 3D BIM",
+        "Escaneo de excavaciones y hormigón proyectado",
+        "Procesamiento de mediciones y escaneos"
       ],
       "technologies": [
         "Estaciones totales robóticas",
