@@ -81,8 +81,8 @@ const Navbar = () => {
     >
       <div className="container-custom">
         <div className="flex items-center justify-between">
-          {/* Logo */}
-          <div className={`flex items-center space-x-3 transition-all duration-300 rounded-lg ${
+          {/* Logo - pushed further left */}
+          <div className={`flex items-center space-x-3 transition-all duration-300 rounded-lg flex-shrink-0 ${
             scrolled ? 'bg-dark-300 dark:bg-dark-600 px-3 py-2' : ''
           }`}>
             <img
@@ -95,8 +95,8 @@ const Navbar = () => {
             />
           </div>
 
-          {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          {/* Desktop Navigation - more space for menu items */}
+          <div className="hidden lg:flex items-center space-x-4 xl:space-x-8 flex-1 justify-end">
             {navItems.map((item) => (
               <button
                 key={item.key}
