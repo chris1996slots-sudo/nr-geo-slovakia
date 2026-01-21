@@ -40,14 +40,14 @@
     "tunneling": {
       "title": "Tunnelbygging & underjordisk måling",
       "description": "Spesialiserte måletjenester for tunneldrift og tunnelforing ved bruk av DRILL & BLAST metoder.",
-      "overview": "Spesialiserte måletjenester for underjordisk konstruksjon med millimeterpresisjon.",
+      "overview": "Spesialiserte måletjenester for underjordisk konstruksjon.",
       "capabilities": [
-        "TBM (Tunnel Boring Machine) styring og overvåking",
+        "Styring av tunneldrift med D & B metode",
         "Etablering av underjordiske kontrollnettverk",
         "Deformasjonsovervåking og analyse",
-        "As-built dokumentasjon for tunnelstrukturer",
-        "Laserskanning av tunnelprofiler",
-        "Sanntidsposisjonering for graveutstyr"
+        "As-built dokumentasjon av tunnelstrukturer",
+        "Kontrollmålinger av tunnelforing",
+        "Geoteknisk overvåking"
       ],
       "technologies": [
         "Robotiserte totalstasjoner",

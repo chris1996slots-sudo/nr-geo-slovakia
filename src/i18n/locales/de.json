@@ -40,14 +40,14 @@
     "tunneling": {
       "title": "Tunnel- & Untergrundvermessung",
       "description": "Spezialisierte Vermessungsdienstleistungen für Tunnelvortrieb und Tunnelauskleidung mit DRILL & BLAST Methoden.",
-      "overview": "Spezialisierte Vermessungsdienstleistungen für unterirdische Bauprojekte mit Millimeterpräzision.",
+      "overview": "Spezialisierte Vermessungsdienstleistungen für unterirdische Bauprojekte.",
       "capabilities": [
-        "TBM (Tunnelbohrmaschine) Führung und Überwachung",
+        "Führung des Tunnelvortriebs mit D & B Methode",
         "Einrichtung unterirdischer Kontrollnetze",
         "Deformationsüberwachung und -analyse",
-        "Bestandsdokumentation für Tunnelbauwerke",
-        "Laserscanning von Tunnelprofilen",
-        "Echtzeitpositionierung für Aushubgeräte"
+        "As-built Dokumentation von Tunnelstrukturen",
+        "Kontrollmessungen der Tunnelauskleidung",
+        "Geotechnisches Monitoring"
       ],
       "technologies": [
         "Robotische Totalstationen",

@@ -40,14 +40,14 @@
     "tunneling": {
       "title": "Tunneling & Underground Surveying",
       "description": "Specialized surveying services for tunnel excavation and tunnel lining using DRILL & BLAST methods.",
-      "overview": "Specialized surveying services for underground construction with millimeter precision.",
+      "overview": "Specialized surveying services for underground construction.",
       "capabilities": [
-        "TBM (Tunnel Boring Machine) guidance and monitoring",
-        "Underground control networks establishment",
+        "Guidance of tunnel excavation using D & B method",
+        "Establishment of underground control networks",
         "Deformation monitoring and analysis",
-        "As-built documentation for tunnel structures",
-        "Laser scanning of tunnel profiles",
-        "Real-time positioning for excavation equipment"
+        "As-built documentation of tunnel structures",
+        "Control measurements of tunnel lining",
+        "Geotechnical monitoring"
       ],
       "technologies": [
         "Robotic Total Stations",

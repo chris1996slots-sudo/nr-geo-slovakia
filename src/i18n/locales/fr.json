@@ -40,14 +40,14 @@
     "tunneling": {
       "title": "Tunnels et topographie souterraine",
       "description": "Services de géodésie spécialisés pour le creusement de tunnels et le revêtement de tunnels par méthodes DRILL & BLAST.",
-      "overview": "Services de géodésie spécialisés pour la construction souterraine avec une précision millimétrique.",
+      "overview": "Services de géodésie spécialisés pour la construction souterraine.",
       "capabilities": [
-        "Guidage et surveillance TBM (tunnelier)",
+        "Guidage du creusement de tunnels par méthode D & B",
         "Établissement de réseaux de contrôle souterrains",
         "Surveillance et analyse des déformations",
-        "Documentation as-built pour structures de tunnels",
-        "Balayage laser des profils de tunnels",
-        "Positionnement en temps réel pour équipement d'excavation"
+        "Documentation as-built des structures de tunnels",
+        "Mesures de contrôle du revêtement de tunnels",
+        "Surveillance géotechnique"
       ],
       "technologies": [
         "Stations totales robotiques",

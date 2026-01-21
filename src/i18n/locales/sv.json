@@ -40,14 +40,14 @@
     "tunneling": {
       "title": "Tunnelbygge & underjordisk mätning",
       "description": "Specialiserade mättjänster för tunneldrivning och tunnelklädsling med DRILL & BLAST metoder.",
-      "overview": "Specialiserade mättjänster för underjordisk konstruktion med millimeterprecision.",
+      "overview": "Specialiserade mättjänster för underjordisk konstruktion.",
       "capabilities": [
-        "TBM (Tunnel Boring Machine) styrning och övervakning",
-        "Etablering av underjordiska kontrollnätverk",
+        "Styrning av tunneldrivning med D & B metod",
+        "Upprättande av underjordiska kontrollnät",
         "Deformationsövervakning och analys",
-        "As-built dokumentation för tunnelstrukturer",
-        "Laserskanning av tunnelprofiler",
-        "Realtidspositionering för grävutrustning"
+        "As-built dokumentation av tunnelstrukturer",
+        "Kontrollmätningar av tunnelklädsling",
+        "Geoteknisk övervakning"
       ],
       "technologies": [
         "Robotiserade totalstationer",

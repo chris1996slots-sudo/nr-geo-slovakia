@@ -40,14 +40,14 @@
     "tunneling": {
       "title": "Túneles y topografía subterránea",
       "description": "Servicios especializados de topografía para excavación de túneles y revestimiento de túneles mediante métodos DRILL & BLAST.",
-      "overview": "Servicios especializados de topografía para construcción subterránea con precisión milimétrica.",
+      "overview": "Servicios especializados de topografía para construcción subterránea.",
       "capabilities": [
-        "Guía y monitoreo de TBM (máquinas tuneladoras)",
+        "Guía de excavación de túneles mediante método D & B",
         "Establecimiento de redes de control subterráneas",
-        "Monitoreo y análisis de deformación",
-        "Documentación as-built para estructuras de túneles",
-        "Escaneo láser de perfiles de túneles",
-        "Posicionamiento en tiempo real para equipos de excavación"
+        "Monitoreo y análisis de deformaciones",
+        "Documentación as-built de estructuras de túneles",
+        "Mediciones de control del revestimiento de túneles",
+        "Monitoreo geotécnico"
       ],
       "technologies": [
         "Estaciones totales robóticas",
