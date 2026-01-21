@@ -5,13 +5,13 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useTheme } from '../contexts/ThemeContext'
 
 const languages = [
-  { code: 'sk', name: 'Slovenčina', flag: '🇸🇰' },
-  { code: 'en', name: 'English', flag: '🇬🇧' },
-  { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-  { code: 'sv', name: 'Svenska', flag: '🇸🇪' },
-  { code: 'no', name: 'Norsk', flag: '🇳🇴' },
-  { code: 'es', name: 'Español', flag: '🇪🇸' },
-  { code: 'fr', name: 'Français', flag: '🇫🇷' },
+  { code: 'sk', name: 'Slovenčina', flag: '🇸🇰', fallback: 'SK' },
+  { code: 'en', name: 'English', flag: '🇬🇧', fallback: 'EN' },
+  { code: 'de', name: 'Deutsch', flag: '🇩🇪', fallback: 'DE' },
+  { code: 'sv', name: 'Svenska', flag: '🇸🇪', fallback: 'SE' },
+  { code: 'no', name: 'Norsk', flag: '🇳🇴', fallback: 'NO' },
+  { code: 'es', name: 'Español', flag: '🇪🇸', fallback: 'ES' },
+  { code: 'fr', name: 'Français', flag: '🇫🇷', fallback: 'FR' },
 ]
 
 const Navbar = () => {
@@ -144,7 +144,9 @@ const Navbar = () => {
                 }`}
               >
                 <Globe size={18} />
-                <span className="text-sm font-medium">{currentLanguage.flag} {currentLanguage.code.toUpperCase()}</span>
+                <span className="text-lg leading-none" style={{ fontFamily: '"Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif' }}>
+                  {currentLanguage.flag}
+                </span>
                 <ChevronDown size={16} className={`transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
 
@@ -164,7 +166,9 @@ const Navbar = () => {
                           i18n.language === lang.code ? 'bg-primary-50 dark:bg-dark-500 text-primary-700 dark:text-primary' : 'text-dark-700 dark:text-dark-100'
                         }`}
                       >
-                        <span className="text-xl">{lang.flag}</span>
+                        <span className="text-xl" style={{ fontFamily: '"Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif' }}>
+                          {lang.flag}
+                        </span>
                         <span className="text-sm font-medium">{lang.name}</span>
                       </button>
                     ))}
@@ -238,11 +242,13 @@ const Navbar = () => {
                         className={`px-3 py-2 text-left rounded-lg transition-colors flex items-center space-x-2 text-sm ${
                           i18n.language === lang.code
                             ? 'bg-primary text-white'
-                            : 'bg-dark-50 text-dark-700 hover:bg-dark-100'
+                            : 'bg-dark-50 text-dark-700 hover:bg-dark-100 dark:bg-dark-600 dark:text-dark-100 dark:hover:bg-dark-700'
                         }`}
                       >
-                        <span>{lang.flag}</span>
-                        <span className="text-xs font-medium">{lang.code.toUpperCase()}</span>
+                        <span className="text-lg" style={{ fontFamily: '"Segoe UI Emoji", "Noto Color Emoji", "Apple Color Emoji", sans-serif' }}>
+                          {lang.flag}
+                        </span>
+                        <span className="text-xs font-medium">{lang.name}</span>
                       </button>
                     ))}
                   </div>
