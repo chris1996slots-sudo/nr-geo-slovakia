@@ -42,8 +42,8 @@
       "description": "Spezialisierte Vermessungsdienstleistungen für Tunnelvortrieb und Tunnelauskleidung mit DRILL & BLAST Methoden.",
       "overview": "Spezialisierte Vermessungsdienstleistungen für unterirdische Bauprojekte.",
       "capabilities": [
-        "TBM",
-        "NRTM",
+        "TBM (Tunnelbohrmaschine)",
+        "NRTM (Neue Österreichische Tunnelbauweise)",
         "Bergmännisch aufgefahrene Tunnel",
         "Konstruktionen und Brücken",
         "Konvergenzmessung",
@@ -58,7 +58,7 @@
         "Automatisierte Überwachungssysteme",
         "BIM-Integration"
       ],
-      "experience": "150+ km Tunnel vermessen in Skandinavien, Alpen und Balkan"
+      "experience": "Umfangreiche Erfahrung aus Untergrundprojekten in Tschechien, Slowakei, Norwegen und Schweden"
     },
     "scanToBim": {
       "title": "3D-Scannen",

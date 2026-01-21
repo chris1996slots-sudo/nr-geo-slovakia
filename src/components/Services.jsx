@@ -152,8 +152,8 @@ const Services = () => {
                             </h4>
                             <ul className="space-y-2">
                               {t(`services.${service.key}.capabilities`, { returnObjects: true }).map((capability, idx) => (
-                                <li key={idx} className="flex items-start text-dark-600 dark:text-dark-200">
-                                  <span className="text-primary mr-2 mt-1">•</span>
+                                <li key={idx} className="flex items-center text-dark-600 dark:text-dark-200">
+                                  <span className="text-primary mr-2">•</span>
                                   <span>{capability}</span>
                                 </li>
                               ))}

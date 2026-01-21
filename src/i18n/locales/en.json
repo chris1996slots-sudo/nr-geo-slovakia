@@ -42,8 +42,8 @@
       "description": "Specialized surveying services for tunnel excavation and tunnel lining using DRILL & BLAST methods.",
       "overview": "Specialized surveying services for underground construction.",
       "capabilities": [
-        "TBM",
-        "NRTM",
+        "TBM (Tunnel Boring Machine)",
+        "NRTM (New Austrian Tunneling Method)",
         "Mined tunnels",
         "Structures and bridges",
         "Convergence displacement measurement",
@@ -58,7 +58,7 @@
         "Automated Monitoring Systems",
         "BIM Integration"
       ],
-      "experience": "150+ km of tunnels surveyed across Scandinavia, Alps, and Balkans"
+      "experience": "Extensive experience from underground projects in Czech Republic, Slovak Republic, Norway and Sweden"
     },
     "scanToBim": {
       "title": "3D Scanning",

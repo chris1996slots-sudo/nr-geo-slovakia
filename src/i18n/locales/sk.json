@@ -42,8 +42,8 @@
       "description": "Špecializované geodetické služby pre razenie tunelov a vystrojenie tunelov metódami DRILL & BLAST.",
       "overview": "Špecializované geodetické služby pre podzemné stavby.",
       "capabilities": [
-        "TBM",
-        "NRTM",
+        "TBM (Tunelovací stroj)",
+        "NRTM (Nový Rakúsky Tunelovací Metóda)",
         "Hĺbené tunely",
         "Konštrukcie a mosty",
         "Meranie konvergenčných posunov",
@@ -58,7 +58,7 @@
         "Automatizované monitorovacie systémy",
         "BIM integrácia"
       ],
-      "experience": "150+ km tunelov zameraných naprieč Škandinávie, Álpy a Balkán"
+      "experience": "Bohaté skúsenosti z podzemných projektov v Českej republike, Slovenskej republike, Nórsku a Švédsku"
     },
     "scanToBim": {
       "title": "3D skenovanie",

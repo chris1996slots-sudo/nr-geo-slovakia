@@ -42,8 +42,8 @@
       "description": "Servicios especializados de topografía para excavación de túneles y revestimiento de túneles mediante métodos DRILL & BLAST.",
       "overview": "Servicios especializados de topografía para construcción subterránea.",
       "capabilities": [
-        "TBM",
-        "NRTM",
+        "TBM (Tuneladora)",
+        "NRTM (Nuevo Método Austriaco de Tunelización)",
         "Túneles excavados",
         "Estructuras y puentes",
         "Medición de desplazamientos de convergencia",
@@ -58,7 +58,7 @@
         "Sistemas de monitoreo automatizados",
         "Integración BIM"
       ],
-      "experience": "150+ km de túneles topografiados en Escandinavia, Alpes y Balcanes"
+      "experience": "Amplia experiencia en proyectos subterráneos en República Checa, República Eslovaca, Noruega y Suecia"
     },
     "scanToBim": {
       "title": "Escaneo 3D",

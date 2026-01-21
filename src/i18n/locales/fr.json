@@ -42,8 +42,8 @@
       "description": "Services de géodésie spécialisés pour le creusement de tunnels et le revêtement de tunnels par méthodes DRILL & BLAST.",
       "overview": "Services de géodésie spécialisés pour la construction souterraine.",
       "capabilities": [
-        "TBM",
-        "NRTM",
+        "TBM (Tunnelier)",
+        "NRTM (Nouvelle Méthode Autrichienne de Creusement de Tunnels)",
         "Tunnels creusés",
         "Structures et ponts",
         "Mesure des déplacements de convergence",
@@ -58,7 +58,7 @@
         "Systèmes de surveillance automatisés",
         "Intégration BIM"
       ],
-      "experience": "150+ km de tunnels arpentés en Scandinavie, Alpes et Balkans"
+      "experience": "Vaste expérience de projets souterrains en République tchèque, République slovaque, Norvège et Suède"
     },
     "scanToBim": {
       "title": "Balayage 3D",

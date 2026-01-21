@@ -42,8 +42,8 @@
       "description": "Spesialiserte måletjenester for tunneldrift og tunnelforing ved bruk av DRILL & BLAST metoder.",
       "overview": "Spesialiserte måletjenester for underjordisk konstruksjon.",
       "capabilities": [
-        "TBM",
-        "NRTM",
+        "TBM (Tunnelbormaskin)",
+        "NRTM (Ny Østerriksk Tunnelmetode)",
         "Gravde tunneler",
         "Konstruksjoner og broer",
         "Konvergensmåling",
@@ -58,7 +58,7 @@
         "Automatiserte overvåkingssystemer",
         "BIM-integrasjon"
       ],
-      "experience": "150+ km tunneler målt over Skandinavia, Alpene og Balkan"
+      "experience": "Omfattende erfaring fra underjordiske prosjekter i Tsjekkia, Slovakia, Norge og Sverige"
     },
     "scanToBim": {
       "title": "3D-skanning",
