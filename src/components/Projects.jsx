@@ -79,11 +79,15 @@ const Projects = () => {
     },
     {
       key: 'prahaMetroD',
-      image: '/images/hero/hero-1.webp',
+      image: '/projects/praha-metro-d/cd8b5e45-01cc-11ed-bc8c-00155d092b84-23938-f-5120004-edit.jpg',
       images: [
-        '/images/hero/hero-1.webp',
-        '/images/hero/hero-2.webp',
-        '/images/hero/hero-3.webp',
+        '/projects/praha-metro-d/cd8b5e45-01cc-11ed-bc8c-00155d092b84-23938-f-5120004-edit.jpg',
+        '/projects/praha-metro-d/2a0e84fd-01cd-11ed-bc8c-00155d092b84-23938-f-5120064-edit.jpg',
+        '/projects/praha-metro-d/30eaa44e-01cd-11ed-bc8c-00155d092b84-23938-f-5120067-edit.jpg',
+        '/projects/praha-metro-d/3d57c1f8-01cd-11ed-bc8c-00155d092b84-23938-f-5120091-edit.jpg',
+        '/projects/praha-metro-d/BlGOGx.webp',
+        '/projects/praha-metro-d/VV2OFB.webp',
+        '/projects/praha-metro-d/37bbf881-01cd-11ed-bc8c-00155d092b84-23938-5120079-edit.jpg',
       ],
       stats: ['10.6 km', '2022-2031', 'Driverless Metro']
     },
