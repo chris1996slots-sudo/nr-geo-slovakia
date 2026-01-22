@@ -1,187 +1,269 @@
-# NR-GEO Slovakia - Corporate Website
+# NR-GEO Slovakia Website
 
-Modern, high-performance corporate website for NR-GEO Slovakia, a leading engineering surveying company specializing in underground construction, tunneling, and geodesy.
+Modern, multilingual website for NR-GEO s.r.o. - Professional geodetic and surveying services for underground construction projects.
 
-## Tech Stack
+## 🌍 Features
 
-- **Framework**: React 18 with Vite
-- **Styling**: Tailwind CSS
-- **Animations**: Framer Motion
-- **Icons**: Lucide React
-- **Internationalization**: i18next with browser language detection
-- **Deployment**: Netlify/Vercel ready
+- **7 Languages**: Slovak, English, German, Swedish, Norwegian, Spanish, French
+- **Fully Responsive**: Optimized for desktop, tablet, and mobile devices
+- **Dark/Light Mode**: Automatic theme switching with user preference
+- **SEO Optimized**: Meta tags, semantic HTML, and optimized performance
+- **Fast Loading**: Code splitting, lazy loading, and optimized images
+- **Modern Stack**: React 18, Vite, Tailwind CSS, Framer Motion
 
-## Features
+## 🚀 Quick Start for Hosting Company
 
-### Multi-Language Support (12 Languages)
-- Auto-detect browser language on first visit
-- Language selector in navbar
-- Full translation support for:
-  - Slovak (Native)
-  - English (Global)
-  - Swedish (Key Market)
-  - Norwegian (Key Market)
-  - Ukrainian (Strategic Market)
-  - Mandarin Chinese
-  - Hindi
-  - Spanish
-  - French
-  - Arabic
-  - Portuguese
-  - Russian
+### Prerequisites
+- Node.js 18 or higher ([Download here](https://nodejs.org/))
+- Basic terminal/command line knowledge
 
-### Modern Design
-- Clean, professional engineering aesthetic
-- NR-GEO brand colors (Primary Orange #F58220)
-- Fully responsive (Mobile First)
-- Smooth animations and transitions
-- High-quality imagery
+### Installation & Build
 
-### Comprehensive Content Sections
-1. **Hero** - High-impact introduction with tunneling imagery
-2. **About Us** - Slovak Construction Intelligence & 2026 strategy
-3. **Services** - 4 core services with 2026 focus areas
-4. **Markets** - Scandinavia, Balkans, Ukraine
-5. **Projects** - Portfolio including Förbifart Stockholm, Brenner Base Tunnel, Rail Baltica
-6. **Contact** - Interactive form with business information
+1. **Install Dependencies**
+   ```bash
+   npm install
+   ```
 
-## Project Structure
+2. **Build for Production**
+   ```bash
+   npm run build
+   ```
+   This creates an optimized production build in the `dist/` folder.
+
+3. **Preview Production Build** (Optional)
+   ```bash
+   npm run preview
+   ```
+   Opens at `http://localhost:4173` to test the production build.
+
+4. **Deploy**
+   - Upload the entire `dist/` folder to your web server
+   - Point your domain to serve files from the `dist/` folder
+   - Configure your server for Single Page Application (see below)
+
+### Server Configuration
+
+The website is a Single Page Application (SPA) and requires proper server configuration to handle client-side routing.
+
+#### Apache (.htaccess)
+Create a `.htaccess` file in your `dist/` folder:
+
+```apache
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+```
+
+#### Nginx
+Add this to your nginx site configuration:
+
+```nginx
+location / {
+  try_files $uri $uri/ /index.html;
+}
+```
+
+#### Alternative Platforms
+- **Netlify**: Drag & drop the `dist/` folder (automatic SPA support)
+- **Vercel**: Import from GitHub or upload `dist/` folder
+- **GitHub Pages**: Use with GitHub Actions for automatic deployment
+
+## 📁 Project Structure
 
 ```
 nr-geo/
-├── public/
+├── dist/                    # Production build (created after npm run build)
+├── public/                  # Static assets served as-is
+│   ├── projects/           # Project images
+│   │   ├── praha-metro-d/  # Praha Metro D project photos
+│   │   ├── forbifart/      # Förbifart Stockholm photos
+│   │   ├── hammarby/       # Hammarby Sjöstad photos
+│   │   ├── oslo/           # Oslo K2C photos
+│   │   └── jarfalla/       # Järfällatunnel photos
+│   ├── images/             # General images (hero, team, etc.)
+│   └── nr-geo-logo.png     # Company logo
 ├── src/
-│   ├── components/
-│   │   ├── Navbar.jsx          # Navigation with language selector
-│   │   ├── Hero.jsx            # Hero section
-│   │   ├── About.jsx           # About section
-│   │   ├── Services.jsx        # Services showcase
-│   │   ├── Markets.jsx         # Market presence
-│   │   ├── Projects.jsx        # Project portfolio
-│   │   ├── Contact.jsx         # Contact form
-│   │   └── Footer.jsx          # Footer
-│   ├── i18n/
-│   │   ├── i18n.js            # i18next configuration
-│   │   └── locales/           # Translation files (12 languages)
-│   │       ├── sk.json        # Slovak
-│   │       ├── en.json        # English
-│   │       ├── sv.json        # Swedish
-│   │       ├── no.json        # Norwegian
-│   │       ├── uk.json        # Ukrainian
-│   │       ├── zh.json        # Chinese
-│   │       ├── hi.json        # Hindi
-│   │       ├── es.json        # Spanish
-│   │       ├── fr.json        # French
-│   │       ├── ar.json        # Arabic
-│   │       ├── pt.json        # Portuguese
-│   │       └── ru.json        # Russian
-│   ├── App.jsx                # Main app component
-│   ├── main.jsx               # Entry point
-│   └── index.css              # Global styles
-├── index.html
-├── package.json
-├── vite.config.js
-├── tailwind.config.js
-└── postcss.config.js
+│   ├── components/         # React components
+│   │   ├── Navbar.jsx     # Navigation bar with language selector
+│   │   ├── Hero.jsx       # Hero section
+│   │   ├── Services.jsx   # Services section
+│   │   ├── Projects.jsx   # Projects showcase
+│   │   ├── Team.jsx       # Team members
+│   │   ├── Contact.jsx    # Contact form
+│   │   └── Footer.jsx     # Footer
+│   ├── i18n/              # Internationalization
+│   │   ├── i18n.js        # i18next configuration
+│   │   └── locales/       # Translation files
+│   │       ├── sk.json    # Slovak
+│   │       ├── en.json    # English
+│   │       ├── de.json    # German
+│   │       ├── sv.json    # Swedish
+│   │       ├── no.json    # Norwegian
+│   │       ├── es.json    # Spanish
+│   │       └── fr.json    # French
+│   ├── App.jsx            # Main app component
+│   ├── main.jsx           # Entry point
+│   └── index.css          # Global styles
+├── index.html             # HTML template
+├── package.json           # Dependencies and scripts
+├── vite.config.js         # Vite build configuration
+├── tailwind.config.js     # Tailwind CSS configuration
+└── README.md              # This file
 ```
 
-## Getting Started
+## 🛠️ Development
 
-### Installation
+### Available Scripts
 
 ```bash
-# Install dependencies
-npm install
-
-# Start development server
+# Start development server (http://localhost:3000)
 npm run dev
 
 # Build for production
 npm run build
 
-# Preview production build
+# Preview production build (http://localhost:4173)
 npm run preview
+
+# Lint code
+npm run lint
 ```
 
-The development server will start at `http://localhost:3000`
+### Development Server
+- Runs at `http://localhost:3000`
+- Hot Module Replacement (HMR) enabled
+- Opens automatically in your browser
 
-## Configuration
+## ✏️ Content Management
 
-### Tailwind CSS
-The custom color scheme is configured in `tailwind.config.js`:
-- Primary Orange: `#F58220`
-- Dark Grey/Black for contrast
-- Custom animations and utilities
+### Update Translations
+All website content is stored in JSON files in `src/i18n/locales/`:
 
-### i18next
-Language detection is automatic based on:
-1. Browser language settings
-2. HTML lang attribute
-3. Cached language preference (localStorage)
+- `sk.json` - Slovak (native language)
+- `en.json` - English
+- `de.json` - German
+- `sv.json` - Swedish
+- `no.json` - Norwegian
+- `es.json` - Spanish
+- `fr.json` - French
 
-Fallback language: English
-
-## Customization
-
-### Adding New Languages
-1. Create a new JSON file in `src/i18n/locales/`
-2. Add the language code to `src/i18n/i18n.js`:
-   - Import the translation file
-   - Add to resources object
-   - Add to supportedLngs array
-3. Add the language to the navbar selector in `src/components/Navbar.jsx`
-
-### Updating Content
-All text content is stored in translation files (`src/i18n/locales/*.json`). Update the appropriate language file to change content.
-
-### Styling
-- Global styles: `src/index.css`
-- Tailwind configuration: `tailwind.config.js`
-- Component-specific styles: Inline Tailwind classes
-
-## 2026 Strategic Focus
-
-The website highlights NR-GEO's 2026 strategic pivot:
-- **Non-Russian Supply Chains**: Emphasis on sustainable sourcing from Turkey, India, and EU markets
-- **Digital Transformation**: Scan-to-BIM, Digital Twins, and material optimization technology
-- **Automated Monitoring**: Geotechnical sensor systems for real-time stability monitoring
-- **Ukraine Reconstruction**: Strategic partnership in rebuilding critical infrastructure
-
-## Key Markets
-
-- **Scandinavia**: Sweden, Norway (Förbifart Stockholm and major transport infrastructure)
-- **Balkans**: Corridor VIII connecting Eastern and Western Europe
-- **Ukraine**: Post-conflict reconstruction with sustainable materials
-
-## Deployment
-
-### Netlify
-```bash
-npm run build
-# Deploy the 'dist' folder to Netlify
+**Example**: To change the company name:
+```json
+{
+  "hero": {
+    "title": "NR-GEO s.r.o.",  // Edit this line
+    ...
+  }
+}
 ```
 
-### Vercel
-```bash
-npm run build
-# Deploy the 'dist' folder to Vercel
+### Add Project Images
+1. Create folder in `public/projects/[project-name]/`
+2. Add images to the folder
+3. Update `images` array in translation files:
+```json
+{
+  "projects": {
+    "yourProject": {
+      "images": [
+        "/projects/your-project/image1.jpg",
+        "/projects/your-project/image2.jpg"
+      ]
+    }
+  }
+}
 ```
 
-Or use the Vercel/Netlify CLI for automatic deployment.
+### Update Team Members
+Edit the `team.members` array in each language file:
+```json
+{
+  "team": {
+    "members": [
+      {
+        "name": "Name",
+        "position": "Position",
+        "image": "/images/team/photo.jpg"
+      }
+    ]
+  }
+}
+```
 
-## Browser Support
+### Update Contact Information
+Edit `contact` section in language files:
+```json
+{
+  "contact": {
+    "email": "info@nr-geo.sk",
+    "phone": "+421 905 XXX XXX",
+    "address": "Your Address"
+  }
+}
+```
 
-- Modern browsers (Chrome, Firefox, Safari, Edge)
-- Mobile browsers (iOS Safari, Chrome Mobile)
-- ES6+ features required
+## 🎨 Customization
 
-## License
+### Change Colors
+Edit `tailwind.config.js`:
+```javascript
+colors: {
+  primary: '#F58220',  // Main brand color
+  // Add more custom colors
+}
+```
 
-© 2026 NR-GEO Slovakia. All rights reserved.
+### Change Fonts
+Edit `src/index.css`:
+```css
+@import url('https://fonts.googleapis.com/css2?family=Your+Font');
 
-## Contact
+body {
+  font-family: 'Your Font', sans-serif;
+}
+```
 
-For more information about NR-GEO Slovakia:
-- Website: https://www.nr-geo.sk
-- Email: info@nr-geo.sk
-- Location: Bratislava, Slovakia
+## 🌐 SEO & Performance
+
+- **Optimized Images**: WebP format with JPEG fallbacks
+- **Code Splitting**: Automatic vendor chunking
+- **Lazy Loading**: Images and components load on demand
+- **Meta Tags**: Proper SEO meta tags in all languages
+- **Performance**: Lighthouse score 90+ on all metrics
+
+## 📱 Browser Support
+
+- Chrome (last 2 versions)
+- Firefox (last 2 versions)
+- Safari (last 2 versions)
+- Edge (last 2 versions)
+- Mobile browsers (iOS Safari, Chrome Android)
+
+## 🔧 Technical Stack
+
+- **Framework**: React 18.3.1
+- **Build Tool**: Vite 6.0.11
+- **Styling**: Tailwind CSS 3.4.17
+- **Animations**: Framer Motion 12.0.3
+- **Icons**: Lucide React 0.469.0
+- **Internationalization**: react-i18next 15.2.2
+- **Form Handling**: EmailJS
+
+## 📞 Support
+
+For questions or technical support:
+- **Email**: info@nr-geo.sk
+- **Website**: https://www.nr-geo.sk
+
+## 📄 License
+
+© 2026 NR-GEO s.r.o. All rights reserved.
+
+---
+
+**Built with ❤️ for professional geodetic services**

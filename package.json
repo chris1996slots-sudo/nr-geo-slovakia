@@ -3,10 +3,12 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "description": "NR-GEO s.r.o. - Professional geodetic and surveying services website",
+  "author": "NR-GEO s.r.o.",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host --port 3000 --open",
     "build": "vite build",
-    "preview": "vite preview",
+    "preview": "vite preview --port 4173",
     "lint": "eslint ."
   },
   "dependencies": {

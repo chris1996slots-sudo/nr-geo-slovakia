@@ -1,0 +1,114 @@
+# NR-GEO Website - Apache Configuration
+# This file configures the Apache web server for optimal performance and SPA support
+
+# ====================
+# Single Page Application (SPA) Support
+# ====================
+# Redirect all requests to index.html to enable client-side routing
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Don't rewrite for actual files and directories
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # Redirect everything else to index.html
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# ====================
+# GZIP Compression
+# ====================
+# Compress text files to reduce bandwidth and improve loading speed
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE text/javascript
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/json
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE image/svg+xml
+</IfModule>
+
+# ====================
+# Browser Caching
+# ====================
+# Set cache expiration times for different file types
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images - cache for 1 year
+  ExpiresByType image/jpg "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/x-icon "access plus 1 year"
+
+  # CSS and JavaScript - cache for 1 month
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+
+  # Fonts - cache for 1 year
+  ExpiresByType font/woff "access plus 1 year"
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+
+  # HTML - cache for 1 day
+  ExpiresByType text/html "access plus 1 day"
+
+  # Default - cache for 1 day
+  ExpiresDefault "access plus 1 day"
+</IfModule>
+
+# ====================
+# Security Headers
+# ====================
+# Add security headers to protect against common vulnerabilities
+<IfModule mod_headers.c>
+  # Prevent MIME type sniffing
+  Header set X-Content-Type-Options "nosniff"
+
+  # Clickjacking protection
+  Header set X-Frame-Options "SAMEORIGIN"
+
+  # XSS protection
+  Header set X-XSS-Protection "1; mode=block"
+
+  # Referrer policy
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+
+  # Remove X-Powered-By header
+  Header unset X-Powered-By
+</IfModule>
+
+# ====================
+# Force HTTPS (Uncomment if you have SSL certificate)
+# ====================
+# <IfModule mod_rewrite.c>
+#   RewriteEngine On
+#   RewriteCond %{HTTPS} off
+#   RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# </IfModule>
+
+# ====================
+# UTF-8 Encoding
+# ====================
+# Ensure proper character encoding for all text files
+AddDefaultCharset UTF-8
+<IfModule mod_mime.c>
+  AddCharset UTF-8 .html .css .js .xml .json .webmanifest
+</IfModule>
+
+# ====================
+# Error Documents (Optional)
+# ====================
+# Custom error pages - uncomment and customize as needed
+# ErrorDocument 404 /index.html
+# ErrorDocument 500 /index.html
