@@ -77,43 +77,47 @@ location / {
 
 ```
 nr-geo/
-├── dist/                    # Production build (created after npm run build)
-├── public/                  # Static assets served as-is
-│   ├── projects/           # Project images
-│   │   ├── praha-metro-d/  # Praha Metro D project photos
-│   │   ├── forbifart/      # Förbifart Stockholm photos
-│   │   ├── hammarby/       # Hammarby Sjöstad photos
-│   │   ├── oslo/           # Oslo K2C photos
-│   │   └── jarfalla/       # Järfällatunnel photos
-│   ├── images/             # General images (hero, team, etc.)
-│   └── nr-geo-logo.png     # Company logo
-├── src/
-│   ├── components/         # React components
-│   │   ├── Navbar.jsx     # Navigation bar with language selector
-│   │   ├── Hero.jsx       # Hero section
-│   │   ├── Services.jsx   # Services section
-│   │   ├── Projects.jsx   # Projects showcase
-│   │   ├── Team.jsx       # Team members
-│   │   ├── Contact.jsx    # Contact form
-│   │   └── Footer.jsx     # Footer
-│   ├── i18n/              # Internationalization
-│   │   ├── i18n.js        # i18next configuration
-│   │   └── locales/       # Translation files
-│   │       ├── sk.json    # Slovak
-│   │       ├── en.json    # English
-│   │       ├── de.json    # German
-│   │       ├── sv.json    # Swedish
-│   │       ├── no.json    # Norwegian
-│   │       ├── es.json    # Spanish
-│   │       └── fr.json    # French
-│   ├── App.jsx            # Main app component
-│   ├── main.jsx           # Entry point
-│   └── index.css          # Global styles
-├── index.html             # HTML template
-├── package.json           # Dependencies and scripts
-├── vite.config.js         # Vite build configuration
-├── tailwind.config.js     # Tailwind CSS configuration
-└── README.md              # This file
+├── dist/                       # Production build (auto-generated)
+│   ├── index.html
+│   ├── assets/                # Optimized CSS & JavaScript
+│   ├── images/                # Optimized images
+│   └── projects/              # Project photos
+│
+├── docs/                       # Documentation
+│   ├── hosting/               # For hosting company
+│   │   ├── START_HERE.txt    # Entry point
+│   │   ├── HANDOFF.txt       # Quick guide
+│   │   └── DEPLOYMENT.md     # Detailed steps
+│   └── development/           # For developers
+│       └── CHANGELOG.md      # Version history
+│
+├── public/                     # Static assets
+│   ├── projects/              # Project images
+│   │   ├── praha-metro-d/    # 7 images
+│   │   ├── forbifart/        # 21 images
+│   │   ├── hammarby/         # 9 images
+│   │   ├── oslo/             # 13 images
+│   │   └── jarfalla/         # 7 images
+│   ├── images/                # General images
+│   ├── .htaccess              # Apache config
+│   └── nr-geo-logo.png        # Company logo
+│
+├── src/                        # Source code
+│   ├── components/            # React components
+│   ├── i18n/                 # Translations (7 languages)
+│   ├── pages/                # Page components
+│   ├── App.jsx               # Main app
+│   ├── main.jsx              # Entry point
+│   └── index.css             # Global styles
+│
+├── scripts/                    # Utility scripts
+│   ├── convert_to_webp.py
+│   └── update_translations.py
+│
+├── .env.example               # Environment template
+├── package.json               # Dependencies
+├── vite.config.js             # Build config
+└── README.md                  # This file
 ```
 
 ## 🛠️ Development
