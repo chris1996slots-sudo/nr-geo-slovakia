@@ -148,9 +148,9 @@
       "description": "21 km Stockholm bypass - one of Europe's largest transport projects.",
       "overview": "Förbifart Stockholm is one of Europe's largest infrastructure projects - a 21 km bypass route with 18 km of tunnel beneath the Swedish capital. NR-GEO provided comprehensive surveying and monitoring services throughout the entire construction phase.",
       "scope": [
-        "TBM guidance for 4 tunnel boring machines",
+        "Surveying services for Drill & Blast method",
         "Continuous deformation monitoring of existing infrastructure",
-        "Underground control network establishment and maintenance",
+        "Establishment and maintenance of underground control network",
         "Real-time positioning for excavation equipment",
         "As-built documentation and quality control",
         "Coordination with Swedish Transport Administration"
@@ -171,12 +171,12 @@
       "description": "Critical section of Stockholm bypass requiring precision underground surveying.",
       "overview": "Järfällatunnel 4713 is a critical section of the Stockholm bypass system, requiring precision underground surveying and mining geodesy expertise. NR-GEO provided comprehensive measurement services for tunnel excavation and structural monitoring.",
       "scope": [
-        "Underground control network for tunnel construction",
-        "Mining surveying and geological documentation",
-        "Laser scanning of tunnel profiles and as-built conditions",
-        "Deformation monitoring during excavation",
-        "Real-time data processing and reporting",
-        "Integration with main Förbifart Stockholm project"
+        "Surveying services for Drill & Blast method",
+        "Establishment of subsurface control networks",
+        "Deformation monitoring of nearby buildings and infrastructure",
+        "Real-time positioning of excavation equipment",
+        "Laser scanning for tunnel profile verification",
+        "As-built documentation and quality assurance"
       ],
       "achievements": [
         "Maintained sub-centimeter accuracy in challenging geology",
@@ -218,10 +218,10 @@
       "overview": "The Hammarby Sjöstad metro extension is part of Stockholm's ambitious Blue Line expansion project. This groundbreaking project includes Hammarby Kanal station, Stockholm's first metro station built in rock beneath water, requiring advanced surveying techniques for underwater construction. The project includes sophisticated tunneling work with TBM operations and precision alignment in challenging aquatic conditions.",
       "scope": [
         "Underground control network for metro tunnel construction",
-        "TBM guidance for underwater tunnel sections",
+        "Surveying services for Drill & Blast method in underwater sections",
         "Deformation monitoring of canal structures during excavation",
-        "Precision surveying beneath water level",
-        "As-built documentation for rock cavern station",
+        "Precision measurement below water level",
+        "As-built documentation for rock stations",
         "Integration with Blue Line extension to Nacka"
       ],
       "achievements": [
@@ -240,11 +240,11 @@
       "description": "High-precision surveying for Oslo's critical metro infrastructure expansion.",
       "overview": "The K2C project is part of Oslo's extensive metro and railway infrastructure development, supporting the city's growing transportation needs. NR-GEO provided comprehensive surveying services for tunnel construction, station development, and integration with existing infrastructure in Norway's capital region.",
       "scope": [
-        "Precision surveying for metro tunnel excavation",
-        "Underground control network establishment",
-        "TBM guidance and monitoring",
+        "Precision measurement for metro tunnel excavation",
+        "Establishment of underground control network",
+        "Surveying services for Drill & Blast method",
         "Deformation monitoring of existing structures",
-        "Integration with Oslo's existing metro network",
+        "Integration with existing Oslo metro network",
         "Real-time data processing and quality control"
       ],
       "achievements": [
@@ -263,12 +263,12 @@
       "description": "Prague's fourth metro line - 10.6 km with 10 stations, featuring driverless train technology.",
       "overview": "Metro Line D is Prague's newest and most technologically advanced metro line, spanning 10.6 kilometers with 10 stations connecting Náměstí Míru and Depo Písnice. This flagship infrastructure project features fully automated driverless trains and represents the future of Prague's public transportation. NR-GEO provides precision surveying services for this complex underground construction project, ensuring millimeter accuracy for tunnel alignment and station construction.",
       "scope": [
-        "High-precision tunnel alignment surveying for 10.6 km route",
-        "Underground control networks for 10 station locations",
-        "TBM guidance and breakthrough precision planning",
-        "Deformation monitoring of historical city structures",
+        "High-precision tunnel alignment measurement for 10.6 km route",
+        "Underground control networks for 10 stations",
+        "NRTM (New Austrian Tunneling Method) guidance and monitoring",
+        "Deformation monitoring of historic urban structures",
         "As-built documentation for automated train systems",
-        "Integration with existing Metro lines (transfer at Pankrác)"
+        "Integration with existing metro lines (transfer at Pankrác)"
       ],
       "achievements": [
         "Contributing to Prague's largest metro expansion project",

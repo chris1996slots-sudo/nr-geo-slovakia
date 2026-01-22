@@ -149,7 +149,7 @@
       "description": "21 km obchvat Štokholmu - jeden z najväčších dopravných projektov v Európe.",
       "overview": "Förbifart Stockholm je jedným z najväčších infraštruktúrnych projektov v Európe - 21 km obchvat s 18 km tunela pod švédskou hlavným mestom. NR-GEO poskytlo komplexné meranie a monitorovacie služby počas celej výstavby.",
       "scope": [
-        "Vedenie TBM pre 4 tunelovacie stroje",
+        "Geodetické služby pre metódu Drill & Blast",
         "Nepretržité monitorovanie deformácií existujúcej infraštruktúry",
         "Zriadenie a údržba podzemnej kontrolnej siete",
         "Lokalizácia v reálnom čase pre výkopové zariadenia",
@@ -172,7 +172,7 @@
       "description": "Kritická sekcia obchvatu Štokholmu vyžadujúca presnú podpovrchovú geodéziu.",
       "overview": "Järfällatunnel je kritický 1,4 km úsek väčšieho projektu Förbifart Stockholm. NR-GEO vykonala špecializované podpovrchové meranie, vedenie TBM a monitorovanie deformácií pre tento mestský tunelovací projekt.",
       "scope": [
-        "Vedenie TBM pre sekciu 4713",
+        "Geodetické služby pre metódu Drill & Blast",
         "Zriadenie podpovrchových kontrolných sietí",
         "Monitorovanie deformácií blízkych budov a infraštruktúry",
         "Polohovanie vybavenia na výkopy v reálnom čase",
@@ -219,7 +219,7 @@
       "overview": "Rozšírenie metra Hammarby Sjöstad je súčasťou ambiciózneho projektu rozšírenia modrej linky v Štokholme. Tento prelomový projekt zahŕňa stanicu Hammarby Kanal, prvú stanicu metra v Štokholme postavenú v skale pod vodou, vyžadujúcu pokročilé meracie techniky pre podvodnú výstavbu.",
       "scope": [
         "Podzemná kontrolná sieť pre výstavbu tunela metra",
-        "Vedenie TBM pre podvodné úseky tunela",
+        "Geodetické služby pre metódu Drill & Blast v podvodných úsekoch",
         "Monitorovanie deformácií kanálových štruktúr počas výkopu",
         "Presné meranie pod úrovňou vody",
         "Dokumentácia skutočného stavu pre skalné stanice",
@@ -243,7 +243,7 @@
       "scope": [
         "Presné meranie pre výkop tunela metra",
         "Zriadenie podzemnej kontrolnej siete",
-        "Vedenie a monitorovanie TBM",
+        "Geodetické služby pre metódu Drill & Blast",
         "Monitorovanie deformácií existujúcich štruktúr",
         "Integrácia s existujúcou sieťou metra v Osle",
         "Spracovanie údajov v reálnom čase a kontrola kvality"
@@ -266,7 +266,7 @@
       "scope": [
         "Vysoko presné meranie zarovnania tunela pre 10,6 km trasu",
         "Podzemné kontrolné siete pre 10 staníc",
-        "Vedenie TBM a plánovanie presnosti prierazu",
+        "Vedenie a monitorovanie NRTM (Nový Rakúsky Tunelovací Metóda)",
         "Monitorovanie deformácií historických mestských štruktúr",
         "Dokumentácia skutočného stavu pre automatizované vlakové systémy",
         "Integrácia s existujúcimi linkami metra (prestup na Pankrác)"

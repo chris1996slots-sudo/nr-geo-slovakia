@@ -148,12 +148,12 @@
       "description": "21 km Stockholms ringvei - et av Europas største transportprosjekter.",
       "overview": "Förbifart Stockholm er et av Europas største infrastrukturprosjekter - en 21 km omkjøringsvei med 18 km tunnel under Sveriges hovedstad. NR-GEO leverte omfattende målings- og overvåkingstjenester gjennom hele byggefasen.",
       "scope": [
-        "TBM-styring for 4 tunnelboringsmaskiner",
+        "Måletjenester for Drill & Blast-metoden",
         "Kontinuerlig deformasjonsovervåking av eksisterende infrastruktur",
         "Etablering og vedlikehold av underjordisk kontrollnettverk",
         "Sanntidsposisjonering for graveutstyr",
         "As-built dokumentasjon og kvalitetskontroll",
-        "Koordinering med Trafikverket"
+        "Koordinering med Trafikverket Sverige"
       ],
       "achievements": [
         "Null hendelser relatert til målingspresisjon",
@@ -171,10 +171,10 @@
       "description": "Kritisk seksjon av Stockholms omkjøringsvei som krever presis underjordisk måling.",
       "overview": "Järfällatunnelen er en kritisk 1,4 km seksjon av det større Förbifart Stockholm-prosjektet. NR-GEO utførte spesialisert underjordisk måling, TBM-styring og deformasjonsovervåking for dette urbane tunnelprosjektet.",
       "scope": [
-        "TBM-styring for seksjon 4713",
+        "Måletjenester for Drill & Blast-metoden",
         "Etablering av underjordiske kontrollnettverk",
         "Deformasjonsovervåking av nærliggende bygninger og infrastruktur",
-        "Sanntidsposisjonering for graveutstyr",
+        "Sanntidsposisjonering av graveutstyr",
         "Laserskanning for tunnelprofilverifisering",
         "As-built dokumentasjon og kvalitetssikring"
       ],
@@ -217,12 +217,12 @@
       "description": "Stockholms første undervanns t-banestasjon - presisjonsmåling under Hammarby kanal.",
       "overview": "Hammarby Sjöstad t-baneforlengelse er en del av Stockholms ambisiøse Blå linjes utbyggingsprosjekt. Dette banebrytende prosjektet inkluderer Hammarby kanal stasjon, Stockholms første t-banestasjon bygget i fjell under vann, som krever avanserte måleteknikker for undervannskonstruksjon.",
       "scope": [
-        "Underjordisk kontrollnettverk for t-banekonstruksjon",
-        "TBM-styring for undervanns tunnelseksjoner",
-        "Deformasjonsovervåking av kanalstrukturer under graving",
+        "Underjordisk kontrollnettverk for T-bane tunnelkonstruksjon",
+        "Måletjenester for Drill & Blast-metoden i undervannseksjoner",
+        "Deformasjonsovervåking av kanalstrukturer under utgraving",
         "Presisjonsmåling under vannivå",
-        "Byggdokumentasjon for fjellkavernstasjon",
-        "Integrasjon med Blå linjes forlengelse til Nacka"
+        "As-built dokumentasjon for fjellstasjoner",
+        "Integrasjon med Blå linje utvidelse til Nacka"
       ],
       "achievements": [
         "Vellykket måling for Stockholms første undervanns t-banestasjon",
@@ -240,11 +240,11 @@
       "description": "Høypresisjonsmåling for Oslos kritiske t-baneinfrastrukturutbygging.",
       "overview": "K2C-prosjektet er en del av Oslos omfattende t-bane- og jernbaneinfrastrukturutvikling som støtter byens voksende transportbehov. NR-GEO leverte omfattende måletjenester for tunnelbygging, stasjonsutvikling og integrasjon med eksisterende infrastruktur.",
       "scope": [
-        "Presisjonsmåling for t-banetunnelgraving",
+        "Presisjonsmåling for T-bane tunnelutgraving",
         "Etablering av underjordisk kontrollnettverk",
-        "TBM-styring og overvåking",
+        "Måletjenester for Drill & Blast-metoden",
         "Deformasjonsovervåking av eksisterende strukturer",
-        "Integrasjon med Oslos eksisterende t-banenettverk",
+        "Integrasjon med eksisterende Oslo T-banenettverk",
         "Sanntidsdatabehandling og kvalitetskontroll"
       ],
       "achievements": [
@@ -263,12 +263,12 @@
       "description": "Prahas fjerde t-banelinje - 10,6 km med 10 stasjoner, med førerløs togteknologi.",
       "overview": "Metro linje D er Prahas nyeste og mest teknologisk avanserte t-banelinje, som strekker seg 10,6 kilometer med 10 stasjoner som forbinder Náměstí Míru og Depo Písnice. Dette flaggskip infrastrukturprosjektet har helt automatiserte førerløse tog. NR-GEO leverer presisjonsmåletjenester for dette komplekse underjordiske byggeprosjektet.",
       "scope": [
-        "Høypresisjonsmåling av tunneljustering for 10,6 km rute",
-        "Underjordiske kontrollnettverk for 10 stasjonslokasjoner",
-        "TBM-styring og gjennombruddspresisjon planlegging",
+        "Høypresisjon tunneljustering måling for 10,6 km rute",
+        "Underjordiske kontrollnettverk for 10 stasjoner",
+        "NRTM (Ny Østerriksk Tunnelmetode) veiledning og overvåking",
         "Deformasjonsovervåking av historiske bystrukturer",
-        "Byggdokumentasjon for automatiserte togsystemer",
-        "Integrasjon med eksisterende t-banelinjer (bytte ved Pankrác)"
+        "As-built dokumentasjon for automatiserte togsystemer",
+        "Integrasjon med eksisterende T-banelinjer (bytte ved Pankrác)"
       ],
       "achievements": [
         "Bidrar til Prahas største t-baneekspansjonsprosjekt",

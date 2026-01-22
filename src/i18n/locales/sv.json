@@ -148,9 +148,9 @@
       "description": "21 km Stockholms förbifart - ett av Europas största transportprojekt.",
       "overview": "Förbifart Stockholm är ett av Europas största infrastrukturprojekt - en 21 km förbifart med 18 km tunnel under Sveriges huvudstad. NR-GEO tillhandahöll omfattande mätnings- och övervakningsstjänster under hela byggfasen.",
       "scope": [
-        "TBM-styrning för 4 tunnelborringsmaskiner",
+        "Mättjänster för Drill & Blast-metoden",
         "Kontinuerlig deformationsövervakning av befintlig infrastruktur",
-        "Etablering och underhåll av underjordiskt kontrollnätverk",
+        "Upprättande och underhåll av underjordiskt kontrollnät",
         "Realtidspositionering för grävutrustning",
         "As-built dokumentation och kvalitetskontroll",
         "Samordning med Trafikverket"
@@ -171,10 +171,10 @@
       "description": "Kritisk sektion av Stockholms förbifart som kräver precis underjordisk mätning.",
       "overview": "Järfällatunneln är en kritisk 1,4 km sektion av det större Förbifart Stockholm-projektet. NR-GEO utförde specialiserad underjordisk mätning, TBM-styrning och deformationsövervakning för detta urbana tunnelprojekt.",
       "scope": [
-        "TBM-styrning för sektion 4713",
-        "Etablering av underjordiska kontrollnätverk",
+        "Mättjänster för Drill & Blast-metoden",
+        "Upprättande av underjordiska kontrollnät",
         "Deformationsövervakning av närliggande byggnader och infrastruktur",
-        "Realtidspositionering för grävutrustning",
+        "Realtidspositionering av grävutrustning",
         "Laserskanning för tunnelprofilverifiering",
         "As-built dokumentation och kvalitetssäkring"
       ],
@@ -217,11 +217,11 @@
       "description": "Stockholms första tunnelbanestation under vatten - precisionsmätning under Hammarby kanal.",
       "overview": "Hammarby Sjöstad tunnelbaneförlängning är en del av Stockholms ambitiösa Blå linjens utbyggnadsprojekt. Detta banbrytande projekt inkluderar Hammarby kanal station, Stockholms första tunnelbanestation byggd i berg under vatten, vilket kräver avancerad mätteknik för undervattenskonstruktion.",
       "scope": [
-        "Underjordiskt kontrollnätverk för tunnelbanekonstruktion",
-        "TBM-styrning för undervattentunnelsektioner",
+        "Underjordiskt kontrollnät för tunnelbanebyggnation",
+        "Mättjänster för Drill & Blast-metoden i undervattenssektioner",
         "Deformationsövervakning av kanalstrukturer under schaktning",
         "Precisionsmätning under vattennivå",
-        "Relationshandlingar för bergkavernstation",
+        "As-built dokumentation för bergstationer",
         "Integration med Blå linjens förlängning till Nacka"
       ],
       "achievements": [
@@ -241,10 +241,10 @@
       "overview": "K2C-projektet är en del av Oslos omfattande tunnelbane- och järnvägsinfrastrukturutveckling som stödjer stadens växande transportbehov. NR-GEO tillhandahöll omfattande mättjänster för tunnelkonstruktion, stationsutveckling och integration med befintlig infrastruktur.",
       "scope": [
         "Precisionsmätning för tunnelbaneschaktning",
-        "Etablering av underjordiskt kontrollnätverk",
-        "TBM-styrning och övervakning",
+        "Upprättande av underjordiskt kontrollnät",
+        "Mättjänster för Drill & Blast-metoden",
         "Deformationsövervakning av befintliga strukturer",
-        "Integration med Oslos befintliga tunnelbanenätverk",
+        "Integration med befintligt Oslo tunnelbanenät",
         "Realtidsdatabehandling och kvalitetskontroll"
       ],
       "achievements": [
@@ -263,11 +263,11 @@
       "description": "Prags fjärde tunnelbanelinje - 10,6 km med 10 stationer, med förarlös tågteknik.",
       "overview": "Metro linje D är Prags nyaste och mest teknologiskt avancerade tunnelbanelinje, som sträcker sig 10,6 kilometer med 10 stationer som förbinder Náměstí Míru och Depo Písnice. Detta flaggskepp infrastrukturprojekt har helt automatiserade förarlösa tåg. NR-GEO tillhandahåller precisionsmättjänster för detta komplexa underjordiska byggprojekt.",
       "scope": [
-        "Högprecisionsmätning av tunneljustering för 10,6 km rutt",
-        "Underjordiska kontrollnätverk för 10 stationsplatser",
-        "TBM-styrning och genombrytningsprecisionsplanering",
+        "Högprecision tunneljustering mätning för 10,6 km rutt",
+        "Underjordiska kontrollnät för 10 stationer",
+        "NRTM (Nya Österrikiska Tunnelmetoden) ledning och övervakning",
         "Deformationsövervakning av historiska stadsstrukturer",
-        "Relationshandlingar för automatiserade tågsystem",
+        "As-built dokumentation för automatiserade tågsystem",
         "Integration med befintliga tunnelbanelinjer (byte vid Pankrác)"
       ],
       "achievements": [

@@ -148,12 +148,12 @@
       "description": "Contournement de Stockholm de 21 km.",
       "overview": "Förbifart Stockholm est l'un des plus grands projets d'infrastructure d'Europe - une route de contournement de 21 km avec 18 km de tunnel sous la capitale suédoise. NR-GEO a fourni des services complets d'arpentage et de surveillance tout au long de la phase de construction.",
       "scope": [
-        "Guidage TBM pour 4 tunneliers",
+        "Services topographiques pour méthode Drill & Blast",
         "Surveillance continue des déformations de l'infrastructure existante",
         "Établissement et maintenance de réseau de contrôle souterrain",
         "Positionnement en temps réel pour équipement d'excavation",
         "Documentation as-built et contrôle qualité",
-        "Coordination avec l'Administration suédoise des transports"
+        "Coordination avec Administration des Transports Suédoise"
       ],
       "achievements": [
         "Zéro incident lié à la précision de l'arpentage",
@@ -171,12 +171,12 @@
       "description": "Section critique du contournement de Stockholm nécessitant un relevé souterrain de précision.",
       "overview": "Le tunnel de Järfälla est une section critique de 1,4 km du plus grand projet Förbifart Stockholm. NR-GEO a réalisé des levés souterrains spécialisés, un guidage TBM et une surveillance des déformations pour ce projet de tunnel urbain.",
       "scope": [
-        "Guidage TBM pour la section 4713",
+        "Services topographiques pour méthode Drill & Blast",
         "Établissement de réseaux de contrôle souterrains",
-        "Surveillance des déformations des bâtiments et infrastructures voisins",
-        "Positionnement en temps réel pour équipements d'excavation",
-        "Balayage laser pour vérification du profil du tunnel",
-        "Documentation selon constructions et assurance qualité"
+        "Surveillance des déformations des bâtiments et infrastructures proches",
+        "Positionnement en temps réel de l'équipement d'excavation",
+        "Scan laser pour vérification du profil du tunnel",
+        "Documentation as-built et assurance qualité"
       ],
       "achievements": [
         "Zéro incident lors de la surveillance des bâtiments",
@@ -218,11 +218,11 @@
       "overview": "L'extension du métro Hammarby Sjöstad fait partie de l'ambitieux projet d'expansion de la Ligne Bleue de Stockholm. Ce projet révolutionnaire comprend la station Hammarby Kanal, la première station de métro de Stockholm construite dans la roche sous l'eau, nécessitant des techniques de levé avancées pour la construction sous-marine.",
       "scope": [
         "Réseau de contrôle souterrain pour construction de tunnel de métro",
-        "Guidage TBM pour sections de tunnel sous-marin",
-        "Surveillance des déformations des structures du canal pendant excavation",
-        "Levé de précision sous le niveau de l'eau",
-        "Documentation de récolement pour station de caverne rocheuse",
-        "Intégration avec extension de Ligne Bleue vers Nacka"
+        "Services topographiques pour méthode Drill & Blast dans sections sous-marines",
+        "Surveillance des déformations des structures de canal pendant excavation",
+        "Mesure de précision sous niveau d'eau",
+        "Documentation as-built pour stations rocheuses",
+        "Intégration avec extension Ligne Bleue vers Nacka"
       ],
       "achievements": [
         "Levé réussi pour première station de métro sous-marine de Stockholm",
@@ -240,11 +240,11 @@
       "description": "Levé de haute précision pour expansion critique d'infrastructure de métro d'Oslo.",
       "overview": "Le projet K2C fait partie du vaste développement d'infrastructure de métro et de chemin de fer d'Oslo, soutenant les besoins de transport croissants de la ville. NR-GEO a fourni des services de levé complets pour construction de tunnels, développement de stations et intégration avec infrastructure existante.",
       "scope": [
-        "Levé de précision pour excavation de tunnel de métro",
+        "Mesure de précision pour excavation de tunnel de métro",
         "Établissement de réseau de contrôle souterrain",
-        "Guidage et surveillance TBM",
+        "Services topographiques pour méthode Drill & Blast",
         "Surveillance des déformations des structures existantes",
-        "Intégration avec réseau de métro existant d'Oslo",
+        "Intégration avec réseau de métro d'Oslo existant",
         "Traitement de données en temps réel et contrôle qualité"
       ],
       "achievements": [
@@ -263,12 +263,12 @@
       "description": "Quatrième ligne de métro de Prague - 10,6 km avec 10 stations, avec technologie de trains sans conducteur.",
       "overview": "La ligne D du métro est la ligne de métro la plus récente et la plus technologiquement avancée de Prague, s'étendant sur 10,6 kilomètres avec 10 stations reliant Náměstí Míru et Depo Písnice. Ce projet d'infrastructure phare dispose de trains entièrement automatisés sans conducteur. NR-GEO fournit des services de levé de précision pour ce projet de construction souterraine complexe.",
       "scope": [
-        "Levé d'alignement de tunnel de haute précision pour route de 10,6 km",
-        "Réseaux de contrôle souterrains pour 10 emplacements de stations",
-        "Guidage TBM et planification de précision de percée",
-        "Surveillance des déformations des structures historiques de la ville",
-        "Documentation de récolement pour systèmes de trains automatisés",
-        "Intégration avec lignes de métro existantes (transfert à Pankrác)"
+        "Mesure d'alignement de tunnel haute précision pour route de 10,6 km",
+        "Réseaux de contrôle souterrains pour 10 stations",
+        "Guidage et surveillance NRTM (Nouvelle Méthode Autrichienne de Tunnelisation)",
+        "Surveillance des déformations des structures urbaines historiques",
+        "Documentation as-built pour systèmes de trains automatisés",
+        "Intégration avec lignes de métro existantes (correspondance à Pankrác)"
       ],
       "achievements": [
         "Contribution au plus grand projet d'expansion de métro de Prague",

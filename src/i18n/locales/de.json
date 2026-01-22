@@ -148,12 +148,12 @@
       "description": "21 km Stockholmer Umgehungsstraße - eines der größten Verkehrsprojekte Europas.",
       "overview": "Förbifart Stockholm ist eines der größten Infrastrukturprojekte Europas - eine 21 km lange Umgehungsroute mit 18 km Tunnel unter der schwedischen Hauptstadt. NR-GEO erbrachte umfassende Vermessungs- und Überwachungsleistungen während der gesamten Bauphase.",
       "scope": [
-        "TBM-Führung für 4 Tunnelbohrmaschinen",
+        "Vermessungsleistungen für Drill & Blast Methode",
         "Kontinuierliche Deformationsüberwachung bestehender Infrastruktur",
         "Einrichtung und Wartung unterirdischer Kontrollnetze",
-        "Echtzeitpositionierung für Aushubgeräte",
-        "Bestandsdokumentation und Qualitätskontrolle",
-        "Koordination mit der schwedischen Verkehrsverwaltung"
+        "Echtzeit-Positionierung für Aushubgeräte",
+        "As-built Dokumentation und Qualitätskontrolle",
+        "Koordination mit schwedischer Verkehrsverwaltung"
       ],
       "achievements": [
         "Null Vorfälle im Zusammenhang mit Vermessungspräzision",
@@ -171,12 +171,12 @@
       "description": "Kritischer Abschnitt der Stockholmer Umgehung, der präzise Untergrundvermessung erfordert.",
       "overview": "Der Järfällatunnel ist ein kritischer 1,4 km langer Abschnitt des größeren Förbifart Stockholm-Projekts. NR-GEO führte spezialisierte Untergrundvermessung, TBM-Führung und Deformationsüberwachung für dieses urbane Tunnelbauprojekt durch.",
       "scope": [
-        "TBM-Führung für Abschnitt 4713",
+        "Vermessungsleistungen für Drill & Blast Methode",
         "Einrichtung unterirdischer Kontrollnetze",
-        "Deformationsüberwachung nahe gelegener Gebäude und Infrastruktur",
-        "Echtzeitpositionierung für Aushubgeräte",
-        "Laserscanning für Tunnelprofilverifikation",
-        "Bestandsdokumentation und Qualitätssicherung"
+        "Deformationsüberwachung naher Gebäude und Infrastruktur",
+        "Echtzeit-Positionierung von Aushubgeräten",
+        "Laserscanning zur Tunnelprofilverifikation",
+        "As-built Dokumentation und Qualitätssicherung"
       ],
       "achievements": [
         "Null Vorfälle bei Gebäudeüberwachung",
@@ -217,12 +217,12 @@
       "description": "Stockholms erste U-Bahn-Station unter Wasser - Präzisionsvermessung unter dem Hammarby-Kanal.",
       "overview": "Die U-Bahn-Erweiterung Hammarby Sjöstad ist Teil von Stockholms ehrgeizigem Ausbauprojekt der Blauen Linie. Dieses bahnbrechende Projekt umfasst die Station Hammarby Kanal, Stockholms erste U-Bahn-Station, die im Fels unter Wasser gebaut wurde und fortschrittliche Vermessungstechniken für den Unterwasserbau erfordert.",
       "scope": [
-        "Unterirdisches Kontrollnetzwerk für U-Bahn-Tunnelbau",
-        "TBM-Führung für Unterwasser-Tunnelabschnitte",
-        "Deformationsüberwachung von Kanalstrukturen während der Aushubarbeiten",
-        "Präzisionsvermessung unter Wasserspiegel",
-        "Bestandsdokumentation für Felskaverne-Station",
-        "Integration mit Blauer Linie Erweiterung nach Nacka"
+        "Unterirdisches Kontrollnetz für U-Bahn-Tunnelbau",
+        "Vermessungsleistungen für Drill & Blast Methode in Unterwasserabschnitten",
+        "Deformationsüberwachung von Kanalstrukturen während Aushub",
+        "Präzisionsmessung unter Wasserspiegel",
+        "As-built Dokumentation für Felsstationen",
+        "Integration mit Blaue Linie Erweiterung nach Nacka"
       ],
       "achievements": [
         "Erfolgreiche Vermessung für Stockholms erste Unterwasser-U-Bahn-Station",
@@ -240,12 +240,12 @@
       "description": "Hochpräzise Vermessung für Oslos kritische Metro-Infrastrukturerweiterung.",
       "overview": "Das K2C-Projekt ist Teil der umfangreichen Metro- und Bahninfrastrukturentwicklung Oslos und unterstützt die wachsenden Transportbedürfnisse der Stadt. NR-GEO erbrachte umfassende Vermessungsdienstleistungen für Tunnelbau, Stationsentwicklung und Integration mit bestehender Infrastruktur.",
       "scope": [
-        "Präzisionsvermessung für Metro-Tunnelaushub",
+        "Präzisionsmessung für U-Bahn-Tunnelaushub",
         "Einrichtung unterirdischer Kontrollnetze",
-        "TBM-Führung und Überwachung",
+        "Vermessungsleistungen für Drill & Blast Methode",
         "Deformationsüberwachung bestehender Strukturen",
-        "Integration mit Oslos bestehendem Metro-Netzwerk",
-        "Echtzeitdatenverarbeitung und Qualitätskontrolle"
+        "Integration mit bestehendem Osloer U-Bahn-Netz",
+        "Echtzeit-Datenverarbeitung und Qualitätskontrolle"
       ],
       "achievements": [
         "Sub-Zentimeter-Genauigkeit während des gesamten Projekts",
@@ -263,12 +263,12 @@
       "description": "Prags vierte Metro-Linie - 10,6 km mit 10 Stationen, mit fahrerlosen Zügen.",
       "overview": "Metro-Linie D ist Prags neueste und technologisch fortschrittlichste Metro-Linie mit 10,6 Kilometern und 10 Stationen zwischen Náměstí Míru und Depo Písnice. Dieses Vorzeigeprojekt verfügt über vollautomatische fahrerlose Züge. NR-GEO bietet Präzisionsvermessungsdienste für dieses komplexe unterirdische Bauprojekt.",
       "scope": [
-        "Hochpräzise Tunnelausrichtungsvermessung für 10,6 km Route",
-        "Unterirdische Kontrollnetze für 10 Stationsstandorte",
-        "TBM-Führung und Durchschlagspräzisionsplanung",
-        "Deformationsüberwachung historischer Stadtstrukturen",
-        "Bestandsdokumentation für automatisierte Zugsysteme",
-        "Integration mit bestehenden Metro-Linien (Umstieg bei Pankrác)"
+        "Hochpräzise Tunnelausrichtungsmessung für 10,6 km Strecke",
+        "Unterirdische Kontrollnetze für 10 Stationen",
+        "NRTM (Neue Österreichische Tunnelbauweise) Führung und Überwachung",
+        "Deformationsüberwachung historischer städtischer Strukturen",
+        "As-built Dokumentation für automatisierte Zugsysteme",
+        "Integration mit bestehenden U-Bahn-Linien (Umstieg Pankrác)"
       ],
       "achievements": [
         "Beitrag zu Prags größtem Metro-Erweiterungsprojekt",
