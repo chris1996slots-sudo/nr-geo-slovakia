@@ -1,0 +1,95 @@
+═══════════════════════════════════════════════════════════════
+  START HERE - NR-GEO WEBSITE DEPLOYMENT
+═══════════════════════════════════════════════════════════════
+
+Welcome! This package contains the NR-GEO Slovakia website,
+ready for deployment.
+
+═══════════════════════════════════════════════════════════════
+  QUICK START (3 STEPS)
+═══════════════════════════════════════════════════════════════
+
+1. UPLOAD the "dist/" folder to your web server
+   → All files inside dist/ go to public_html/
+
+2. CONFIGURE your server
+   → For Apache: .htaccess is already included
+   → For Nginx: See DEPLOYMENT.md
+
+3. TEST your domain
+   → Open in browser and verify it works
+
+
+THAT'S IT! The website is ready to go. 🚀
+
+═══════════════════════════════════════════════════════════════
+  IMPORTANT FILES
+═══════════════════════════════════════════════════════════════
+
+📄 HANDOFF.txt
+   → READ THIS FIRST
+   → Complete deployment instructions
+   → Troubleshooting guide
+
+📄 DEPLOYMENT.md
+   → Detailed step-by-step guide
+   → Server configuration
+   → All platforms covered
+
+📄 README.md
+   → Technical documentation
+   → Features overview
+   → Development info
+
+📁 dist/
+   → UPLOAD THIS FOLDER
+   → Production-ready website
+   → No build needed!
+
+📁 public/.htaccess
+   → Server configuration for Apache
+   → Copy to dist/ before uploading
+
+═══════════════════════════════════════════════════════════════
+  DO YOU NEED TO BUILD?
+═══════════════════════════════════════════════════════════════
+
+NO! The dist/ folder is already included and ready.
+
+Just upload it to your server.
+
+(Only rebuild if you modify source code)
+
+═══════════════════════════════════════════════════════════════
+  WHAT'S INCLUDED
+═══════════════════════════════════════════════════════════════
+
+✅ 7 Languages (Slovak, English, German, Swedish, Norwegian, Spanish, French)
+✅ Responsive Design (Desktop, Tablet, Mobile)
+✅ Dark/Light Mode
+✅ SEO Optimized
+✅ Fast Loading (< 2 seconds)
+✅ 6 Project Portfolios
+✅ Contact Form
+✅ Team Section
+✅ Full Documentation
+
+═══════════════════════════════════════════════════════════════
+  NEED HELP?
+═══════════════════════════════════════════════════════════════
+
+1. Read HANDOFF.txt (quick guide)
+2. Read DEPLOYMENT.md (detailed guide)
+3. Check README.md (technical docs)
+
+Client Contact:
+  NR-GEO s.r.o.
+  Email: info@nr-geo.sk
+
+═══════════════════════════════════════════════════════════════
+
+                    LET'S GET STARTED! 🎯
+
+            👉 Open HANDOFF.txt for deployment steps
+
+═══════════════════════════════════════════════════════════════
