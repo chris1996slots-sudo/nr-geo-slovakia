@@ -1,0 +1,274 @@
+═══════════════════════════════════════════════════════════════
+  DEPLOYMENT-ANLEITUNG FÜR HOSTING-FIRMA
+═══════════════════════════════════════════════════════════════
+
+🎯 ZIEL: NR-GEO Website online bringen
+
+📦 WAS SIE BEKOMMEN:
+  ✓ Fertigen "dist/" Ordner mit Website
+  ✓ Alle Dateien sind bereits optimiert
+  ✓ Kein Build-Prozess nötig!
+
+═══════════════════════════════════════════════════════════════
+  DEPLOYMENT IN 3 SCHRITTEN
+═══════════════════════════════════════════════════════════════
+
+SCHRITT 1: DATEIEN HOCHLADEN
+─────────────────────────────────────────────────────────────
+Laden Sie den gesamten Inhalt des "dist/" Ordners auf Ihren
+Webserver hoch:
+
+  dist/
+  ├── index.html           ✓ Hochladen
+  ├── assets/              ✓ Hochladen (kompletter Ordner)
+  ├── images/              ✓ Hochladen (kompletter Ordner)
+  ├── projects/            ✓ Hochladen (kompletter Ordner)
+  └── .htaccess            ✓ Hochladen (WICHTIG für Apache!)
+
+ZIELORT: Ihr Web-Root-Verzeichnis
+  • Meist: public_html/
+  • Oder: www/
+  • Oder: htdocs/
+
+
+SCHRITT 2: DOMAIN KONFIGURIEREN
+─────────────────────────────────────────────────────────────
+  ✓ DNS auf Server-IP zeigen lassen
+  ✓ SSL-Zertifikat installieren (Let's Encrypt empfohlen)
+  ✓ HTTPS erzwingen (siehe .htaccess)
+
+
+SCHRITT 3: TESTEN
+─────────────────────────────────────────────────────────────
+Öffnen Sie die Domain im Browser und prüfen Sie:
+
+  ✓ Website lädt korrekt
+  ✓ Alle 7 Sprachen funktionieren (Flaggen oben rechts)
+  ✓ Bilder werden angezeigt
+  ✓ Navigation funktioniert
+  ✓ Kontaktformular vorhanden
+  ✓ Mobile Ansicht OK (mit Handy testen)
+
+
+DAS WAR'S! 🎉
+
+═══════════════════════════════════════════════════════════════
+  WICHTIGE HINWEISE
+═══════════════════════════════════════════════════════════════
+
+⚠️  .htaccess DATEI
+    Diese Datei MUSS auf dem Server sein!
+    Ohne diese Datei funktioniert die Navigation nicht richtig.
+
+    Für Apache Server:
+    → .htaccess liegt bereits im dist/ Ordner
+
+    Für Nginx Server:
+    → Siehe DEPLOYMENT.md für Nginx-Konfiguration
+
+
+✅  KEINE INSTALLATION NÖTIG
+    Der dist/ Ordner enthält die fertige, optimierte Website.
+    Sie müssen NICHT npm install oder npm build ausführen!
+
+
+✅  PHP NICHT BENÖTIGT
+    Dies ist eine statische Website (HTML, CSS, JavaScript).
+    PHP, MySQL oder andere Datenbanken werden NICHT benötigt.
+
+
+═══════════════════════════════════════════════════════════════
+  SERVER-ANFORDERUNGEN
+═══════════════════════════════════════════════════════════════
+
+MINIMAL:
+  ✓ Webserver (Apache oder Nginx)
+  ✓ mod_rewrite aktiviert (bei Apache)
+
+EMPFOHLEN:
+  ✓ SSL-Zertifikat (Let's Encrypt)
+  ✓ Gzip Kompression aktiviert
+  ✓ HTTP/2 Support
+
+NICHT BENÖTIGT:
+  ✗ Node.js
+  ✗ PHP
+  ✗ MySQL/Datenbank
+  ✗ Python
+  ✗ Ruby
+
+═══════════════════════════════════════════════════════════════
+  UPLOAD-METHODEN
+═══════════════════════════════════════════════════════════════
+
+METHODE 1: FTP/SFTP (FileZilla, WinSCP, etc.)
+  1. Mit Server verbinden
+  2. Zu public_html/ navigieren
+  3. Alle Dateien aus dist/ hochladen
+  4. Fertig!
+
+METHODE 2: cPanel File Manager
+  1. In cPanel einloggen
+  2. "File Manager" öffnen
+  3. Zu public_html/ gehen
+  4. "Upload" klicken
+  5. Alle Dateien aus dist/ auswählen
+  6. Hochladen und warten
+  7. Fertig!
+
+METHODE 3: SSH/Terminal
+  1. Mit SSH verbinden
+  2. Zum Web-Root navigieren
+  3. Dateien mit scp oder rsync hochladen
+  4. Rechte prüfen (chmod 644 für Dateien, 755 für Ordner)
+
+═══════════════════════════════════════════════════════════════
+  NACH DEM UPLOAD
+═══════════════════════════════════════════════════════════════
+
+ÜBERPRÜFEN SIE:
+  ✓ Alle Dateien hochgeladen? (ca. 580 KB insgesamt)
+  ✓ .htaccess Datei sichtbar? (versteckte Datei!)
+  ✓ Ordnerstruktur korrekt?
+  ✓ Dateiberechtigungen OK? (644/755)
+
+TESTEN SIE:
+  ✓ Hauptseite (https://ihre-domain.sk)
+  ✓ Sprachauswahl (7 Flaggen oben rechts)
+  ✓ Navigation (Hero, About, Services, Projects, Contact)
+  ✓ Bilder sichtbar?
+  ✓ Mobile Ansicht (Smartphone)
+  ✓ Kontaktformular
+
+═══════════════════════════════════════════════════════════════
+  TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+PROBLEM: Leere weiße Seite
+LÖSUNG:
+  → .htaccess Datei fehlt oder ist falsch
+  → Mod_rewrite nicht aktiviert (bei Apache)
+  → Siehe DEPLOYMENT.md für Details
+
+
+PROBLEM: 404 Fehler beim Neuladen der Seite
+LÖSUNG:
+  → .htaccess nicht richtig konfiguriert
+  → Rewrite Rules fehlen
+  → Bei Nginx: Server-Block konfigurieren
+
+
+PROBLEM: Bilder werden nicht angezeigt
+LÖSUNG:
+  → Ordner "images/" und "projects/" nicht hochgeladen
+  → Pfade überprüfen
+  → Dateiberechtigungen prüfen (755 für Ordner)
+
+
+PROBLEM: Nur englische Version sichtbar
+LÖSUNG:
+  → JavaScript-Dateien nicht geladen
+  → Browser-Cache leeren (Strg+F5)
+  → In anderem Browser testen
+
+═══════════════════════════════════════════════════════════════
+  WEBSITE-FEATURES
+═══════════════════════════════════════════════════════════════
+
+🌍 7 SPRACHEN:
+  • Slovak (🇸🇰)
+  • English (🇬🇧)
+  • German (🇩🇪)
+  • Swedish (🇸🇪)
+  • Norwegian (🇳🇴)
+  • Spanish (🇪🇸)
+  • French (🇫🇷)
+
+📱 RESPONSIVE DESIGN:
+  • Desktop optimiert
+  • Tablet optimiert
+  • Mobile optimiert
+
+🎨 FEATURES:
+  • Dark/Light Mode
+  • Smooth Animationen
+  • SEO optimiert
+  • Schnelle Ladezeiten (< 2 Sek)
+
+📊 CONTENT:
+  • 6 Hauptprojekte
+  • Team-Sektion
+  • Dienstleistungen
+  • Kontaktformular
+  • Impressum & Datenschutz
+
+═══════════════════════════════════════════════════════════════
+  SSL/HTTPS EINRICHTEN (EMPFOHLEN)
+═══════════════════════════════════════════════════════════════
+
+WARUM SSL?
+  ✓ Sicherheit für Besucher
+  ✓ Besseres Google-Ranking
+  ✓ Moderner Standard
+  ✓ Kostenlos mit Let's Encrypt
+
+WIE?
+  1. In cPanel: "SSL/TLS Status" oder "Let's Encrypt"
+  2. Domain auswählen
+  3. Zertifikat automatisch erstellen lassen
+  4. HTTPS erzwingen aktivieren
+
+Die .htaccess Datei enthält bereits Code zum HTTPS-Erzwingen
+(ist auskommentiert, bei Bedarf aktivieren).
+
+═══════════════════════════════════════════════════════════════
+  SUPPORT & WEITERE INFOS
+═══════════════════════════════════════════════════════════════
+
+MEHR DETAILS:
+  → DEPLOYMENT.md (ausführliche Anleitung)
+  → HOSTING_INFO.md (technische Details)
+  → README.md (englische Dokumentation)
+
+KUNDE:
+  NR-GEO s.r.o.
+  Email: info@nr-geo.sk
+
+═══════════════════════════════════════════════════════════════
+  CHECKLISTE VOR GO-LIVE
+═══════════════════════════════════════════════════════════════
+
+VORBEREITUNG:
+  [ ] dist/ Ordner erhalten
+  [ ] FTP/cPanel Zugang vorhanden
+  [ ] Domain registriert
+
+UPLOAD:
+  [ ] Alle Dateien aus dist/ hochgeladen
+  [ ] .htaccess Datei vorhanden
+  [ ] Ordnerstruktur korrekt
+
+KONFIGURATION:
+  [ ] DNS auf Server zeigt
+  [ ] SSL-Zertifikat installiert
+  [ ] HTTPS funktioniert
+
+TESTS:
+  [ ] Hauptseite lädt
+  [ ] Alle 7 Sprachen funktionieren
+  [ ] Bilder sichtbar
+  [ ] Navigation funktioniert
+  [ ] Mobile Ansicht OK
+  [ ] Kontaktformular da
+
+PERFORMANCE:
+  [ ] Ladezeit < 3 Sekunden
+  [ ] Keine Fehler in Browser-Konsole
+
+═══════════════════════════════════════════════════════════════
+
+            VIEL ERFOLG BEIM DEPLOYMENT! 🚀
+
+  Bei Fragen: Siehe DEPLOYMENT.md oder kontaktieren Sie den Kunden
+
+═══════════════════════════════════════════════════════════════

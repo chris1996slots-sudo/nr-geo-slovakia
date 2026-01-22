@@ -1,69 +1,86 @@
 # Deployment Guide
 
-Schritt-für-Schritt Anleitung zur Bereitstellung der NR-GEO Website.
+Step-by-step guide for deploying the NR-GEO website.
 
-## 📋 Voraussetzungen
+## 📋 Prerequisites
 
-1. **Node.js installiert** (Version 18 oder höher)
-   - Download: https://nodejs.org/
-   - Überprüfen: `node --version` im Terminal
+**IMPORTANT**: The `dist/` folder already contains the production-ready website. You do NOT need Node.js - just upload the files!
 
-2. **Zugang zum Webserver**
-   - FTP/SFTP Zugangsdaten
-   - Oder Zugang zu Hosting-Dashboard (cPanel, Plesk, etc.)
+If you need to rebuild:
+1. **Node.js 18+** ([Download](https://nodejs.org/))
+2. **Web Server Access**
+   - FTP/SFTP credentials
+   - Or hosting dashboard access (cPanel, Plesk, etc.)
 
-## 🚀 Deployment Schritte
+## 🚀 Deployment Steps
 
-### Schritt 1: Abhängigkeiten installieren
+### Option A: Direct Upload (Recommended - No Build Needed!)
 
-Öffnen Sie ein Terminal/Kommandozeile im Projektordner:
+**The `dist/` folder is already included and ready to deploy.**
+
+1. **Upload Files**
+   ```
+   Upload the entire contents of dist/ folder to your web server
+   ```
+
+2. **Configure Server** (see Server Configuration section below)
+
+3. **Test** (open your domain in browser)
+
+### Option B: Build from Source (Only if needed)
+
+If the `dist/` folder is missing or you made changes to source code:
+
+#### Step 1: Install Dependencies
+
+Open terminal in project folder:
 
 ```bash
 npm install
 ```
 
-**Hinweis**: Dies kann einige Minuten dauern.
+**Note**: This may take a few minutes.
 
-### Schritt 2: Production Build erstellen
+#### Step 2: Create Production Build
 
 ```bash
 npm run build
 ```
 
-Dies erstellt einen `dist/` Ordner mit allen optimierten Dateien.
+This creates a `dist/` folder with all optimized files.
 
-### Schritt 3: Build testen (Optional)
+#### Step 3: Test Build (Optional)
 
 ```bash
 npm run preview
 ```
 
-Öffnet die Website unter `http://localhost:4173` zum Testen.
+Opens the website at `http://localhost:4173` for testing.
 
-### Schritt 4: Dateien hochladen
+#### Step 4: Upload Files
 
-#### Option A: FTP/SFTP Upload
-1. Verbinden Sie sich mit Ihrem FTP-Client (FileZilla, WinSCP, etc.)
-2. Navigieren Sie zu Ihrem Web-Root-Verzeichnis (meist `public_html/` oder `www/`)
-3. Laden Sie **den gesamten Inhalt** des `dist/` Ordners hoch
-4. Laden Sie auch die `.htaccess` Datei hoch (siehe unten)
+##### Option 1: FTP/SFTP Upload
+1. Connect with your FTP client (FileZilla, WinSCP, etc.)
+2. Navigate to your web root directory (usually `public_html/` or `www/`)
+3. Upload **all contents** of the `dist/` folder
+4. Also upload the `.htaccess` file (see below)
 
-#### Option B: cPanel File Manager
-1. Einloggen in cPanel
-2. File Manager öffnen
-3. Zu `public_html/` navigieren
-4. "Upload" klicken
-5. Alle Dateien aus dem `dist/` Ordner hochladen
+##### Option 2: cPanel File Manager
+1. Log into cPanel
+2. Open File Manager
+3. Navigate to `public_html/`
+4. Click "Upload"
+5. Upload all files from the `dist/` folder
 
-#### Option C: Hosting-Plattformen
-- **Netlify**: Drag & Drop des `dist/` Ordners
-- **Vercel**: GitHub Repository verbinden oder `dist/` hochladen
+##### Option 3: Hosting Platforms
+- **Netlify**: Drag & drop the `dist/` folder
+- **Vercel**: Connect GitHub repository or upload `dist/` folder
 
-### Schritt 5: Server konfigurieren
+## 🔧 Server Configuration
 
-#### Für Apache Server (.htaccess)
+### For Apache Servers (.htaccess)
 
-Erstellen Sie eine `.htaccess` Datei im `dist/` Ordner (oder im Upload-Verzeichnis):
+The `.htaccess` file is already in the `public/` folder. Copy it to your `dist/` folder before uploading:
 
 ```apache
 <IfModule mod_rewrite.c>
@@ -75,7 +92,7 @@ Erstellen Sie eine `.htaccess` Datei im `dist/` Ordner (oder im Upload-Verzeichn
   RewriteRule . /index.html [L]
 </IfModule>
 
-# Gzip Kompression
+# Gzip Compression
 <IfModule mod_deflate.c>
   AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript application/javascript
 </IfModule>
@@ -94,15 +111,15 @@ Erstellen Sie eine `.htaccess` Datei im `dist/` Ordner (oder im Upload-Verzeichn
 </IfModule>
 ```
 
-#### Für Nginx Server
+### For Nginx Servers
 
-Fügen Sie dies zu Ihrer Nginx-Konfiguration hinzu:
+Add this to your Nginx configuration:
 
 ```nginx
 server {
     listen 80;
-    server_name ihr-domain.sk;
-    root /pfad/zum/dist/ordner;
+    server_name your-domain.sk;
+    root /path/to/dist/folder;
     index index.html;
 
     # Single Page Application Support
@@ -110,7 +127,7 @@ server {
         try_files $uri $uri/ /index.html;
     }
 
-    # Gzip Kompression
+    # Gzip Compression
     gzip on;
     gzip_types text/plain text/css application/json application/javascript text/xml application/xml;
 
@@ -127,105 +144,106 @@ server {
 }
 ```
 
-### Schritt 6: Domain konfigurieren
+## 🌐 Domain Configuration
 
-1. **Domain DNS überprüfen**
-   - A-Record zeigt auf Server-IP
-   - Oder CNAME zeigt auf Hosting-Provider
+1. **Verify DNS**
+   - A Record points to server IP
+   - Or CNAME points to hosting provider
 
-2. **SSL-Zertifikat installieren** (empfohlen)
-   - Let's Encrypt (kostenlos)
-   - Oder SSL von Hosting-Provider
+2. **Install SSL Certificate** (recommended)
+   - Let's Encrypt (free)
+   - Or SSL from hosting provider
 
-3. **HTTPS erzwingen** (optional aber empfohlen)
+3. **Force HTTPS** (optional but recommended)
 
-   In `.htaccess` hinzufügen:
+   Add to `.htaccess`:
    ```apache
    RewriteEngine On
    RewriteCond %{HTTPS} off
    RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
    ```
 
-### Schritt 7: Testen
+## ✅ Testing
 
-1. Öffnen Sie Ihre Domain im Browser
-2. Überprüfen Sie alle Seiten/Sections
-3. Testen Sie Sprachumschaltung
-4. Testen Sie auf verschiedenen Geräten
-5. Testen Sie Kontaktformular
+1. Open your domain in browser
+2. Verify all sections load
+3. Test language switching (7 languages)
+4. Test on different devices
+5. Test contact form
 
-## ✅ Checkliste
+## 📋 Deployment Checklist
 
-- [ ] `npm install` ausgeführt
-- [ ] `npm run build` erfolgreich
-- [ ] Alle Dateien aus `dist/` hochgeladen
-- [ ] `.htaccess` (Apache) oder Nginx-Config erstellt
-- [ ] Domain zeigt auf richtigen Server
-- [ ] SSL-Zertifikat installiert
-- [ ] Website im Browser getestet
-- [ ] Alle 7 Sprachen funktionieren
-- [ ] Kontaktformular funktioniert
-- [ ] Mobile Ansicht getestet
+Before go-live:
 
-## 🔄 Updates durchführen
+- [ ] Production build created (or dist/ folder ready)
+- [ ] All files from `dist/` uploaded
+- [ ] `.htaccess` (Apache) or Nginx config created
+- [ ] Domain points to correct server
+- [ ] SSL certificate installed
+- [ ] Website tested in browser
+- [ ] All 7 languages working
+- [ ] Contact form working
+- [ ] Mobile view tested
 
-Wenn Sie die Website aktualisieren möchten:
+## 🔄 Updating the Website
 
-1. Änderungen an den Quelldateien vornehmen
-2. `npm run build` erneut ausführen
-3. Inhalt des neuen `dist/` Ordners hochladen (überschreiben)
+To update the website:
 
-**Tipp**: Löschen Sie den alten `dist/` Ordner vor dem Upload, um alte Dateien zu vermeiden.
+1. Make changes to source files
+2. Run `npm run build` again
+3. Upload the new `dist/` folder contents (overwrite old files)
+
+**Tip**: Delete the old `dist/` folder before upload to avoid old files.
 
 ## 🆘 Troubleshooting
 
-### Problem: Leere weiße Seite
-**Lösung**: `.htaccess` Datei fehlt oder ist falsch konfiguriert
+### Problem: Blank white page
+**Solution**: `.htaccess` file missing or incorrectly configured
 
-### Problem: 404 Fehler beim Neuladen
-**Lösung**: Server-Rewrite-Regeln fehlen (siehe Schritt 5)
+### Problem: 404 errors when reloading
+**Solution**: Server rewrite rules missing (see Step 5)
 
-### Problem: Bilder werden nicht angezeigt
-**Lösung**:
-- Überprüfen Sie, ob der `public/` Ordner-Inhalt korrekt hochgeladen wurde
-- Bildpfade in den JSON-Dateien überprüfen
+### Problem: Images not displaying
+**Solution**:
+- Verify `public/` folder contents uploaded correctly
+- Check image paths in JSON files
 
-### Problem: Sprachen funktionieren nicht
-**Lösung**:
-- JavaScript-Dateien korrekt hochgeladen?
-- Browser-Cache leeren (Ctrl+F5)
+### Problem: Languages not working
+**Solution**:
+- JavaScript files uploaded correctly?
+- Clear browser cache (Ctrl+F5)
 
-### Problem: Build-Fehler
-**Lösung**:
+### Problem: Build errors
+**Solution**:
 ```bash
-# Node modules löschen und neu installieren
+# Delete node modules and reinstall
 rm -rf node_modules
 rm package-lock.json
 npm install
 npm run build
 ```
 
-## 📊 Performance-Optimierung
+## 📊 Performance Optimization
 
-### Nach dem Deployment überprüfen:
+### After deployment, check:
 
 1. **PageSpeed Insights**: https://pagespeed.web.dev/
 2. **GTmetrix**: https://gtmetrix.com/
 3. **WebPageTest**: https://www.webpagetest.org/
 
-### Optimierungstipps:
+### Optimization tips:
 
-- **CDN verwenden** (Cloudflare, etc.)
-- **Gzip/Brotli Kompression** aktivieren
-- **Browser Caching** konfigurieren (siehe .htaccess oben)
-- **Bilder optimieren** (bereits WebP-Format)
+- **Use CDN** (Cloudflare, etc.)
+- **Enable Gzip/Brotli compression**
+- **Configure browser caching** (see .htaccess above)
+- **Optimize images** (already WebP format)
 
-## 🔒 Sicherheit
+## 🔒 Security
 
-### Empfohlene Einstellungen:
+### Recommended settings:
 
-1. **HTTPS erzwingen** (siehe Schritt 6)
-2. **Security Headers** hinzufügen (`.htaccess`):
+1. **Force HTTPS** (see Domain Configuration)
+2. **Add Security Headers** (`.htaccess`):
 
 ```apache
 # Security Headers
@@ -239,10 +257,10 @@ npm run build
 
 ## 📞 Support
 
-Bei Fragen zum Deployment:
+For deployment questions:
 - **Email**: info@nr-geo.sk
-- **Technische Dokumentation**: README.md
+- **Technical Documentation**: README.md
 
 ---
 
-**Viel Erfolg beim Deployment! 🚀**
+**Good luck with deployment! 🚀**

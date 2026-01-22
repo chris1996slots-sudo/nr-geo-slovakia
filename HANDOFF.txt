@@ -1,0 +1,267 @@
+═══════════════════════════════════════════════════════════════
+  NR-GEO SLOVAKIA WEBSITE - HOSTING COMPANY HANDOFF
+═══════════════════════════════════════════════════════════════
+
+📦 PROJECT: NR-GEO Slovakia Company Website
+📅 DATE: January 2026
+✅ STATUS: Production-Ready
+
+═══════════════════════════════════════════════════════════════
+  DEPLOYMENT IN 3 STEPS
+═══════════════════════════════════════════════════════════════
+
+STEP 1: UPLOAD FILES
+─────────────────────────────────────────────────────────────
+Upload the entire contents of the "dist/" folder to your web server:
+
+  dist/
+  ├── index.html           ✓ Upload
+  ├── assets/              ✓ Upload (complete folder)
+  ├── images/              ✓ Upload (complete folder)
+  ├── projects/            ✓ Upload (complete folder)
+  └── .htaccess            ✓ Upload (IMPORTANT for Apache!)
+
+DESTINATION: Your web root directory
+  • Usually: public_html/
+  • Or: www/
+  • Or: htdocs/
+
+
+STEP 2: CONFIGURE DOMAIN
+─────────────────────────────────────────────────────────────
+  ✓ Point DNS to server IP
+  ✓ Install SSL certificate (Let's Encrypt recommended)
+  ✓ Force HTTPS (see .htaccess)
+
+
+STEP 3: TEST
+─────────────────────────────────────────────────────────────
+Open the domain in browser and verify:
+
+  ✓ Website loads correctly
+  ✓ All 7 languages work (flags top right)
+  ✓ Images display
+  ✓ Navigation works
+  ✓ Contact form present
+  ✓ Mobile view OK (test on phone)
+
+
+THAT'S IT! 🎉
+
+═══════════════════════════════════════════════════════════════
+  IMPORTANT NOTES
+═══════════════════════════════════════════════════════════════
+
+⚠️  .htaccess FILE
+    This file MUST be on the server!
+    Without it, navigation won't work properly.
+
+    For Apache servers:
+    → .htaccess is already in the dist/ folder
+
+    For Nginx servers:
+    → See DEPLOYMENT.md for Nginx configuration
+
+
+✅  NO INSTALLATION NEEDED
+    The dist/ folder contains the finished, optimized website.
+    You do NOT need to run npm install or npm build!
+
+
+✅  NO PHP REQUIRED
+    This is a static website (HTML, CSS, JavaScript).
+    PHP, MySQL, or other databases are NOT needed.
+
+
+═══════════════════════════════════════════════════════════════
+  SERVER REQUIREMENTS
+═══════════════════════════════════════════════════════════════
+
+MINIMUM:
+  ✓ Web server (Apache or Nginx)
+  ✓ mod_rewrite enabled (for Apache)
+
+RECOMMENDED:
+  ✓ SSL certificate (Let's Encrypt)
+  ✓ Gzip compression enabled
+  ✓ HTTP/2 support
+
+NOT REQUIRED:
+  ✗ Node.js
+  ✗ PHP
+  ✗ MySQL/Database
+  ✗ Python
+  ✗ Ruby
+
+═══════════════════════════════════════════════════════════════
+  UPLOAD METHODS
+═══════════════════════════════════════════════════════════════
+
+METHOD 1: FTP/SFTP (FileZilla, WinSCP, etc.)
+  1. Connect to server
+  2. Navigate to public_html/
+  3. Upload all files from dist/
+  4. Done!
+
+METHOD 2: cPanel File Manager
+  1. Log into cPanel
+  2. Open "File Manager"
+  3. Go to public_html/
+  4. Click "Upload"
+  5. Select all files from dist/
+  6. Upload and wait
+  7. Done!
+
+METHOD 3: SSH/Terminal
+  1. Connect via SSH
+  2. Navigate to web root
+  3. Upload files using scp or rsync
+  4. Check permissions (chmod 644 for files, 755 for folders)
+
+═══════════════════════════════════════════════════════════════
+  AFTER UPLOAD
+═══════════════════════════════════════════════════════════════
+
+VERIFY:
+  ✓ All files uploaded? (~580 KB total)
+  ✓ .htaccess file visible? (hidden file!)
+  ✓ Folder structure correct?
+  ✓ File permissions OK? (644/755)
+
+TEST:
+  ✓ Main page (https://your-domain.sk)
+  ✓ Language selection (7 flags top right)
+  ✓ Navigation (Hero, About, Services, Projects, Contact)
+  ✓ Images visible?
+  ✓ Mobile view (smartphone)
+  ✓ Contact form
+
+═══════════════════════════════════════════════════════════════
+  TROUBLESHOOTING
+═══════════════════════════════════════════════════════════════
+
+PROBLEM: Blank white page
+SOLUTION:
+  → .htaccess file missing or incorrect
+  → mod_rewrite not enabled (on Apache)
+  → See DEPLOYMENT.md for details
+
+
+PROBLEM: 404 error when reloading page
+SOLUTION:
+  → .htaccess not configured correctly
+  → Rewrite rules missing
+  → For Nginx: Configure server block
+
+
+PROBLEM: Images not showing
+SOLUTION:
+  → Folders "images/" and "projects/" not uploaded
+  → Check paths
+  → Check file permissions (755 for folders)
+
+
+PROBLEM: Only English version visible
+SOLUTION:
+  → JavaScript files not loaded
+  → Clear browser cache (Ctrl+F5)
+  → Test in different browser
+
+═══════════════════════════════════════════════════════════════
+  WEBSITE FEATURES
+═══════════════════════════════════════════════════════════════
+
+🌍 7 LANGUAGES:
+  • Slovak (🇸🇰)
+  • English (🇬🇧)
+  • German (🇩🇪)
+  • Swedish (🇸🇪)
+  • Norwegian (🇳🇴)
+  • Spanish (🇪🇸)
+  • French (🇫🇷)
+
+📱 RESPONSIVE DESIGN:
+  • Desktop optimized
+  • Tablet optimized
+  • Mobile optimized
+
+🎨 FEATURES:
+  • Dark/Light Mode
+  • Smooth animations
+  • SEO optimized
+  • Fast loading (< 2 sec)
+
+📊 CONTENT:
+  • 6 major projects
+  • Team section
+  • Services
+  • Contact form
+  • Impressum & Privacy
+
+═══════════════════════════════════════════════════════════════
+  SSL/HTTPS SETUP (RECOMMENDED)
+═══════════════════════════════════════════════════════════════
+
+WHY SSL?
+  ✓ Security for visitors
+  ✓ Better Google ranking
+  ✓ Modern standard
+  ✓ Free with Let's Encrypt
+
+HOW?
+  1. In cPanel: "SSL/TLS Status" or "Let's Encrypt"
+  2. Select domain
+  3. Auto-create certificate
+  4. Enable force HTTPS
+
+The .htaccess file already contains code to force HTTPS
+(commented out, activate if needed).
+
+═══════════════════════════════════════════════════════════════
+  GO-LIVE CHECKLIST
+═══════════════════════════════════════════════════════════════
+
+PREPARATION:
+  [ ] dist/ folder received
+  [ ] FTP/cPanel access available
+  [ ] Domain registered
+
+UPLOAD:
+  [ ] All files from dist/ uploaded
+  [ ] .htaccess file present
+  [ ] Folder structure correct
+
+CONFIGURATION:
+  [ ] DNS pointing to server
+  [ ] SSL certificate installed
+  [ ] HTTPS working
+
+TESTS:
+  [ ] Main page loads
+  [ ] All 7 languages work
+  [ ] Images visible
+  [ ] Navigation works
+  [ ] Mobile view OK
+  [ ] Contact form present
+
+PERFORMANCE:
+  [ ] Load time < 3 seconds
+  [ ] No errors in browser console
+
+═══════════════════════════════════════════════════════════════
+  SUPPORT & MORE INFO
+═══════════════════════════════════════════════════════════════
+
+MORE DETAILS:
+  → README.md (full documentation)
+  → DEPLOYMENT.md (step-by-step guide)
+
+CLIENT:
+  NR-GEO s.r.o.
+  Email: info@nr-geo.sk
+
+═══════════════════════════════════════════════════════════════
+
+                GOOD LUCK WITH DEPLOYMENT! 🚀
+
+═══════════════════════════════════════════════════════════════
