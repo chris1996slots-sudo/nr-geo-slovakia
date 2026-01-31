@@ -213,11 +213,11 @@ const Navbar = () => {
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
-              className="lg:hidden mt-4 bg-white dark:bg-dark-500 rounded-xl shadow-xl overflow-hidden"
+              className="lg:hidden mt-4 bg-white dark:bg-dark-500 rounded-xl shadow-xl overflow-hidden max-h-[calc(100vh-100px)]"
               role="menu"
               aria-label="Mobile navigation menu"
             >
-              <div className="py-4">
+              <div className="py-4 overflow-y-auto max-h-[calc(100vh-116px)]">
                 {navItems.map((item) => (
                   <button
                     key={item.key}
