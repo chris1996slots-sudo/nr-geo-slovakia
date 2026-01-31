@@ -78,7 +78,7 @@ const Services = () => {
                 {/* Service Header (Clickable) */}
                 <div
                   onClick={() => toggleService(service.key)}
-                  className={`card dark:bg-dark-500 dark:border-dark-500 cursor-pointer transition-all duration-300 ${
+                  className={`card dark:bg-dark-500 dark:border-dark-500 cursor-pointer transition-all duration-300 relative overflow-hidden ${
                     isExpanded ? 'shadow-2xl border-2 border-primary' : 'hover:shadow-xl'
                   }`}
                 >
