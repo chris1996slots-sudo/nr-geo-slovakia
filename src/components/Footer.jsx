@@ -1,5 +1,5 @@
 import { useTranslation } from 'react-i18next'
-import { Mail, Phone, MapPin } from 'lucide-react'
+import { Mail, Phone, MapPin, Linkedin } from 'lucide-react'
 
 const Footer = ({ onShowImpressum }) => {
   const { t } = useTranslation()
@@ -144,6 +144,17 @@ const Footer = ({ onShowImpressum }) => {
                 <Mail size={18} className="text-primary flex-shrink-0 mt-0.5" />
                 <a href="mailto:info@nr-geo.sk" className="text-white/70 hover:text-primary transition-colors">
                   info@nr-geo.sk
+                </a>
+              </li>
+              <li className="flex items-start space-x-3 text-sm">
+                <Linkedin size={18} className="text-primary flex-shrink-0 mt-0.5" />
+                <a
+                  href="https://cy.linkedin.com/in/alexandra-reh%C3%A1nkov%C3%A1-4a136a309"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-white/70 hover:text-primary transition-colors"
+                >
+                  LinkedIn
                 </a>
               </li>
             </ul>
