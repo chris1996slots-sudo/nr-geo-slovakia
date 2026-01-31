@@ -67,7 +67,7 @@ function App() {
 
   // Main website structure
   return (
-    <div className="min-h-screen bg-white dark:bg-dark-400 transition-colors duration-300">
+    <div className="min-h-screen bg-white dark:bg-dark-400 transition-colors duration-300 overflow-x-hidden">
       {/* Fixed navigation bar */}
       <Navbar />
 
