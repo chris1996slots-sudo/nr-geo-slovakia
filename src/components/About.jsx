@@ -26,7 +26,7 @@ const About = () => {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/images/projects/forbifart/forbifart-1.jpg"
+                src="/images/projects/forbifart/forbifart-1.webp"
                 alt="Engineering surveying"
                 title="Engineering surveying"
                 width="600"

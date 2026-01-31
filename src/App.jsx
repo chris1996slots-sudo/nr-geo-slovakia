@@ -10,20 +10,24 @@
  * - Dark/Light theme support
  * - Single Page Application with smooth scrolling
  * - Impressum/Privacy Policy page toggle
+ * - Lazy loading for below-fold components
  */
 
-import { useEffect, useState } from 'react'
+import { useEffect, useState, lazy, Suspense } from 'react'
 import { useTranslation } from 'react-i18next'
+import { LazyMotion, domAnimation } from 'framer-motion'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
-import Services from './components/Services'
-import Markets from './components/Markets'
-import Team from './components/Team'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
-import ImpressumPage from './pages/ImpressumPage'
+
+// Lazy load below-fold components
+const Services = lazy(() => import('./components/Services'))
+const Markets = lazy(() => import('./components/Markets'))
+const Team = lazy(() => import('./components/Team'))
+const Projects = lazy(() => import('./components/Projects'))
+const Contact = lazy(() => import('./components/Contact'))
+const Footer = lazy(() => import('./components/Footer'))
+const ImpressumPage = lazy(() => import('./pages/ImpressumPage'))
 
 function App() {
   const { i18n } = useTranslation()
@@ -60,31 +64,50 @@ function App() {
     )
   }
 
+  // Fallback loader for lazy components
+  const LazyFallback = () => (
+    <div className="min-h-[200px] flex items-center justify-center">
+      <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
+    </div>
+  )
+
   // Show Impressum/Privacy Policy page when toggled
   if (showImpressum) {
-    return <ImpressumPage onBack={() => setShowImpressum(false)} />
+    return (
+      <LazyMotion features={domAnimation}>
+        <Suspense fallback={<LazyFallback />}>
+          <ImpressumPage onBack={() => setShowImpressum(false)} />
+        </Suspense>
+      </LazyMotion>
+    )
   }
 
   // Main website structure
   return (
-    <div className="min-h-screen bg-white dark:bg-dark-400 transition-colors duration-300 overflow-x-hidden">
-      {/* Fixed navigation bar */}
-      <Navbar />
+    <LazyMotion features={domAnimation}>
+      <div className="min-h-screen bg-white dark:bg-dark-400 transition-colors duration-300 overflow-x-hidden">
+        {/* Fixed navigation bar */}
+        <Navbar />
 
-      {/* Main content sections */}
-      <main id="main-content" role="main">
-        <Hero />      {/* Hero section with main banner */}
-        <About />     {/* About company section */}
-        <Services />  {/* Services offered */}
-        <Markets />   {/* Market presence */}
-        <Team />      {/* Team members */}
-        <Projects />  {/* Project portfolio */}
-        <Contact />   {/* Contact form */}
-      </main>
+        {/* Main content sections */}
+        <main id="main-content" role="main">
+          <Hero />      {/* Hero section with main banner */}
+          <About />     {/* About company section */}
+          <Suspense fallback={<LazyFallback />}>
+            <Services />  {/* Services offered */}
+            <Markets />   {/* Market presence */}
+            <Team />      {/* Team members */}
+            <Projects />  {/* Project portfolio */}
+            <Contact />   {/* Contact form */}
+          </Suspense>
+        </main>
 
-      {/* Footer with company info and impressum link */}
-      <Footer onShowImpressum={() => setShowImpressum(true)} />
-    </div>
+        {/* Footer with company info and impressum link */}
+        <Suspense fallback={<LazyFallback />}>
+          <Footer onShowImpressum={() => setShowImpressum(true)} />
+        </Suspense>
+      </div>
+    </LazyMotion>
   )
 }
 

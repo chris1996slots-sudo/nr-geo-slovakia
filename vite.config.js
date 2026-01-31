@@ -16,8 +16,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: {
-          'react-vendor': ['react', 'react-dom'],
-          'i18n-vendor': ['react-i18next', 'i18next', 'i18next-browser-languagedetector'],
+          // Vendor chunks for better caching
+          'vendor': ['react', 'react-dom', 'react-i18next', 'i18next', 'i18next-browser-languagedetector'],
           'animation-vendor': ['framer-motion'],
           'icons-vendor': ['lucide-react'],
         }

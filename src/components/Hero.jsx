@@ -235,15 +235,12 @@ const Hero = () => {
               </div>
             </motion.div>
 
-            {/* Main Heading */}
-            <motion.h1
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.3, duration: 0.8 }}
+            {/* Main Heading - No animation delay for LCP */}
+            <h1
               className="text-5xl sm:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight"
             >
               {t('hero.title')}
-            </motion.h1>
+            </h1>
 
             {/* Subtitle */}
             <motion.p
