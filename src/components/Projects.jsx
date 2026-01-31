@@ -195,7 +195,8 @@ const Projects = () => {
                   <div className="relative h-64 md:h-80 overflow-hidden">
                     <img
                       src={project.image}
-                      alt={t(`projects.${project.key}.title`)}
+                      alt={`${t(`projects.${project.key}.title`)} - ${t(`projects.${project.key}.location`)} tunnel construction project`}
+                      loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-dark-900/90 via-dark-900/50 to-transparent" />
@@ -300,7 +301,8 @@ const Projects = () => {
                                 >
                                   <img
                                     src={img}
-                                    alt={`${t(`projects.${project.key}.title`)} - Image ${idx + 1}`}
+                                    alt={`${t(`projects.${project.key}.title`)} project gallery - Image ${idx + 1} of ${project.images.length}`}
+                                    loading="lazy"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                                   />
                                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/40 transition-colors flex items-center justify-center">

@@ -73,6 +73,8 @@ const Navbar = () => {
 
   return (
     <nav
+      role="navigation"
+      aria-label="Main navigation"
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
           ? 'bg-white dark:bg-dark-500 shadow-lg py-3'
@@ -87,7 +89,7 @@ const Navbar = () => {
           }`}>
             <img
               src="/nr-geo-logo.png"
-              alt="NR-GEO Logo"
+              alt="NR-GEO Slovakia - Precision Underground Engineering"
               className={`h-10 w-auto object-contain transition-all duration-300 ${
                 scrolled ? '' : 'drop-shadow-[0_0_2px_rgba(0,0,0,0.8)]'
               }`}
@@ -126,6 +128,9 @@ const Navbar = () => {
             <div className="relative">
               <button
                 onClick={() => setLangDropdownOpen(!langDropdownOpen)}
+                aria-label={`Select language - Current: ${currentLanguage.name}`}
+                aria-expanded={langDropdownOpen}
+                aria-haspopup="listbox"
                 className={`flex items-center space-x-2 px-3 py-2 rounded-lg transition-all ${
                   scrolled
                     ? 'bg-dark-50 hover:bg-dark-100 text-dark-700 dark:bg-dark-500 dark:hover:bg-dark-600 dark:text-dark-100'
@@ -169,6 +174,9 @@ const Navbar = () => {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
+            aria-label={isOpen ? 'Close navigation menu' : 'Open navigation menu'}
+            aria-expanded={isOpen}
+            aria-controls="mobile-menu"
             className={`lg:hidden p-2 rounded-lg transition-colors ${
               scrolled ? 'text-dark-700 dark:text-dark-100 hover:bg-dark-50 dark:hover:bg-dark-700' : 'text-white hover:bg-white/10'
             }`}
@@ -181,10 +189,13 @@ const Navbar = () => {
         <AnimatePresence>
           {isOpen && (
             <motion.div
+              id="mobile-menu"
               initial={{ opacity: 0, height: 0 }}
               animate={{ opacity: 1, height: 'auto' }}
               exit={{ opacity: 0, height: 0 }}
               className="lg:hidden mt-4 bg-white dark:bg-dark-500 rounded-xl shadow-xl overflow-hidden"
+              role="menu"
+              aria-label="Mobile navigation menu"
             >
               <div className="py-4">
                 {navItems.map((item) => (

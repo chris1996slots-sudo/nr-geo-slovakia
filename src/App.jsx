@@ -72,7 +72,7 @@ function App() {
       <Navbar />
 
       {/* Main content sections */}
-      <main>
+      <main id="main-content" role="main">
         <Hero />      {/* Hero section with main banner */}
         <About />     {/* About company section */}
         <Services />  {/* Services offered */}

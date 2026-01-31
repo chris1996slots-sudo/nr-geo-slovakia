@@ -27,7 +27,7 @@ const Footer = ({ onShowImpressum }) => {
   }
 
   return (
-    <footer className="bg-gradient-to-br from-dark-800 to-dark-900 text-white">
+    <footer role="contentinfo" className="bg-gradient-to-br from-dark-800 to-dark-900 text-white">
       <div className="container-custom py-16">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
@@ -35,7 +35,7 @@ const Footer = ({ onShowImpressum }) => {
             <div className="mb-4">
               <img
                 src="/nr-geo-logo.png"
-                alt="NR-GEO Logo"
+                alt="NR-GEO Slovakia - Underground Engineering Company"
                 className="h-12 w-auto object-contain mb-2 brightness-0 invert"
               />
             </div>
