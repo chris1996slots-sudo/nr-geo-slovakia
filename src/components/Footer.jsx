@@ -36,6 +36,7 @@ const Footer = ({ onShowImpressum }) => {
               <img
                 src="/nr-geo-logo.png"
                 alt="NR-GEO Slovakia - Underground Engineering Company"
+                title="NR-GEO Slovakia - Underground Engineering Company"
                 className="h-12 w-auto object-contain mb-2 brightness-0 invert"
               />
             </div>

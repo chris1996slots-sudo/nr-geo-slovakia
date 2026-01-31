@@ -150,6 +150,7 @@ const Team = () => {
                   <img
                     src={member.image}
                     alt={member.name}
+                    title={member.name}
                     className="w-full h-full object-cover object-center grayscale hover:grayscale-0 transition-all duration-500"
                     loading="lazy"
                   />

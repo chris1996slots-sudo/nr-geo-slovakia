@@ -196,6 +196,7 @@ const Projects = () => {
                     <img
                       src={project.image}
                       alt={`${t(`projects.${project.key}.title`)} - ${t(`projects.${project.key}.location`)} tunnel construction project`}
+                      title={`${t(`projects.${project.key}.title`)} - ${t(`projects.${project.key}.location`)} tunnel construction project`}
                       loading="lazy"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
@@ -302,6 +303,7 @@ const Projects = () => {
                                   <img
                                     src={img}
                                     alt={`${t(`projects.${project.key}.title`)} project gallery - Image ${idx + 1} of ${project.images.length}`}
+                                    title={`${t(`projects.${project.key}.title`)} project gallery - Image ${idx + 1} of ${project.images.length}`}
                                     loading="lazy"
                                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
                                   />

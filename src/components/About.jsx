@@ -28,6 +28,7 @@ const About = () => {
               <img
                 src="/images/projects/forbifart/forbifart-1.jpg"
                 alt="Engineering surveying"
+                title="Engineering surveying"
                 className="w-full h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark-900/60 to-transparent" />

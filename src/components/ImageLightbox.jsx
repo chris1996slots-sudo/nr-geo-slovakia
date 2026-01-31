@@ -124,6 +124,7 @@ const ImageLightbox = ({ images, initialIndex = 0, onClose }) => {
           <img
             src={images[currentIndex]}
             alt={`Project image ${currentIndex + 1}`}
+            title={`Project image ${currentIndex + 1}`}
             className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl"
           />
         </motion.div>
