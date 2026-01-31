@@ -55,19 +55,172 @@
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "NR-GEO Slovakia",
+      "alternateName": "NR-GEO",
       "description": "Slovak Engineering for Europe's Megaprojects. Specializing in tunneling, underground construction, and geodesy.",
       "url": "https://nr-geo.com",
-      "logo": "https://nr-geo.com/favicon.svg",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nr-geo.com/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://nr-geo.com/images/hero/hero-1.webp",
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Business Inquiries",
-        "availableLanguage": ["en", "de", "sk", "sv", "no", "es", "fr"]
+        "availableLanguage": ["English", "German", "Slovak", "Swedish", "Norwegian", "Spanish", "French"]
       },
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SK",
+        "addressRegion": "Slovakia"
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 48.669,
+          "longitude": 19.699
+        },
+        "geoRadius": "2000 km"
+      },
+      "knowsAbout": [
+        "Tunnel Surveying",
+        "TBM Operations",
+        "Underground Construction",
+        "Geodesy",
+        "Geotechnical Monitoring",
+        "Scan to BIM"
+      ],
+      "sameAs": []
+    }
+    </script>
+
+    <!-- Structured Data - WebSite with Sitelinks Search Box -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NR-GEO Slovakia",
+      "alternateName": "NR-GEO",
+      "url": "https://nr-geo.com",
+      "inLanguage": ["en", "de", "sk", "sv", "no", "es", "fr"],
+      "publisher": {
+        "@type": "Organization",
+        "name": "NR-GEO Slovakia",
+        "url": "https://nr-geo.com"
+      }
+    }
+    </script>
+
+    <!-- Structured Data - SiteNavigationElement for Sitelinks -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Services",
+          "description": "Our professional engineering services",
+          "url": "https://nr-geo.com/#services"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Projects",
+          "description": "Featured tunnel and infrastructure projects",
+          "url": "https://nr-geo.com/#projects"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "About",
+          "description": "About NR-GEO Slovakia",
+          "url": "https://nr-geo.com/#about"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Contact",
+          "description": "Get in touch with our team",
+          "url": "https://nr-geo.com/#contact"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - Professional Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "NR-GEO Slovakia",
+      "description": "Professional underground engineering and geodesy services for tunneling and infrastructure projects across Europe.",
+      "url": "https://nr-geo.com",
+      "image": "https://nr-geo.com/images/hero/hero-1.webp",
+      "priceRange": "$$$$",
       "address": {
         "@type": "PostalAddress",
         "addressCountry": "SK"
       },
-      "sameAs": []
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.669,
+        "longitude": 19.699
+      },
+      "areaServed": [
+        {"@type": "Country", "name": "Slovakia"},
+        {"@type": "Country", "name": "Germany"},
+        {"@type": "Country", "name": "Austria"},
+        {"@type": "Country", "name": "Sweden"},
+        {"@type": "Country", "name": "Norway"},
+        {"@type": "Country", "name": "Spain"},
+        {"@type": "Country", "name": "France"},
+        {"@type": "Continent", "name": "Europe"}
+      ],
+      "serviceType": [
+        "Tunnel Surveying",
+        "TBM Guidance Systems",
+        "Geotechnical Monitoring",
+        "Underground Construction Surveying",
+        "Scan to BIM Services",
+        "Geodetic Engineering"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Engineering Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tunnel Surveying",
+              "description": "Precision surveying for tunnel construction projects"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "TBM Operations Support",
+              "description": "Guidance and monitoring systems for tunnel boring machines"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Geotechnical Monitoring",
+              "description": "Real-time monitoring of ground conditions and structural integrity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Scan to BIM",
+              "description": "3D laser scanning and Building Information Modeling services"
+            }
+          }
+        ]
+      }
     }
     </script>
 
