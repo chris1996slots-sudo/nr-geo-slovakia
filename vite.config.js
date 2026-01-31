@@ -3,7 +3,19 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [react()],
+  plugins: [
+    react(),
+    // Add fetchpriority="high" to CSS link
+    {
+      name: 'css-fetchpriority',
+      transformIndexHtml(html) {
+        return html.replace(
+          /<link rel="stylesheet" crossorigin href="(\/assets\/index-[^"]+\.css)">/,
+          '<link rel="stylesheet" crossorigin href="$1" fetchpriority="high">'
+        )
+      }
+    }
+  ],
   server: {
     port: 3000,
     open: true
