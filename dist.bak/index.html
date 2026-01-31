@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Critical CSS for above-fold content (reduces render-blocking) -->
+    <style>
+      *,::after,::before{box-sizing:border-box;border:0 solid #e5e7eb}html{line-height:1.5;-webkit-text-size-adjust:100%;font-family:ui-sans-serif,system-ui,sans-serif,"Apple Color Emoji","Segoe UI Emoji"}body{margin:0;line-height:inherit;font-family:Inter,ui-sans-serif,system-ui,sans-serif}#root{overflow-x:hidden;max-width:100vw;width:100%}
+      /* Hero placeholder styles for instant LCP */
+      #hero-placeholder{position:absolute;top:0;left:0;right:0;min-height:100vh;display:flex;align-items:center;background:linear-gradient(to right,rgba(15,23,42,0.68),rgba(30,41,59,0.58),rgba(51,65,85,0.48)),url('/images/home.webp') center/cover no-repeat;z-index:1}
+      #hero-placeholder h1{font-size:clamp(3rem,8vw,4.5rem);font-weight:700;color:#fff;margin:0 0 1.5rem;line-height:1.1;font-family:Montserrat,system-ui,sans-serif}
+      #hero-placeholder p{font-size:clamp(1.25rem,3vw,1.5rem);color:rgba(255,255,255,0.9);margin:0;line-height:1.6}
+      #hero-placeholder .container{max-width:56rem;padding:8rem 1rem 2rem;margin:0 auto}
+      #root:not(:empty)+#hero-placeholder{display:none}
+    </style>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="NR-GEO Slovakia | Precision Underground Engineering" />
+    <meta name="description" content="NR-GEO Slovakia - Slovak Engineering for Europe's Megaprojects. Specializing in tunneling, underground construction, and geodesy." />
+    <meta name="keywords" content="tunneling, underground construction, geodesy, geotechnical monitoring, scan to BIM, TBM operations, tunnel surveying, Slovakia engineering, Europe megaprojects" />
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <meta name="robots" content="index, follow" />
+    <meta name="language" content="English" />
+    <meta name="theme-color" content="#1a56db" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://nr-geo.com/" />
+
+    <!-- Language Declaration (SPA with client-side language switching) -->
+    <link rel="alternate" hreflang="x-default" href="https://nr-geo.com/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nr-geo.com/" />
+    <meta property="og:title" content="NR-GEO Slovakia | Precision Underground Engineering" />
+    <meta property="og:description" content="Slovak Engineering for Europe's Megaprojects. Specializing in tunneling, underground construction, and geodesy." />
+    <meta property="og:image" content="https://nr-geo.com/images/hero/hero-1.webp" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="de_DE" />
+    <meta property="og:locale:alternate" content="sk_SK" />
+    <meta property="og:locale:alternate" content="sv_SE" />
+    <meta property="og:locale:alternate" content="nb_NO" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="fr_FR" />
+    <meta property="og:site_name" content="NR-GEO Slovakia" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@nrgeo_sk" />
+    <meta name="twitter:title" content="NR-GEO Slovakia | Precision Underground Engineering" />
+    <meta name="twitter:description" content="Slovak Engineering for Europe's Megaprojects. Specializing in tunneling, underground construction, and geodesy." />
+    <meta name="twitter:image" content="https://nr-geo.com/images/hero/hero-1.webp" />
+    <meta name="twitter:image:alt" content="NR-GEO Slovakia - Tunnel Construction Engineering" />
+
+    <!-- Structured Data - Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "NR-GEO Slovakia",
+      "alternateName": "NR-GEO",
+      "description": "Slovak Engineering for Europe's Megaprojects. Specializing in tunneling, underground construction, and geodesy.",
+      "url": "https://nr-geo.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://nr-geo.com/favicon.svg",
+        "width": 512,
+        "height": 512
+      },
+      "image": "https://nr-geo.com/images/hero/hero-1.webp",
+      "telephone": "+421910500038",
+      "email": "info@nr-geo.sk",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+421910500038",
+        "contactType": "Business Inquiries",
+        "email": "info@nr-geo.sk",
+        "availableLanguage": ["English", "German", "Slovak", "Swedish", "Norwegian", "Spanish", "French"]
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "J.Hanulu 841/51",
+        "addressLocality": "Spišská Nová Ves",
+        "postalCode": "052 01",
+        "addressCountry": "SK",
+        "addressRegion": "Slovakia"
+      },
+      "areaServed": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 48.669,
+          "longitude": 19.699
+        },
+        "geoRadius": "2000 km"
+      },
+      "knowsAbout": [
+        "Tunnel Surveying",
+        "TBM Operations",
+        "Underground Construction",
+        "Geodesy",
+        "Geotechnical Monitoring",
+        "Scan to BIM"
+      ],
+      "sameAs": ["https://cy.linkedin.com/in/alexandra-reh%C3%A1nkov%C3%A1-4a136a309"]
+    }
+    </script>
+
+    <!-- Structured Data - WebSite with Sitelinks Search Box -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "NR-GEO Slovakia",
+      "alternateName": "NR-GEO",
+      "url": "https://nr-geo.com",
+      "inLanguage": ["en", "de", "sk", "sv", "no", "es", "fr"],
+      "publisher": {
+        "@type": "Organization",
+        "name": "NR-GEO Slovakia",
+        "url": "https://nr-geo.com"
+      }
+    }
+    </script>
+
+    <!-- Structured Data - SiteNavigationElement for Sitelinks -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Services",
+          "description": "Our professional engineering services",
+          "url": "https://nr-geo.com/#services"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Projects",
+          "description": "Featured tunnel and infrastructure projects",
+          "url": "https://nr-geo.com/#projects"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "About",
+          "description": "About NR-GEO Slovakia",
+          "url": "https://nr-geo.com/#about"
+        },
+        {
+          "@type": "SiteNavigationElement",
+          "name": "Contact",
+          "description": "Get in touch with our team",
+          "url": "https://nr-geo.com/#contact"
+        }
+      ]
+    }
+    </script>
+
+    <!-- Structured Data - Professional Service -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ProfessionalService",
+      "name": "NR-GEO Slovakia",
+      "description": "Professional underground engineering and geodesy services for tunneling and infrastructure projects across Europe.",
+      "url": "https://nr-geo.com",
+      "image": "https://nr-geo.com/images/hero/hero-1.webp",
+      "priceRange": "$$$$",
+      "telephone": "+421910500038",
+      "email": "info@nr-geo.sk",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "J.Hanulu 841/51",
+        "addressLocality": "Spišská Nová Ves",
+        "postalCode": "052 01",
+        "addressCountry": "SK"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 48.669,
+        "longitude": 19.699
+      },
+      "areaServed": [
+        {"@type": "Country", "name": "Slovakia"},
+        {"@type": "Country", "name": "Germany"},
+        {"@type": "Country", "name": "Austria"},
+        {"@type": "Country", "name": "Sweden"},
+        {"@type": "Country", "name": "Norway"},
+        {"@type": "Country", "name": "Spain"},
+        {"@type": "Country", "name": "France"},
+        {"@type": "Continent", "name": "Europe"}
+      ],
+      "serviceType": [
+        "Tunnel Surveying",
+        "TBM Guidance Systems",
+        "Geotechnical Monitoring",
+        "Underground Construction Surveying",
+        "Scan to BIM Services",
+        "Geodetic Engineering"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Engineering Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Tunnel Surveying",
+              "description": "Precision surveying for tunnel construction projects"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "TBM Operations Support",
+              "description": "Guidance and monitoring systems for tunnel boring machines"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Geotechnical Monitoring",
+              "description": "Real-time monitoring of ground conditions and structural integrity"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Scan to BIM",
+              "description": "3D laser scanning and Building Information Modeling services"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+
+    <!-- Preconnect for Performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Preload Hero Background Image (Critical LCP) -->
+    <link rel="preload" href="/images/home.webp" as="image" type="image/webp" fetchpriority="high">
+
+    <!-- Google Fonts with font-display: swap for performance -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" as="style" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet" media="print" onload="this.media='all'" />
+    <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet"></noscript>
+
+    <title>NR-GEO Slovakia | Precision Underground Engineering</title>
+    <script type="module" crossorigin src="/assets/index-cuJ4E3Db.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-CG0Oau8J.js">
+    <link rel="modulepreload" crossorigin href="/assets/animation-vendor-DyVccJNi.js">
+    <link rel="modulepreload" crossorigin href="/assets/icons-vendor-DIWJMbhs.js">
+    <link rel="stylesheet" crossorigin href="/assets/index-CcrsEGpt.css" fetchpriority="high">
+  </head>
+  <body>
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-50 focus:px-4 focus:py-2 focus:bg-primary focus:text-white focus:rounded-lg">
+      Skip to main content
+    </a>
+
+    <div id="root"></div>
+
+    <!-- Hero placeholder for instant LCP - hidden when React loads -->
+    <div id="hero-placeholder">
+      <div class="container">
+        <h1>Precision Geodesy</h1>
+        <p>Slovak Engineering for Europe's Megaprojects</p>
+      </div>
+    </div>
+
+    <!-- Fallback content for SEO crawlers and users without JavaScript -->
+    <noscript>
+      <div style="max-width: 1200px; margin: 0 auto; padding: 40px 20px; font-family: system-ui, sans-serif;">
+        <header style="margin-bottom: 40px;">
+          <h1 style="font-size: 2.5rem; color: #1a365d; margin-bottom: 16px;">NR-GEO Slovakia - Precision Underground Engineering</h1>
+          <p style="font-size: 1.25rem; color: #4a5568;">Slovak Engineering for Europe's Megaprojects. Specializing in tunneling, underground construction, and geodesy.</p>
+        </header>
+
+        <nav style="margin-bottom: 40px;">
+          <h2 style="font-size: 1.5rem; color: #1a365d; margin-bottom: 16px;">Navigation</h2>
+          <ul style="list-style: none; padding: 0; display: flex; gap: 20px; flex-wrap: wrap;">
+            <li><a href="#noscript-about" style="color: #bfdd44;">About Us</a></li>
+            <li><a href="#noscript-services" style="color: #bfdd44;">Services</a></li>
+            <li><a href="#noscript-projects" style="color: #bfdd44;">Projects</a></li>
+            <li><a href="#noscript-contact" style="color: #bfdd44;">Contact</a></li>
+          </ul>
+        </nav>
+
+        <main>
+          <section id="noscript-about" style="margin-bottom: 40px;">
+            <h2 style="font-size: 1.75rem; color: #1a365d; margin-bottom: 16px;">About NR-GEO</h2>
+            <p style="color: #4a5568; line-height: 1.6;">NR-GEO Slovakia is a leading provider of precision geodetic and surveying services for tunnel construction and underground infrastructure projects across Europe. With over 9 years of experience, we have completed 23+ major projects in 7+ countries.</p>
+          </section>
+
+          <section id="noscript-services" style="margin-bottom: 40px;">
+            <h2 style="font-size: 1.75rem; color: #1a365d; margin-bottom: 16px;">Our Services</h2>
+            <ul style="color: #4a5568; line-height: 1.8;">
+              <li><strong>Tunnel Surveying & TBM Operations</strong> - Precision guidance systems for tunnel boring machines</li>
+              <li><strong>Scan to BIM</strong> - 3D laser scanning and Building Information Modeling services</li>
+              <li><strong>Geotechnical Monitoring</strong> - Real-time monitoring of ground conditions and structural integrity</li>
+            </ul>
+          </section>
+
+          <section id="noscript-projects" style="margin-bottom: 40px;">
+            <h2 style="font-size: 1.75rem; color: #1a365d; margin-bottom: 16px;">Featured Projects</h2>
+            <ul style="color: #4a5568; line-height: 1.8;">
+              <li><strong>E4 Förbifart Stockholm</strong> - 21km bypass tunnel, Sweden (2015-2026)</li>
+              <li><strong>Hammarby Metro Station</strong> - Underwater station construction, Stockholm</li>
+              <li><strong>Oslo K2C Metro Extension</strong> - Metro expansion project, Norway</li>
+              <li><strong>Prague Metro Line D</strong> - 10.6km driverless metro, Czech Republic</li>
+            </ul>
+          </section>
+
+          <section id="noscript-contact" style="margin-bottom: 40px;">
+            <h2 style="font-size: 1.75rem; color: #1a365d; margin-bottom: 16px;">Contact Us</h2>
+            <address style="color: #4a5568; font-style: normal; line-height: 1.8;">
+              <strong>NR-GEO s.r.o.</strong><br>
+              J.Hanulu 841/51<br>
+              052 01 Spišská Nová Ves<br>
+              Slovakia<br><br>
+              <strong>Phone:</strong> <a href="tel:+421910500038" style="color: #bfdd44;">+421 910 500 038</a><br>
+              <strong>Email:</strong> <a href="mailto:info@nr-geo.sk" style="color: #bfdd44;">info@nr-geo.sk</a>
+            </address>
+          </section>
+        </main>
+
+        <footer style="border-top: 1px solid #e2e8f0; padding-top: 20px; color: #718096;">
+          <p>&copy; 2026 NR-GEO s.r.o. All rights reserved.</p>
+        </footer>
+      </div>
+    </noscript>
+
+  </body>
+</html>

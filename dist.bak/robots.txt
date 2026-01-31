@@ -1,0 +1,13 @@
+# robots.txt for NR-GEO Slovakia
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://nr-geo.com/sitemap.xml
+
+# Crawl-delay (optional, adjust if needed)
+# Crawl-delay: 1
+
+# Block specific bots if needed
+# User-agent: BadBot
+# Disallow: /

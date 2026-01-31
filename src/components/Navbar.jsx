@@ -23,12 +23,15 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      setScrolled(window.scrollY > 20)
+      // Don't update scrolled state when mobile menu is open
+      if (!isOpen) {
+        setScrolled(window.scrollY > 20)
+      }
     }
 
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
+  }, [isOpen])
 
   // Prevent body scroll when mobile menu is open (iOS compatible)
   useEffect(() => {
