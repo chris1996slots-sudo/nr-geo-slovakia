@@ -56,6 +56,28 @@
     @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-600 to-primary-400;
   }
 
+  /* Hero background pan animation for mobile */
+  @keyframes hero-pan {
+    0%, 100% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+  }
+
+  .animate-hero-pan {
+    animation: hero-pan 30s ease-in-out infinite;
+  }
+
+  @media (min-width: 768px) {
+    .animate-hero-pan {
+      animation: none;
+      width: 100%;
+      transform: none;
+    }
+  }
+
   /* Screen reader only - for accessibility */
   .sr-only {
     position: absolute;

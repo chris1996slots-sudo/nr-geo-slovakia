@@ -61,10 +61,10 @@ const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
+      {/* Background Image with Overlay - Pan animation on mobile */}
       <div className="absolute inset-0 z-0">
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat md:bg-center md:w-full md:animate-none w-[200%] animate-hero-pan"
           style={{
             backgroundImage: `url('/images/home.webp')`,
           }}
