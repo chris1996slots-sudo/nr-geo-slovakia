@@ -91,6 +91,8 @@ const Navbar = () => {
               src="/nr-geo-logo.png"
               alt="NR-GEO Slovakia - Precision Underground Engineering"
               title="NR-GEO Slovakia - Precision Underground Engineering"
+              width="120"
+              height="40"
               className={`h-10 w-auto object-contain transition-all duration-300 ${
                 scrolled ? '' : 'drop-shadow-[0_0_2px_rgba(0,0,0,0.8)]'
               }`}
